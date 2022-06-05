@@ -1386,6 +1386,11 @@
       "branch": "master",
       "revision": "e55dc1f721673189d6671f4c9ffa9c724b53f57b"
     },
+    "sndio-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sndio-openrc.git",
+      "branch": "master",
+      "revision": "6e347dd668f8559a4d0b6e986d23438815402c79"
+    },
     "spamassassin-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin-dinit.git",
       "branch": "master",
