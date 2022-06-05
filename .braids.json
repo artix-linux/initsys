@@ -1186,6 +1186,11 @@
       "branch": "master",
       "revision": "f147c0a3dda410834ec7dfa1c886a9fca0e656a8"
     },
+    "power-profiles-daemon-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/power-profiles-daemon-openrc.git",
+      "branch": "master",
+      "revision": "ac6d5053ac5ef91f9c70b0807348264933799152"
+    },
     "powerdns-recursor-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/powerdns-recursor-dinit.git",
       "branch": "master",

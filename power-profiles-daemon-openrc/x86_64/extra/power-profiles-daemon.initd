@@ -1,0 +1,13 @@
+#!/usr/bin/openrc-run
+# Copyright 2022 Artix Linux
+# Distributed under the terms of the GNU General Public License v2
+
+command="/usr/lib/power-profiles-daemon"
+command_args="${PPDARGS}"
+supervisor="supervise-daemon"
+command_args_foreground=""
+
+depend() {
+	use clock logger
+	need dbus
+}
