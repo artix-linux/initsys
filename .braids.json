@@ -221,6 +221,11 @@
       "branch": "master",
       "revision": "fd2cfdeee97261ca5682dc62cc416a70a9597770"
     },
+    "boinc-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/boinc-s6.git",
+      "branch": "master",
+      "revision": "34a3a2cfcf099a56d381e6d67db536f9d885e41e"
+    },
     "bolt-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bolt-dinit.git",
       "branch": "master",
