@@ -380,6 +380,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesK/krb5-dinit.git",
       "branch": "master",
       "revision": "eb4533a7e59c7643f9509197feaa533bb0661dba"
+    },
+    "libvirt-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libvirt-dinit.git",
+      "branch": "master",
+      "revision": "3a6c6d1c52c44eb90fe03033456a0b730b6dd4d2"
     }
   }
 }
