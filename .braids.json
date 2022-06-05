@@ -835,6 +835,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesV/vnstat-dinit.git",
       "branch": "master",
       "revision": "3fc6670a4e4a74ddf1d0d2acfbee198fa0137d49"
+    },
+    "vsftpd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vsftpd-dinit.git",
+      "branch": "master",
+      "revision": "68445c60993b5a1a4e43d0edc56c202718cf4731"
     }
   }
 }
