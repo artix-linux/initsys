@@ -461,6 +461,11 @@
       "branch": "master",
       "revision": "f4213db122799aa1c46b559fea91dba0b2bda9aa"
     },
+    "earlyoom-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/earlyoom-openrc.git",
+      "branch": "master",
+      "revision": "67e1c876bbfddd2ef5830bd40d20b35761e52f9b"
+    },
     "ejabberd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesE/ejabberd-dinit.git",
       "branch": "master",

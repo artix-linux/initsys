@@ -1,0 +1,7 @@
+#!/usr/bin/openrc-run
+
+supervisor=supervise-daemon
+pidfile="/run/earlyoom.pid"
+command="/usr/bin/earlyoom"
+command_args=$EARLYOOM_ARGS
+command_background=true
