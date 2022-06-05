@@ -1136,6 +1136,11 @@
       "branch": "master",
       "revision": "5511049045018bde691904ef725ac90edf81e66a"
     },
+    "libvirt-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libvirt-s6.git",
+      "branch": "master",
+      "revision": "d4b32baf0b319529e98421693d416770dd88cbe5"
+    },
     "lightdm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lightdm-dinit.git",
       "branch": "master",
