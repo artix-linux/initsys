@@ -180,6 +180,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesD/device-mapper-dinit.git",
       "branch": "master",
       "revision": "5c7a7913e4dd61c6e48c5d10548e9b4397be3c86"
+    },
+    "dhcpcd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dhcpcd-dinit.git",
+      "branch": "master",
+      "revision": "9c41a283e44bc88930f1463f3939c72f336b496b"
     }
   }
 }
