@@ -71,6 +71,11 @@
       "branch": "master",
       "revision": "6281d39b492f1d777ecc83fe414edb941eb389ba"
     },
+    "apcupsd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/apcupsd-runit.git",
+      "branch": "master",
+      "revision": "92f931e7433c48489ad27373c7a832aa64d62563"
+    },
     "apcupsd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apcupsd-s6.git",
       "branch": "master",
