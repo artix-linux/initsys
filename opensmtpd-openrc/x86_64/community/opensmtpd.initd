@@ -1,0 +1,27 @@
+#!/usr/bin/openrc-run
+
+extra_commands="checkconfig"
+description_checkconfig="Check the configuration file for validity"
+
+name="OpenSMTPD"
+
+supervisor=supervise-daemon
+command=/usr/bin/smtpd
+command_args="-F ${command_args:-$SMTPD_OPTS}"  # SMTPD_OPTS is deprecated
+required_files=/etc/smtpd/smtpd.conf
+
+depend() {
+	need net localmount
+	after bootmisc firewall
+	use logger dns
+	provide mta
+}
+
+start_pre() {
+	# Don't output anything unless something is *not* ok.
+	output=$($command -n 2>&1)
+	ret=$?
+
+	[ $ret -ne 0 ] && echo "$output" 1>&2
+	return "$ret"
+}
