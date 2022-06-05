@@ -1,0 +1,19 @@
+# Maintainer: artoo <artoo@artixlinux.org>
+
+pkgname=glibc-openrc
+pkgver=20210505
+pkgrel=2
+pkgdesc="OpenRC nscd init script"
+arch=('any')
+url="https://gitea.artixlinux.org/artixlinux/packages-openrc"
+license=('GPL2')
+groups=('openrc-system')
+provides=('init-glibc')
+depends=('openrc' 'glibc')
+conflicts=('init-glibc')
+source=("nscd.initd")
+sha256sums=('a9358335b68edae5ecb0b9ea8cdfc59aadc7c73ecb039b81759f584b4ea119a5')
+
+package() {
+    install -Dm755 "${srcdir}"/nscd.initd "${pkgdir}"/etc/init.d/nscd
+}
