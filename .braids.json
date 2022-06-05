@@ -2226,6 +2226,11 @@
       "branch": "master",
       "revision": "d27f0c3ab548a544291cd43f9e43cf6398ad2173"
     },
+    "sslh-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sslh-s6.git",
+      "branch": "master",
+      "revision": "e3e96103d00e255fae6f95d4820fa24f7a24be9f"
+    },
     "sthttpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd-dinit.git",
       "branch": "master",
