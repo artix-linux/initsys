@@ -1751,6 +1751,11 @@
       "branch": "master",
       "revision": "58f6e99476dfa842290b43dd85c4886696f52dfc"
     },
+    "metalog-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/metalog-runit.git",
+      "branch": "master",
+      "revision": "fd59cc11b78f0f3f6868e7492b1a1a19e26355da"
+    },
     "metalog-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesM/metalog-s6.git",
       "branch": "master",
