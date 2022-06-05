@@ -550,6 +550,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesO/openssh-dinit.git",
       "branch": "master",
       "revision": "ff5d9dbc0e7e2119481d1dbbc7c0fa493629a6f5"
+    },
+    "openvpn-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openvpn-dinit.git",
+      "branch": "master",
+      "revision": "b5cc635fbf88b8f540113ef2a5be7deae979f737"
     }
   }
 }

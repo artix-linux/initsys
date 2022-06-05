@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/openvpn --config /etc/openvpn/openvpn.conf
+smooth-recovery = true
+logfile         = /var/log/dinit/openvpn.log
+waits-for       = loginready
