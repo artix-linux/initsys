@@ -976,6 +976,11 @@
       "branch": "master",
       "revision": "19613cd6c7d9b32d5c7f91d2d6752951e2a2730b"
     },
+    "hdparm-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hdparm-s6.git",
+      "branch": "master",
+      "revision": "7c757aa88cb9a167365b34bff4a0ae02fe9c67ae"
+    },
     "hiawatha-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hiawatha-dinit.git",
       "branch": "master",
