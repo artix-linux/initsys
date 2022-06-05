@@ -1991,6 +1991,11 @@
       "branch": "master",
       "revision": "248e1181cfc687cb76a866304d78905c9a8faa3d"
     },
+    "s6-linux-utils": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/s6-linux-utils.git",
+      "branch": "master",
+      "revision": "57f4b86d7741139b793ba4959a8406f79aa6cde9"
+    },
     "salt-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/salt-dinit.git",
       "branch": "master",
