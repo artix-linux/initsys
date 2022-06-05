@@ -2906,6 +2906,11 @@
       "branch": "master",
       "revision": "5eab2f462160cd9376ec3de2c98744708c3dc467"
     },
+    "sshguard-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sshguard-runit.git",
+      "branch": "master",
+      "revision": "80e01c01245eef227b4f526f613f0cb30cd12b3b"
+    },
     "sshguard-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sshguard-s6.git",
       "branch": "master",
