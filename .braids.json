@@ -321,6 +321,11 @@
       "branch": "master",
       "revision": "9d0ba3baf1219729d9f936a665b387e6b69524a8"
     },
+    "dbus-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dbus-openrc.git",
+      "branch": "master",
+      "revision": "4d2a966dcf93c9975d93a03a2fcbef52837fbec7"
+    },
     "ddclient-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/ddclient-dinit.git",
       "branch": "master",
