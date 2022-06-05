@@ -61,6 +61,11 @@
       "branch": "master",
       "revision": "f41aee2a2680f48b2b9846d2473133022da44585"
     },
+    "atftp-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/atftp-openrc.git",
+      "branch": "master",
+      "revision": "461fecb1fabbafa5555fd876f5003f918a5545ac"
+    },
     "audit-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesA/audit-dinit.git",
       "branch": "master",
