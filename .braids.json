@@ -471,6 +471,11 @@
       "branch": "master",
       "revision": "e4fa231051f63cffa8ea1c96a37cc9d665452b99"
     },
+    "consul-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/consul-runit.git",
+      "branch": "master",
+      "revision": "44ec879a8631df25d48bd82fdbf12e62900b4863"
+    },
     "consul-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesC/consul-s6.git",
       "branch": "master",
