@@ -861,6 +861,11 @@
       "branch": "master",
       "revision": "15cc679f1c2db3e449740d5a9cc8d1f3e367b1d4"
     },
+    "dovecot-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dovecot-runit.git",
+      "branch": "master",
+      "revision": "92aab8a3aa266c3d747dfbc1895db9ed68ef87fc"
+    },
     "dovecot-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dovecot-s6.git",
       "branch": "master",
