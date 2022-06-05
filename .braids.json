@@ -631,6 +631,11 @@
       "branch": "master",
       "revision": "4d2a966dcf93c9975d93a03a2fcbef52837fbec7"
     },
+    "dbus-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dbus-runit.git",
+      "branch": "master",
+      "revision": "f63df4c0625648c28e72df728018d735195da549"
+    },
     "dbus-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dbus-s6.git",
       "branch": "master",
