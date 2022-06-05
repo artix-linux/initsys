@@ -1,0 +1,3 @@
+#!/bin/sh
+install -d -o ldap -g ldap /run/openldap
+exec slapd -u ldap -g ldap -d 0 2>&1
