@@ -1,0 +1,11 @@
+#!/usr/bin/openrc-run
+
+pidfile="/run/${RC_SVCNAME}.pid"
+command="/usr/bin/doh-client"
+command_args="-conf /etc/dns-over-https/doh-client.conf"
+command_background=yes
+
+depend() {
+	after net
+	use dns logger
+}

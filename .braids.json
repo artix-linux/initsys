@@ -401,6 +401,11 @@
       "branch": "master",
       "revision": "becb5b5ddf95f891c7c68ac518d0912aa2211cf4"
     },
+    "dns-over-https-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dns-over-https-openrc.git",
+      "branch": "master",
+      "revision": "6eef4d01c5c87fa3db8b4bbfc2668f9627c96f95"
+    },
     "dnscrypt-proxy-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dnscrypt-proxy-dinit.git",
       "branch": "master",
