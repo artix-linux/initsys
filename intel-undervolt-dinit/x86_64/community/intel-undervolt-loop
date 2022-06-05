@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/intel-undervolt daemon
+smooth-recovery = true
+logfile         = /var/log/dinit/intel-undervolt-loop.log
+waits-for       = logind
