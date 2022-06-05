@@ -1,0 +1,5 @@
+type            = process
+command         = /etc/dinit.d/scripts/saslauthd
+smooth-recovery = true
+logfile         = /var/log/dinit/saslauthd.log
+waits-for       = loginready

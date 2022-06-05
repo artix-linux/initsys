@@ -1,0 +1,4 @@
+#!/bin/sh
+. /etc/dinit.d/config/saslauthd.conf
+[ "$AUTH_METHOD" ] || exit 1
+exec saslauthd -a "$AUTH_METHOD" -d 2>&1

@@ -150,6 +150,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/cups-dinit.git",
       "branch": "master",
       "revision": "d2a7efc6ddad7254be6f11d48b77a65a251d816c"
+    },
+    "cyrus-sasl-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cyrus-sasl-dinit.git",
+      "branch": "master",
+      "revision": "87eeeadce8c5a3439dc388640f11b493e3849930"
     }
   }
 }
