@@ -241,6 +241,11 @@
       "branch": "master",
       "revision": "9459791e5251cc1910f66d546a189de6e58da13b"
     },
+    "consul-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/consul-openrc.git",
+      "branch": "master",
+      "revision": "e4fa231051f63cffa8ea1c96a37cc9d665452b99"
+    },
     "coturn-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coturn-dinit.git",
       "branch": "master",
