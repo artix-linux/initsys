@@ -2151,6 +2151,11 @@
       "branch": "master",
       "revision": "4b6bf2559d7e5ff26b4eebacc006c9e3241f6178"
     },
+    "opensmtpd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/opensmtpd-runit.git",
+      "branch": "master",
+      "revision": "5471c70a1d9833d75501f786166c9a8f7800b57a"
+    },
     "opensmtpd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opensmtpd-s6.git",
       "branch": "master",
