@@ -191,6 +191,11 @@
       "branch": "master",
       "revision": "3077a7f5c8ced751e0ccfb16c0cd206310a42ec3"
     },
+    "bind-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bind-s6.git",
+      "branch": "master",
+      "revision": "3189cedb0786b2dea79ccf165d06508bf74dae53"
+    },
     "bluez-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bluez-dinit.git",
       "branch": "master",
