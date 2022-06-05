@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/bin/fcgiwrap -s unix:/run/fcgiwrap.sock
+stop-command    = /usr/bin/rm /run/fcgiwrap.sock
+smooth-recovery = true
+logfile         = /var/log/dinit/fcgiwrap.log
+waits-for       = loginready

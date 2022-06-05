@@ -260,6 +260,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesE/exim-dinit.git",
       "branch": "master",
       "revision": "796a38a5db5045688f47f06466c93003e32cf767"
+    },
+    "fcgiwrap-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fcgiwrap-dinit.git",
+      "branch": "master",
+      "revision": "f9b2512048daa4af3e91bdb3ccb2df48e669c9e8"
     }
   }
 }
