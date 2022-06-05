@@ -146,6 +146,11 @@
       "branch": "master",
       "revision": "debfa02cfdf717316fff44cc247ff7909e1bdc10"
     },
+    "boinc-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/boinc-openrc.git",
+      "branch": "master",
+      "revision": "fd2cfdeee97261ca5682dc62cc416a70a9597770"
+    },
     "bolt-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bolt-dinit.git",
       "branch": "master",
