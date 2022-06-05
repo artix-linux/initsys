@@ -2311,6 +2311,11 @@
       "branch": "master",
       "revision": "cdb2950e43ea861483224e1cca449ca11c5ba87c"
     },
+    "postgrey-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/postgrey-runit.git",
+      "branch": "master",
+      "revision": "70bc5c837b07be553be98e8ce167569dd9270c74"
+    },
     "postgrey-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postgrey-s6.git",
       "branch": "master",
