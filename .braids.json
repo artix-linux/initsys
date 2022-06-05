@@ -3346,6 +3346,11 @@
       "branch": "master",
       "revision": "f794d4fa3963f5aa17d04e1515ae1e2e1ac43532"
     },
+    "unrealircd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unrealircd-runit.git",
+      "branch": "master",
+      "revision": "9cecd476667c8e3dd6f961e73832088e6971c103"
+    },
     "unrealircd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unrealircd-s6.git",
       "branch": "master",
