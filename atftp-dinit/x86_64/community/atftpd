@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/atftpd --daemon --no-fork --logfile -
+smooth-recovery = true
+logfile         = /var/log/dinit/atftpd.log
+waits-for       = loginready

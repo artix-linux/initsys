@@ -30,6 +30,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesA/at-dinit.git",
       "branch": "master",
       "revision": "c93bbdef522a2fd7f95948b45581fddd8c04b8e3"
+    },
+    "atftp-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/atftp-dinit.git",
+      "branch": "master",
+      "revision": "f41aee2a2680f48b2b9846d2473133022da44585"
     }
   }
 }
