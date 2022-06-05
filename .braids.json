@@ -2586,6 +2586,11 @@
       "branch": "master",
       "revision": "ece127baed0de287b63f655a5b7f5b451f3cc39e"
     },
+    "runit-bash-completions": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/runit-bash-completions.git",
+      "branch": "master",
+      "revision": "24c4e58f810d9c21b45d7e280ad198c99a98eaa1"
+    },
     "s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6.git",
       "branch": "master",
