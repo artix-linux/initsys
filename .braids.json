@@ -1711,6 +1711,11 @@
       "branch": "master",
       "revision": "540e3707a4e3cd1a2ce786d2d20da9413387e7d2"
     },
+    "matterbridge-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/matterbridge-runit.git",
+      "branch": "master",
+      "revision": "a03a36700df48e9ad4fbe93266c50036b90005d9"
+    },
     "matterbridge-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesM/matterbridge-s6.git",
       "branch": "master",
