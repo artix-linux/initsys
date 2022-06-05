@@ -1,0 +1,67 @@
+# Maintainer: artoo <artoo@artixlinux.org>
+# Contributor: williamh <williamh@gentoo.org>
+
+_fname=gentoo-functions
+_furl="https://github.com/gentoo/${_fname}/archive"
+_fver=0.14
+
+pkgname=netifrc
+pkgver=0.7.3
+pkgrel=3
+pkgdesc="Gentoo Network Interface Management Scripts"
+arch=('x86_64')
+url="https://github.com/gentoo/netifrc"
+license=('BSD2')
+depends=('udev')
+backup=('etc/conf.d/net')
+source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/${pkgver}.tar.gz"
+        "${_fname}-${_fver}.tar.gz::${_furl}/${_fver}.tar.gz"
+        'artix.patch')
+sha256sums=('ad6578bf0c08eac474fa7b557beda0aed1032bef410a01f0493395cd6568128e'
+            '68d5d2080663b11ec5e4768351242cf669e9502f07bf4f64b936db310c21f352'
+            '137c9fb75874b9a584bb280dcaf251079367fa8528a186ea975a0f27b1682107')
+
+_nargs=(
+    SYSCONFDIR=/etc
+    PREFIX=/usr
+    SBINDIR=/usr/bin
+    LIBEXECDIR=/usr/lib/"${pkgname}"
+)
+
+_fargs=(
+    ROOTPREFIX=/usr
+    ROOTSBINDIR=/usr/bin
+    ROOTLIBEXECDIR=/usr/lib/artix
+)
+
+prepare() {
+    cd "${pkgname}-${pkgver}"
+    patch -Np 1 -i ../artix.patch
+}
+
+build(){
+    # make netifrc
+    cd "${pkgname}-${pkgver}"
+    make "${_nargs[@]}"
+    cd ${srcdir}/${_fname}-${_fver}
+    make "${_fargs[@]}"
+}
+
+package() {
+    cd "${pkgname}-${pkgver}"
+
+    make DESTDIR="${pkgdir}" "${_nargs[@]}" install
+
+    install -Dm 644 doc/net.example "${pkgdir}"/etc/conf.d/net
+
+    install -d "${pkgdir}"/etc/runlevels/boot
+    ln -svf /etc/init.d/net.lo "${pkgdir}"/etc/runlevels/boot/net.lo
+
+    install -Dm644 LICENSE "${pkgdir}"/usr/share/licenses/"${pkgname}"/LICENSE
+
+    cd "${srcdir}/${_fname}-${_fver}"
+    make DESTDIR="${pkgdir}" "${_fargs[@]}" install
+
+    # rm systemd wrapper
+    rm -fv "${pkgdir}"/usr/lib/netifrc/sh/systemd-wrapper.sh
+}
