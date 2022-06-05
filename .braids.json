@@ -526,6 +526,11 @@
       "branch": "master",
       "revision": "e4a8bfb89277e4a57cc1ec7e14ac769cb3755691"
     },
+    "device-mapper-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/device-mapper-s6.git",
+      "branch": "master",
+      "revision": "c0b9bd218d0bf983a5d8aacbbed44caeb144f4b3"
+    },
     "dhcp-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcp-dinit.git",
       "branch": "master",
