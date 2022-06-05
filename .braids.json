@@ -271,6 +271,11 @@
       "branch": "master",
       "revision": "b1f0d6905391ccf49cf7a644883cade9df5eb237"
     },
+    "bumblebee-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bumblebee-s6.git",
+      "branch": "master",
+      "revision": "0728afbaead6daffc19480c9f949cdb5c0e3ee73"
+    },
     "cgmanager-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cgmanager-dinit.git",
       "branch": "master",
