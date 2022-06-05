@@ -701,6 +701,11 @@
       "branch": "master",
       "revision": "a08c262a63c6c3f7181419819354a1dc5bb7e550"
     },
+    "ejabberd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/ejabberd-s6.git",
+      "branch": "master",
+      "revision": "fe8fe780ae5e273f9542cc3fdb3a9f100e1275cf"
+    },
     "elogind-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesE/elogind-dinit.git",
       "branch": "master",

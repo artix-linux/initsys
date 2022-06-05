@@ -1,0 +1,2 @@
+# ejabberd-s6
+
