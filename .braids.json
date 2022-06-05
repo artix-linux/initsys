@@ -156,6 +156,11 @@
       "branch": "master",
       "revision": "ab6ea8b536f6e06942602d66c23fb667216059d2"
     },
+    "bolt-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bolt-openrc.git",
+      "branch": "master",
+      "revision": "bafaf67c00513ed761f8a53de7d8bc6410d38321"
+    },
     "bootlogd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bootlogd-dinit.git",
       "branch": "master",
