@@ -1306,6 +1306,11 @@
       "branch": "master",
       "revision": "c2e48440a990a9f54c75ee83919f115e97ba874f"
     },
+    "rsync-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rsync-openrc.git",
+      "branch": "master",
+      "revision": "d602e35bfb2d86af63e858b3a4271dd39e9f633f"
+    },
     "salt-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/salt-dinit.git",
       "branch": "master",
