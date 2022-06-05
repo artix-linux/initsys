@@ -1591,6 +1591,11 @@
       "branch": "master",
       "revision": "1596a5fd4364d9bfda36106e64dd1c6107802706"
     },
+    "lvm2-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lvm2-runit.git",
+      "branch": "master",
+      "revision": "5eaf0cb44ccb3a5cdc1db1ccc8a11690dea45d57"
+    },
     "lvm2-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lvm2-s6.git",
       "branch": "master",
