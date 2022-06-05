@@ -2346,6 +2346,11 @@
       "branch": "master",
       "revision": "ae2db290b9ca0cef6b628d8bdf7542b622963e03"
     },
+    "powerdns-recursor-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/powerdns-recursor-runit.git",
+      "branch": "master",
+      "revision": "841a54900375ce3c6d907144e95c9e107d13deda"
+    },
     "powerdns-recursor-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/powerdns-recursor-s6.git",
       "branch": "master",
