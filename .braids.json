@@ -95,6 +95,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesB/bumblebee-dinit.git",
       "branch": "master",
       "revision": "516abbfc5196bc6c20d32478dd7ab74ddac7f3e4"
+    },
+    "cgmanager-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cgmanager-dinit.git",
+      "branch": "master",
+      "revision": "bef561d519dcacb4666302d1f9df81451141f24d"
     }
   }
 }
