@@ -645,6 +645,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesR/rsync-dinit.git",
       "branch": "master",
       "revision": "c2e48440a990a9f54c75ee83919f115e97ba874f"
+    },
+    "salt-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/salt-dinit.git",
+      "branch": "master",
+      "revision": "9064e29d0ac7215a8e5b34d1e2c56df609722276"
     }
   }
 }

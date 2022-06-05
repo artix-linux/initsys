@@ -1,0 +1,4 @@
+type            = process
+command         = /usr/bin/salt-syndic
+smooth-recovery = true
+waits-for       = loginready
