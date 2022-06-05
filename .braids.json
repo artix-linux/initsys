@@ -1451,6 +1451,11 @@
       "branch": "master",
       "revision": "d7506ba9ee172a633c3dab2e62b84415063f585d"
     },
+    "knot-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesK/knot-runit.git",
+      "branch": "master",
+      "revision": "3e627c42626d57c3682569049e2ea094ec4eab9a"
+    },
     "knot-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesK/knot-s6.git",
       "branch": "master",
