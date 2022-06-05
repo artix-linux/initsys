@@ -361,6 +361,11 @@
       "branch": "master",
       "revision": "44054879f64097fccd4912ecff64584af002c8db"
     },
+    "dhcp-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dhcp-openrc.git",
+      "branch": "master",
+      "revision": "2ccb69c276497fcdce4d35db66b61d19ebd3d790"
+    },
     "dhcpcd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcpcd-dinit.git",
       "branch": "master",
