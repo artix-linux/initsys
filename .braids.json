@@ -1446,6 +1446,11 @@
       "branch": "master",
       "revision": "402a3a9b08abf15bfbc58f720d74cd9991dd91b0"
     },
+    "sslh-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sslh-openrc.git",
+      "branch": "master",
+      "revision": "d27f0c3ab548a544291cd43f9e43cf6398ad2173"
+    },
     "sthttpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd-dinit.git",
       "branch": "master",
