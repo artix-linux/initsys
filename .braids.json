@@ -1551,6 +1551,11 @@
       "branch": "master",
       "revision": "799c2097e73eed0588d55cdb464011f2b86e50ab"
     },
+    "lirc-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lirc-runit.git",
+      "branch": "master",
+      "revision": "18365ba1d9064d7ad53f2b0327483aee3864a75c"
+    },
     "lirc-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lirc-s6.git",
       "branch": "master",
