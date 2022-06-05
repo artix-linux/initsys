@@ -1121,6 +1121,11 @@
       "branch": "master",
       "revision": "44e078a8b3f3f7121853756b7d5ed8cc1e409ba1"
     },
+    "fwknop-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fwknop-runit.git",
+      "branch": "master",
+      "revision": "e6650ad46c3a12f75b44c01464ef8e734674e717"
+    },
     "fwknop-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fwknop-s6.git",
       "branch": "master",
