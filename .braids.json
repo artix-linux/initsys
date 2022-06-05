@@ -40,6 +40,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesA/audit-dinit.git",
       "branch": "master",
       "revision": "38972427dd6f35c4074a40f835a6c9d67a52e498"
+    },
+    "avahi-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/avahi-dinit.git",
+      "branch": "master",
+      "revision": "0a7d1a517f5e2ceace89b824e3947f59dd44dac8"
     }
   }
 }

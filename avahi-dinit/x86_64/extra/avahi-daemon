@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/avahi-daemon
+smooth-recovery = true
+logfile         = /var/log/dinit/avahi-daemon.log
+depends-on      = dbus
