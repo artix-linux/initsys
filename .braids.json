@@ -841,6 +841,11 @@
       "branch": "master",
       "revision": "fdb757e0dfa22e1b77911a3bbbe83e791546e034"
     },
+    "docker-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/docker-runit.git",
+      "branch": "master",
+      "revision": "bc05a173755fdf84e7d3a0747e3e4a34bd32cee4"
+    },
     "docker-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/docker-s6.git",
       "branch": "master",

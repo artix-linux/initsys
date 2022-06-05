@@ -1,0 +1,46 @@
+# Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
+
+_sed_args=(-e 's|/var/run|/run|g' -e 's|/usr/sbin|/usr/bin|g' -e 's|/opt/bin|/usr/bin|g' -e 's|/var/service|/run/runit/service|g' -e 's|/usr/libexec|/usr/lib|g')
+
+pkgname=docker-runit
+pkgver=20180314
+pkgrel=4
+pkgdesc="Runit service script for docker"
+arch=('any')
+url="https://artixlinux.org"
+license=('BSD')
+depends=('docker' 'runit')
+groups=('runit-galaxy')
+provides=('init-docker')
+conflicts=('init-docker')
+source=("docker.run"
+        "logdocker.run")
+sha256sums=('27f9446c839f4ec868e1fbee548767ec5a85327d1174d4672758d4c93cfc6dd5'
+            '172109457d290780c41cba205c232e4851aaa894e76538890115885b70cf1e0b')
+
+_inst_logsv() {
+    for file in run finish check; do
+        if test -f "$srcdir/log$1.$file"; then
+            install -Dm755 "$srcdir/log$1.$file" "$pkgdir/etc/runit/sv/$1/log/$file"
+            sed "${_sed_args[@]}" -i "$pkgdir/etc/runit/sv/$1/log/$file"
+        fi
+    done
+}
+
+_inst_sv() {
+    if test -f "$srcdir/$1.conf"; then
+        install -Dm644 "$srcdir/$1.conf" "$pkgdir/etc/runit/sv/$1/conf"
+    fi
+
+    for file in run finish check; do
+        if test -f "$srcdir/$1.$file"; then
+            install -Dm755 "$srcdir/$1.$file" "$pkgdir/etc/runit/sv/$1/$file"
+            sed "${_sed_args[@]}" -i "$pkgdir/etc/runit/sv/$1/$file"
+        fi
+    done
+}
+
+package() {
+    _inst_sv 'docker'
+    _inst_logsv 'docker'
+}

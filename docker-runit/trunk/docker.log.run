@@ -1,0 +1,6 @@
+#!/bin/sh
+exec 2>&1; set -e
+
+[ -d /var/log/docker ] || install -dm 755 /var/log/docker
+
+exec svlogd -tt /var/log/docker
