@@ -1,0 +1,14 @@
+#!/bin/sh
+case "$1" in
+    start)
+        if ! grep -qw fuse /proc/filesystems; then
+            modprobe fuse >/dev/null 2>&1 || exit 1
+        fi
+        if grep -qw fusectl /proc/filesystems && ! mountpoint -q /sys/fs/fuse/connections; then
+            mount -t fusectl none /sys/fs/fuse/connections >/dev/null 2>&1
+        fi
+    ;;
+    stop)
+        mountpoint -q /sys/fs/fuse/connections && umount /sys/fs/fuse/connections >/dev/null 2>&1
+    ;;
+esac
