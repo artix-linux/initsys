@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/spotifyd --no-daemon
+smooth-recovery = true
+logfile         = /var/log/dinit/spotifyd.log
+waits-for       = loginready

@@ -695,6 +695,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/spice-vdagent-dinit.git",
       "branch": "master",
       "revision": "9a68d9a329b95b1b12a3c7a823cad9c4cd50c9e5"
+    },
+    "spotifyd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spotifyd-dinit.git",
+      "branch": "master",
+      "revision": "f74e1c53bb5b84cb3b0f2565a1aec8133c693ca5"
     }
   }
 }
