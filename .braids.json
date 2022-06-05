@@ -671,6 +671,11 @@
       "branch": "master",
       "revision": "33e257c6bf0fdc3abda6480153981e0abc97b823"
     },
+    "deluge-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/deluge-runit.git",
+      "branch": "master",
+      "revision": "d985a7ec750c532b153b53d227e928c1d31b2d01"
+    },
     "deluge-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/deluge-s6.git",
       "branch": "master",
