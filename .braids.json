@@ -3286,6 +3286,11 @@
       "branch": "master",
       "revision": "8885eced3865c3b727a6e325e90711c864afab35"
     },
+    "udpxy-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/udpxy-runit.git",
+      "branch": "master",
+      "revision": "d9337f51e409b53672c6d9370ebfe2fd2b8ac438"
+    },
     "udpxy-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesU/udpxy-s6.git",
       "branch": "master",
