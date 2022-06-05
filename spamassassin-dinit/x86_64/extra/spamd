@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/vendor_perl/spamd -x -u spamd -g spamd --listen=/run/spamd/spamd.sock --listen=localhost
+smooth-recovery = true
+logfile         = /var/log/dinit/spamd.log
+waits-for       = pseudofs

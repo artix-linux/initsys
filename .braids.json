@@ -685,6 +685,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/sndio-dinit.git",
       "branch": "master",
       "revision": "e55dc1f721673189d6671f4c9ffa9c724b53f57b"
+    },
+    "spamassassin-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin-dinit.git",
+      "branch": "master",
+      "revision": "f0177ace22587b95f84ce4c8866d3d69b7786285"
     }
   }
 }
