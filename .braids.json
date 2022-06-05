@@ -816,6 +816,11 @@
       "branch": "master",
       "revision": "c176e9d9a6a853a29319b19be8e9bb84b8a7cd34"
     },
+    "lxdm-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lxdm-openrc.git",
+      "branch": "master",
+      "revision": "b1cc7fc5ed7834acbd570166bb2ac566455773bb"
+    },
     "mailman-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mailman-dinit.git",
       "branch": "master",
