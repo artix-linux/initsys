@@ -1066,6 +1066,11 @@
       "branch": "master",
       "revision": "6a055982c077dc8f01d05aff57631a601f836d30"
     },
+    "firewalld-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/firewalld-runit.git",
+      "branch": "master",
+      "revision": "47cb999bbf7118f6fc3ceca5ee4d3e7eb990d7d4"
+    },
     "firewalld-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesF/firewalld-s6.git",
       "branch": "master",
