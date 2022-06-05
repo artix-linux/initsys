@@ -210,6 +210,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesD/dnscrypt-proxy-dinit.git",
       "branch": "master",
       "revision": "d95634204203f5b30003f30b6ab24b2d8ebe08b7"
+    },
+    "dnsmasq-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dnsmasq-dinit.git",
+      "branch": "master",
+      "revision": "864f1449c8d9980de642b6fa91418753617c1f24"
     }
   }
 }
