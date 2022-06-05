@@ -2616,6 +2616,11 @@
       "branch": "master",
       "revision": "138ca3d63841311bb071895e93317baee73bb537"
     },
+    "vsftpd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vsftpd-s6.git",
+      "branch": "master",
+      "revision": "b19548d92c9450e6c2637a64a469559e9caba7a7"
+    },
     "webfs-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webfs-dinit.git",
       "branch": "master",
