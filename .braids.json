@@ -256,6 +256,11 @@
       "branch": "master",
       "revision": "a62c59ac6538cd64879f3c14b14a587f528fb856"
     },
+    "brltty-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/brltty-s6.git",
+      "branch": "master",
+      "revision": "02328174e53d513d301a9550768c1c8554a0c95d"
+    },
     "bumblebee-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bumblebee-dinit.git",
       "branch": "master",
