@@ -395,6 +395,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/lighttpd-dinit.git",
       "branch": "master",
       "revision": "2a3adc463b99e4ae647f623e54afa2d465390871"
+    },
+    "lirc-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lirc-dinit.git",
+      "branch": "master",
+      "revision": "b892f3da064f446139f4f321f393b7a6dab4c002"
     }
   }
 }
