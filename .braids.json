@@ -1426,6 +1426,11 @@
       "branch": "master",
       "revision": "643bb47adfca130bf2a4f8ed725e008bef88ca2d"
     },
+    "squid-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/squid-openrc.git",
+      "branch": "master",
+      "revision": "8675f581c43d1e97c42141fbfc377092a36ab72f"
+    },
     "sshguard-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sshguard-dinit.git",
       "branch": "master",
