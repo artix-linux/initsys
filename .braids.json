@@ -236,6 +236,11 @@
       "branch": "master",
       "revision": "bafaf67c00513ed761f8a53de7d8bc6410d38321"
     },
+    "bolt-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bolt-s6.git",
+      "branch": "master",
+      "revision": "e287e222d2e1e1e988ab1bc78c73946bebd31901"
+    },
     "bootlogd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bootlogd-dinit.git",
       "branch": "master",
