@@ -1391,6 +1391,11 @@
       "branch": "master",
       "revision": "7a1c18bc1bc0fdc14bde8882da37496cfd9ea994"
     },
+    "iptables-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iptables-runit.git",
+      "branch": "master",
+      "revision": "667cddae4e5255fed402b0e6d4a160bec238d675"
+    },
     "iptables-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iptables-s6.git",
       "branch": "master",
