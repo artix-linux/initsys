@@ -690,6 +690,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin-dinit.git",
       "branch": "master",
       "revision": "f0177ace22587b95f84ce4c8866d3d69b7786285"
+    },
+    "spice-vdagent-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spice-vdagent-dinit.git",
+      "branch": "master",
+      "revision": "9a68d9a329b95b1b12a3c7a823cad9c4cd50c9e5"
     }
   }
 }

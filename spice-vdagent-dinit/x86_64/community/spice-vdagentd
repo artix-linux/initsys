@@ -1,0 +1,5 @@
+type            = process
+command         = /etc/dinit.d/scripts/spice-vdagentd
+smooth-recovery = true
+logfile         = /var/log/dinit/spice-vdagentd.log
+waits-for       = loginready
