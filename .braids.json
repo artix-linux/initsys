@@ -1006,6 +1006,11 @@
       "branch": "master",
       "revision": "b4c980c23c41662d24620db57a6c4fb80d41db94"
     },
+    "hostapd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hostapd-s6.git",
+      "branch": "master",
+      "revision": "3573b0c04b1cb09d1e6b5da2aab2e6f621b2b8c5"
+    },
     "i2pd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesI/i2pd-dinit.git",
       "branch": "master",
