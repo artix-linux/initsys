@@ -111,6 +111,11 @@
       "branch": "master",
       "revision": "8022e2692c142c3a302d32f6322c07c6c473c348"
     },
+    "at-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/at-runit.git",
+      "branch": "master",
+      "revision": "40a61effda6dc0ec94aebe396bc8f0bab76867b2"
+    },
     "at-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesA/at-s6.git",
       "branch": "master",
