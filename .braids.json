@@ -450,6 +450,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesM/metalog-dinit.git",
       "branch": "master",
       "revision": "a4d9989601b3adc330420368222bdd49e69a04ed"
+    },
+    "minidlna-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/minidlna-dinit.git",
+      "branch": "master",
+      "revision": "24bb59e2c6e4f5ce0d3b1143ffeda766f4d5ea3e"
     }
   }
 }
