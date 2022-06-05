@@ -1,0 +1,10 @@
+#!/usr/bin/openrc-run
+
+pidfile="/run/${RC_SVCNAME}.pid"
+command="/usr/bin/pptpd"
+command_args="${PPTPD_OPTS}"
+command_background=true
+
+depend() {
+	need net
+}

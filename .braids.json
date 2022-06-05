@@ -1206,6 +1206,11 @@
       "branch": "master",
       "revision": "563afb75c71fc25b5ce0ce32171b9ef5215778e3"
     },
+    "pptpd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pptpd-openrc.git",
+      "branch": "master",
+      "revision": "e24ad45051c59920f6227459b8e9bb1e63ee7611"
+    },
     "privoxy-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/privoxy-dinit.git",
       "branch": "master",
