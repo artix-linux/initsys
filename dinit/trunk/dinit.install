@@ -1,0 +1,7 @@
+post_upgrade() {
+    if [ "$(vercmp "$2" 0.13.0)" -lt 0 ]; then
+        printf "==> The default directory for user services has moved to\n"
+        printf "    \$HOME/.config/dinit.d (rather than ~/dinit.d).\n"
+        printf "    Please set your directories accordingly.\n"
+    fi
+}
