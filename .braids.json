@@ -1591,6 +1591,11 @@
       "branch": "master",
       "revision": "252e236fd0ec09ad0b341027847e66bcc36f253d"
     },
+    "openldap-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openldap-s6.git",
+      "branch": "master",
+      "revision": "e4820d9730611048d8de9101f1e5fb5d3885c184"
+    },
     "openntpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openntpd-dinit.git",
       "branch": "master",
