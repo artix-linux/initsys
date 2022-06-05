@@ -1121,6 +1121,11 @@
       "branch": "master",
       "revision": "7f3ee3fe9cdff2a0eaf2e16c790e6bcf6b0c35e4"
     },
+    "krb5-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesK/krb5-s6.git",
+      "branch": "master",
+      "revision": "3f9f3ce12d5077260c3c3cafe6608cae3f5ec54b"
+    },
     "libvirt-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvirt-dinit.git",
       "branch": "master",
