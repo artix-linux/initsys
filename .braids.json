@@ -1191,6 +1191,11 @@
       "branch": "master",
       "revision": "09eea0f547ba2b729bbd38cb576d5f31bbf16b43"
     },
+    "powerdns-recursor-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/powerdns-recursor-openrc.git",
+      "branch": "master",
+      "revision": "ae2db290b9ca0cef6b628d8bdf7542b622963e03"
+    },
     "pptpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pptpd-dinit.git",
       "branch": "master",
