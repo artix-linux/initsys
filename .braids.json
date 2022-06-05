@@ -1876,6 +1876,11 @@
       "branch": "master",
       "revision": "3c1501ed208662bef839d99e1b8e3ab7a2649504"
     },
+    "murmur-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/murmur-runit.git",
+      "branch": "master",
+      "revision": "5eb2e2ad75f1113ef519b3a4f940f6199c691157"
+    },
     "murmur-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesM/murmur-s6.git",
       "branch": "master",
