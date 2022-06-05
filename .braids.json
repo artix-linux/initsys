@@ -351,6 +351,11 @@
       "branch": "master",
       "revision": "5c7a7913e4dd61c6e48c5d10548e9b4397be3c86"
     },
+    "device-mapper-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/device-mapper-openrc.git",
+      "branch": "master",
+      "revision": "e4a8bfb89277e4a57cc1ec7e14ac769cb3755691"
+    },
     "dhcp-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcp-dinit.git",
       "branch": "master",
