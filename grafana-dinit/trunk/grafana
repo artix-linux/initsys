@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/bin/grafana-server -homepath /usr/share/grafana/ -config /etc/grafana.ini
+smooth-recovery = true
+logfile         = /var/log/dinit/grafana.log
+run-as          = grafana
+waits-for       = loginready
