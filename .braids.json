@@ -1261,6 +1261,11 @@
       "branch": "master",
       "revision": "a9441a0fa8f0144c981e407bca8800cb3a74cb1e"
     },
+    "haveged-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/haveged-runit.git",
+      "branch": "master",
+      "revision": "9fcce46077ef3df487e3b3e6fc00e712f1a6f727"
+    },
     "haveged-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesH/haveged-s6.git",
       "branch": "master",
