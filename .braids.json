@@ -761,6 +761,11 @@
       "branch": "master",
       "revision": "e97103cf07fea7b2f621069e1a7e13a6ad8e3137"
     },
+    "lightdm-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lightdm-openrc.git",
+      "branch": "master",
+      "revision": "1d5db832d19ab412a62b4580b78370efe1838ce4"
+    },
     "lighttpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lighttpd-dinit.git",
       "branch": "master",
