@@ -3206,6 +3206,11 @@
       "branch": "master",
       "revision": "3532b6ea43b295c66a1b5ee3746af79a626a18e6"
     },
+    "tor-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tor-runit.git",
+      "branch": "master",
+      "revision": "9313fd34e45472ab686127e700db31c1c531ccae"
+    },
     "tor-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tor-s6.git",
       "branch": "master",
