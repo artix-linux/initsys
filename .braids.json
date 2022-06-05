@@ -1531,6 +1531,11 @@
       "branch": "master",
       "revision": "a5d23cbb6825fb52a5ac638a8afb5902533d4162"
     },
+    "lighttpd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lighttpd-runit.git",
+      "branch": "master",
+      "revision": "78e7952d31ef32638e975300f4c83e335b5f3bff"
+    },
     "lighttpd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lighttpd-s6.git",
       "branch": "master",
