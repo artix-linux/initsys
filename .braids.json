@@ -2271,6 +2271,11 @@
       "branch": "master",
       "revision": "0693038471adee63eb411773213912a9234ec578"
     },
+    "postfix-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/postfix-runit.git",
+      "branch": "master",
+      "revision": "5795346725773fe57dbd0f53c8281689a7dafd26"
+    },
     "postfix-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postfix-s6.git",
       "branch": "master",
