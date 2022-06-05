@@ -515,6 +515,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesN/ntp-dinit.git",
       "branch": "master",
       "revision": "3411370963910f3506564ad55ff0baa011476372"
+    },
+    "nvidia-utils-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nvidia-utils-dinit.git",
+      "branch": "master",
+      "revision": "049b7497296834b7189626862df9632d759cd0a9"
     }
   }
 }
