@@ -741,6 +741,11 @@
       "branch": "master",
       "revision": "eb4533a7e59c7643f9509197feaa533bb0661dba"
     },
+    "krb5-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesK/krb5-openrc.git",
+      "branch": "master",
+      "revision": "7f3ee3fe9cdff2a0eaf2e16c790e6bcf6b0c35e4"
+    },
     "libvirt-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvirt-dinit.git",
       "branch": "master",
