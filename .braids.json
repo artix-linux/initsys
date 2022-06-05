@@ -3091,6 +3091,11 @@
       "branch": "master",
       "revision": "ac2a639cd188c29d7ba733fa94d7a8a7e722daf1"
     },
+    "syslog-ng-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/syslog-ng-runit.git",
+      "branch": "master",
+      "revision": "7e539c6e1be8c2b186038ead28a769019cf799cf"
+    },
     "syslog-ng-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syslog-ng-s6.git",
       "branch": "master",
