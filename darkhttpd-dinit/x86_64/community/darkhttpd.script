@@ -1,0 +1,3 @@
+#!/bin/sh
+[ -r /etc/dinit.d/config/darkhttpd.conf ] && . /etc/dinit.d/config/darkhttpd.conf
+exec darkhttpd "${DIR:-/srv/http}" --uid "${USER:-http}" --gid "${GROUP:-http}" --port "${PORT:-8080}" $OPTS

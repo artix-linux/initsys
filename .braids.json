@@ -155,6 +155,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/cyrus-sasl-dinit.git",
       "branch": "master",
       "revision": "87eeeadce8c5a3439dc388640f11b493e3849930"
+    },
+    "darkhttpd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/darkhttpd-dinit.git",
+      "branch": "master",
+      "revision": "06de2611f092478886e9334187f1d6e912d0d53c"
     }
   }
 }
