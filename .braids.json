@@ -25,6 +25,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesA/apparmor-dinit.git",
       "branch": "master",
       "revision": "3cc2613f5e9ccbb36dfa2f8fa2e7d2547bbbd3e7"
+    },
+    "at-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/at-dinit.git",
+      "branch": "master",
+      "revision": "c93bbdef522a2fd7f95948b45581fddd8c04b8e3"
     }
   }
 }
