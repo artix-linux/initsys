@@ -250,6 +250,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesE/elogind-dinit.git",
       "branch": "master",
       "revision": "194bb058454cbfb7674f41386e0437bd50c18353"
+    },
+    "espeakup-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/espeakup-dinit.git",
+      "branch": "master",
+      "revision": "0d778438f190dbb0787ee4dd5a1d7d313d28783e"
     }
   }
 }

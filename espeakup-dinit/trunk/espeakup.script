@@ -1,0 +1,3 @@
+#!/bin/sh
+modprobe speakup_soft start=1
+exec espeakup -d 2>&1
