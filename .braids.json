@@ -411,6 +411,11 @@
       "branch": "master",
       "revision": "1dc8b59d9940ae93fdf0a6e1ba0ad5b858d91785"
     },
+    "clamav-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/clamav-runit.git",
+      "branch": "master",
+      "revision": "e7be3193aacae163798173ac5933ded0a069fa9f"
+    },
     "clamav-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clamav-s6.git",
       "branch": "master",
