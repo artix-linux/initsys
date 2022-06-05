@@ -2151,6 +2151,11 @@
       "branch": "master",
       "revision": "16783f4705504c3feb2eba0b3175801e17b8f4d1"
     },
+    "spamassassin-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin-s6.git",
+      "branch": "master",
+      "revision": "fa5fd7157daa7ff8b84999e9dcf021e36dfcc857"
+    },
     "spice-vdagent-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spice-vdagent-dinit.git",
       "branch": "master",
