@@ -1731,6 +1731,11 @@
       "branch": "master",
       "revision": "4021e0f9a1e3f4dcc215defb592be94f4519a8dc"
     },
+    "mdadm-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mdadm-runit.git",
+      "branch": "master",
+      "revision": "44bcf926bb0debf33c79f197e8a8d67284c05bd9"
+    },
     "mdadm-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mdadm-s6.git",
       "branch": "master",
