@@ -751,6 +751,11 @@
       "branch": "master",
       "revision": "3a6c6d1c52c44eb90fe03033456a0b730b6dd4d2"
     },
+    "libvirt-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libvirt-openrc.git",
+      "branch": "master",
+      "revision": "5511049045018bde691904ef725ac90edf81e66a"
+    },
     "lightdm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lightdm-dinit.git",
       "branch": "master",
