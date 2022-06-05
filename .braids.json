@@ -796,6 +796,11 @@
       "branch": "master",
       "revision": "c4c4fe1aa07fe60567aa4d5df4c1b96b208236d8"
     },
+    "fcron-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fcron-s6.git",
+      "branch": "master",
+      "revision": "e7dac4962be96f5d3617bc19a33bc0e6645b7b49"
+    },
     "firewalld-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesF/firewalld-dinit.git",
       "branch": "master",
