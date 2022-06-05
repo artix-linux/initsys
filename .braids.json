@@ -71,6 +71,11 @@
       "branch": "master",
       "revision": "59fb80c3941f932df24ccc54df1db4831d17cea3"
     },
+    "apparmor-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/apparmor-s6.git",
+      "branch": "master",
+      "revision": "c40140567809bf9bcde5667b87e484dec73b7b04"
+    },
     "at-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesA/at-dinit.git",
       "branch": "master",
