@@ -771,6 +771,11 @@
       "branch": "master",
       "revision": "2a3adc463b99e4ae647f623e54afa2d465390871"
     },
+    "lighttpd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lighttpd-openrc.git",
+      "branch": "master",
+      "revision": "a5d23cbb6825fb52a5ac638a8afb5902533d4162"
+    },
     "lirc-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lirc-dinit.git",
       "branch": "master",

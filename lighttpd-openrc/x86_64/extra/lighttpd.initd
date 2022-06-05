@@ -1,0 +1,35 @@
+#!/usr/bin/openrc-run
+# Copyright 1999-2012 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+name="lighttpd"
+description="Lighttpd web server"
+conf_file="${LIGHTTPD_CONF:-/etc/lighttpd/lighttpd.conf}"
+
+supervisor=supervise-daemon
+command="/usr/bin/lighttpd"
+command_args="-D -f ${conf_file}"
+required_files="${conf_file}"
+
+depend() {
+	need net
+	use mysql logger spawn-fcgi ldap slapd netmount dns
+	after firewall
+	after famd
+	after sshd
+}
+
+checkconfig() {
+	ebegin "Checking for ${conf_file}"
+	if [ ! -f "${conf_file}" ] ; then
+		eerror "${conf_file} does not exist."
+	fi
+	eend $?
+
+	/usr/bin/lighttpd -t -f "${conf_file}" >/dev/null
+}
+
+start_pre() {
+	checkconfig || return $?
+	checkpath -d -q -m 0750 /run/lighttpd/
+}
