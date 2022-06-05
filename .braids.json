@@ -3266,6 +3266,11 @@
       "branch": "master",
       "revision": "8884a136cfcf4c010f63c2ada1fb174ce84988f8"
     },
+    "trojan-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/trojan-runit.git",
+      "branch": "master",
+      "revision": "6be63cfe3e28c768e52c8559523c999a19fb2b41"
+    },
     "trojan-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesT/trojan-s6.git",
       "branch": "master",
