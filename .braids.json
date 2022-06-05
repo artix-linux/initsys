@@ -1366,6 +1366,11 @@
       "branch": "master",
       "revision": "e64975416990a61bc723af7817bdb0fd1941803a"
     },
+    "shairplay-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/shairplay-openrc.git",
+      "branch": "master",
+      "revision": "6fd789927f3d152323286d2686a31a50ac851549"
+    },
     "shairport-sync-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shairport-sync-dinit.git",
       "branch": "master",

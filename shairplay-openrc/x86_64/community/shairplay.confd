@@ -1,0 +1,3 @@
+SHAIRPLAY_NAME="shairplay"
+# Set password
+#SHAIRPLAY_PASSWORD="-p pass"
