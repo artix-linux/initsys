@@ -1,0 +1,3 @@
+#!/bin/sh
+[ ! -e /var/lib/clamav/main.cvd ] && freshclam
+exec clamd --foreground=true 2>&1

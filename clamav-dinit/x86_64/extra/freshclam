@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/freshclam -dF
+smooth-recovery = true
+logfile         = /var/log/dinit/freshclam.log
+waits-for       = pseudofs
