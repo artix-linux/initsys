@@ -2501,6 +2501,11 @@
       "branch": "master",
       "revision": "8885eced3865c3b727a6e325e90711c864afab35"
     },
+    "udpxy-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/udpxy-s6.git",
+      "branch": "master",
+      "revision": "0a01abcd5506df38fb631e8ca6d9256ffd726846"
+    },
     "ufw-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesU/ufw-dinit.git",
       "branch": "master",
