@@ -790,6 +790,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/toxcore-dinit.git",
       "branch": "master",
       "revision": "9db39fe65cbbcc9dc7465ee43576c0d98cf88317"
+    },
+    "transmission-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/transmission-dinit.git",
+      "branch": "master",
+      "revision": "76c146f3ddd64e56915925dcbb9540aa3a6aa5ba"
     }
   }
 }
