@@ -1,0 +1,19 @@
+#!/usr/bin/openrc-run
+
+name=radicale
+description="A simple CalDAV (calendar) and CardDAV (contact) server"
+
+pidfile="/run/${RC_SVCNAME}.pid"
+command=/usr/bin/radicale
+command_user=radicale:radicale
+command_background=true
+
+depend() {
+	use net
+	need localmount
+}
+
+start_pre() {
+	checkpath --directory --owner "$command_user" /var/{lib,log}/radicale
+	checkpath --file --owner root:radicale --mode 0640 /etc/radicale/{config,logging}
+}

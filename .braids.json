@@ -1256,6 +1256,11 @@
       "branch": "master",
       "revision": "273ef105d86e95d5701a1879757ced6815b8f015"
     },
+    "radicale-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/radicale-openrc.git",
+      "branch": "master",
+      "revision": "230dfdce23772925a3b2a5f61efd895f18aa5058"
+    },
     "redis-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesR/redis-dinit.git",
       "branch": "master",
