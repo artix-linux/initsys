@@ -275,6 +275,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesF/firewalld-dinit.git",
       "branch": "master",
       "revision": "0a262eee575c6ee9f2c4500f8f57f378aef9df70"
+    },
+    "freeradius-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/freeradius-dinit.git",
+      "branch": "master",
+      "revision": "1397352369428a4c23eb9d7d42d049671f3e75fe"
     }
   }
 }
