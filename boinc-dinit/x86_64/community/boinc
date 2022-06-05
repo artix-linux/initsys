@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/boinc_client --dir /var/lib/boinc
+smooth-recovery = true
+logfile         = /var/log/dinit/boinc.log
+waits-for       = loginready
