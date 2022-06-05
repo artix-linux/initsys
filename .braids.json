@@ -3006,6 +3006,11 @@
       "branch": "master",
       "revision": "022e4dfbcb3c34cffdae03d78b08d458874c7d48"
     },
+    "stunnel-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/stunnel-runit.git",
+      "branch": "master",
+      "revision": "8f43ab26448b63ed93491f6f21fb69bb806bfb86"
+    },
     "stunnel-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stunnel-s6.git",
       "branch": "master",
