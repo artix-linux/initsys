@@ -331,6 +331,11 @@
       "branch": "master",
       "revision": "01535858d328e9ee4e5c9baf6f927cbad31a87ce"
     },
+    "colord-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/colord-s6.git",
+      "branch": "master",
+      "revision": "4743b5dbe19928a63d571dbe0b934e6ad2542368"
+    },
     "connman-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/connman-dinit.git",
       "branch": "master",
