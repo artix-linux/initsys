@@ -1926,6 +1926,11 @@
       "branch": "master",
       "revision": "c96dcf57df55962c988fbb5c6c56da737c75a24a"
     },
+    "nfs-utils-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nfs-utils-runit.git",
+      "branch": "master",
+      "revision": "15c4ab787cd1f5cf55655dedce2f735aab383c61"
+    },
     "nfs-utils-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nfs-utils-s6.git",
       "branch": "master",
