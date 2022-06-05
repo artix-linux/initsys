@@ -116,6 +116,11 @@
       "branch": "master",
       "revision": "dd6af6c44c804fc6486ef67fc5344eee8269c132"
     },
+    "audit-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/audit-s6.git",
+      "branch": "master",
+      "revision": "e3f13e14d816a508c47956a9365be3530dd73ce0"
+    },
     "avahi-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesA/avahi-dinit.git",
       "branch": "master",
