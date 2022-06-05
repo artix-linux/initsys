@@ -3596,6 +3596,11 @@
       "branch": "master",
       "revision": "ca2e85f6461066c04b0ccb20315c755983f97450"
     },
+    "znc-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/znc-runit.git",
+      "branch": "master",
+      "revision": "36d5046f87037dbeb824dd316d6164b327903e9a"
+    },
     "znc-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/znc-s6.git",
       "branch": "master",
