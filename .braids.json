@@ -1736,6 +1736,11 @@
       "branch": "master",
       "revision": "0693038471adee63eb411773213912a9234ec578"
     },
+    "postfix-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/postfix-s6.git",
+      "branch": "master",
+      "revision": "e78655dfa859061dd5c94f1718e04781f4f8cf3a"
+    },
     "postgresql-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postgresql-dinit.git",
       "branch": "master",
