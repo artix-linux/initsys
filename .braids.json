@@ -5,6 +5,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesA/acpid-dinit.git",
       "branch": "master",
       "revision": "3bb1e7100f655c7474c63efe84cfac2720342ed2"
+    },
+    "alsa-utils-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/alsa-utils-dinit.git",
+      "branch": "master",
+      "revision": "5bed2cca3ac0a0d42a3e772c1371de522984d181"
     }
   }
 }
