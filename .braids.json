@@ -170,6 +170,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesD/ddclient-dinit.git",
       "branch": "master",
       "revision": "d80be20620367c27cbbab82699fb182b515ef636"
+    },
+    "deluge-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/deluge-dinit.git",
+      "branch": "master",
+      "revision": "e1907275fc68408471a4cc8f85549baeb7849f65"
     }
   }
 }
