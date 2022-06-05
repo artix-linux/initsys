@@ -676,6 +676,11 @@
       "branch": "master",
       "revision": "45c87a7ea364cd15a17af275d62c4e8dfd0285e9"
     },
+    "i2pd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/i2pd-openrc.git",
+      "branch": "master",
+      "revision": "bd8197862303794f1a9fd4ecf2496c791515991c"
+    },
     "intel-undervolt-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-undervolt-dinit.git",
       "branch": "master",

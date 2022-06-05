@@ -1,0 +1,6 @@
+#!/usr/bin/openrc-run
+
+supervisor="supervise-daemon"
+command="/usr/bin/i2pd"
+command_args=" --conf=/var/lib/i2pd/i2pd.conf --service /usr/bin/i2pd"
+command_user="i2pd:i2pd"
