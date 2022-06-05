@@ -936,6 +936,11 @@
       "branch": "master",
       "revision": "a18e1ad190bec44463d44371ba7d1b2e839d12a2"
     },
+    "mpd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mpd-openrc.git",
+      "branch": "master",
+      "revision": "1166b1775fe0f6e5829a5083b419972d7191fc50"
+    },
     "murmur-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/murmur-dinit.git",
       "branch": "master",
