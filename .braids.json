@@ -1106,6 +1106,11 @@
       "branch": "master",
       "revision": "d7506ba9ee172a633c3dab2e62b84415063f585d"
     },
+    "knot-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesK/knot-s6.git",
+      "branch": "master",
+      "revision": "d90801c68bf04d9dcb7ed6526e2c15b8049a579c"
+    },
     "krb5-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesK/krb5-dinit.git",
       "branch": "master",
