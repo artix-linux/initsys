@@ -96,6 +96,11 @@
       "branch": "master",
       "revision": "461fecb1fabbafa5555fd876f5003f918a5545ac"
     },
+    "atftp-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/atftp-s6.git",
+      "branch": "master",
+      "revision": "18ef1979304cfcee0f3e7ef9bc0839d891a9c89a"
+    },
     "audit-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesA/audit-dinit.git",
       "branch": "master",
