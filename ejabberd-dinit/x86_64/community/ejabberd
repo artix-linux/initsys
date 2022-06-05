@@ -1,0 +1,7 @@
+type = process
+command = /etc/dinit.d/scripts/ejabberd start
+stop-command = /etc/dinit.d/scripts/ejabberd stop
+smooth-recovery = true
+run-as = jabber
+waits-for = loginready
+logfile = /var/log/dinit/ejabberd.log 

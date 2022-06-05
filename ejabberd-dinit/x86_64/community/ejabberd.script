@@ -1,0 +1,7 @@
+#!/bin/sh
+
+export HOME=/var/lib/ejabberd
+case "$1" in
+    start) exec /usr/bin/ejabberdctl foreground --logs /dev/null ;;
+    stop) exec /usr/bin/ejabberdctl stop ;;
+esac

@@ -240,6 +240,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesE/earlyoom-dinit.git",
       "branch": "master",
       "revision": "f4213db122799aa1c46b559fea91dba0b2bda9aa"
+    },
+    "ejabberd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/ejabberd-dinit.git",
+      "branch": "master",
+      "revision": "89e7ea175504000f575ff513c7afc365395f8999"
     }
   }
 }
