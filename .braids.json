@@ -541,6 +541,11 @@
       "branch": "master",
       "revision": "2ccb69c276497fcdce4d35db66b61d19ebd3d790"
     },
+    "dhcp-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dhcp-s6.git",
+      "branch": "master",
+      "revision": "df8db14155637be667e413e266ccd1e402525262"
+    },
     "dhcpcd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcpcd-dinit.git",
       "branch": "master",
