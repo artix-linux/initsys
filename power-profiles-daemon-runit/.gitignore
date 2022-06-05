@@ -1,0 +1,16 @@
+# ---> ArchLinuxPackages
+*.tar
+*.tar.*
+*.jar
+*.exe
+*.msi
+*.zip
+*.tgz
+*.log
+*.log.*
+!*.log.run
+*.sig
+
+pkg/
+src/
+

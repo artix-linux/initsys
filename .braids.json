@@ -2331,6 +2331,11 @@
       "branch": "master",
       "revision": "ac6d5053ac5ef91f9c70b0807348264933799152"
     },
+    "power-profiles-daemon-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/power-profiles-daemon-runit.git",
+      "branch": "master",
+      "revision": "565a0052b79f2e1d8d14f1ecbd5e876801697e99"
+    },
     "power-profiles-daemon-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/power-profiles-daemon-s6.git",
       "branch": "master",
