@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/thttpd -D -C /etc/thttpd.conf
+smooth-recovery = true
+logfile         = /var/log/dinit/thttpd.log
+waits-for       = loginready

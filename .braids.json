@@ -715,6 +715,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/sslh-dinit.git",
       "branch": "master",
       "revision": "402a3a9b08abf15bfbc58f720d74cd9991dd91b0"
+    },
+    "sthttpd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd-dinit.git",
+      "branch": "master",
+      "revision": "9ceb80da61fbcbc702f8e787e6c815f41c659a47"
     }
   }
 }

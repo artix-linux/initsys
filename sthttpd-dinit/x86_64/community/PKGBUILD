@@ -1,0 +1,18 @@
+# Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
+pkgname=sthttpd-dinit
+pkgver=20211102
+pkgrel=2
+pkgdesc="dinit service scripts for sthttpd"
+arch=('any')
+url="https://artixlinux.org"
+license=('BSD')
+groups=('dinit-galaxy')
+depends=('sthttpd' 'dinit')
+conflicts=('init-sthttpd')
+provides=('init-sthttpd')
+source=("thttpd")
+sha256sums=('91ec0c4bf0dd2a96ecf5f0d984861655685a4b2dcd2d18d2b43756f28770843d')
+
+package() {
+    install -Dm644 thttpd "$pkgdir/etc/dinit.d/thttpd"
+}
