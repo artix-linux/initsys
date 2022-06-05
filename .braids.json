@@ -2026,6 +2026,11 @@
       "branch": "master",
       "revision": "a840500f3fe9e1ba0ec47ba6e2ed185c5f34a275"
     },
+    "ntp-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/ntp-runit.git",
+      "branch": "master",
+      "revision": "a96b1f7b99fc7fad3c92c36ce8af6faed90dee6e"
+    },
     "ntp-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ntp-s6.git",
       "branch": "master",
