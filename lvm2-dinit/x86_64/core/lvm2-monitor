@@ -1,0 +1,5 @@
+type      = scripted
+command   = /usr/bin/vgchange --monitor y
+logfile   = /var/log/dinit/lvm2-monitor.log
+restart   = false
+waits-for = lvm2
