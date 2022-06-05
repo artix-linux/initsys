@@ -1401,6 +1401,11 @@
       "branch": "master",
       "revision": "195c324d1a6a186d38dd4a90a4aeac6e78994ee5"
     },
+    "motion-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/motion-s6.git",
+      "branch": "master",
+      "revision": "15f9d9b56aa820a2f06678c7bd0c183c576283d2"
+    },
     "mpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mpd-dinit.git",
       "branch": "master",
