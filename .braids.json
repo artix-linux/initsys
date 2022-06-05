@@ -815,6 +815,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesU/unbound-dinit.git",
       "branch": "master",
       "revision": "3beb72fbf8bdfcf478daa07cecd44b13103c1651"
+    },
+    "unrealircd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unrealircd-dinit.git",
+      "branch": "master",
+      "revision": "57c687dca07b2517ef4abc6f7165459edd1feaa2"
     }
   }
 }
