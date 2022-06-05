@@ -2516,6 +2516,11 @@
       "branch": "master",
       "revision": "7b1332c002050928a923e477e8adec1d27d115d2"
     },
+    "ufw-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/ufw-s6.git",
+      "branch": "master",
+      "revision": "449b08dadfb576cc4cf7325cda61c5af8044652c"
+    },
     "unbound-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unbound-dinit.git",
       "branch": "master",
