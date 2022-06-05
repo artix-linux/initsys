@@ -825,6 +825,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesU/usbguard-dinit.git",
       "branch": "master",
       "revision": "db86ed765c3d612ec48c4855e5eda356a99fca7a"
+    },
+    "v2ray-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-dinit.git",
+      "branch": "master",
+      "revision": "f971dabc3026e7e717f75c795f0c6da4830401f1"
     }
   }
 }
