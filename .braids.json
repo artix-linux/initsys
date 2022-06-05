@@ -1671,6 +1671,11 @@
       "branch": "master",
       "revision": "db86ed765c3d612ec48c4855e5eda356a99fca7a"
     },
+    "usbguard-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/usbguard-openrc.git",
+      "branch": "master",
+      "revision": "d060bde57860b3db339f1b3a5109cd1bc3df89ce"
+    },
     "v2ray-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-dinit.git",
       "branch": "master",
