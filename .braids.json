@@ -2026,6 +2026,11 @@
       "branch": "master",
       "revision": "2497f82b64bde7ffb04835b62e076ad3fb61a590"
     },
+    "salt-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/salt-s6.git",
+      "branch": "master",
+      "revision": "41fa23de3d6d86289ce1baaee6da8a5cd445c725"
+    },
     "samba-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/samba-dinit.git",
       "branch": "master",
