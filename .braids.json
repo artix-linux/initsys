@@ -420,6 +420,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/lxdm-dinit.git",
       "branch": "master",
       "revision": "c176e9d9a6a853a29319b19be8e9bb84b8a7cd34"
+    },
+    "mailman-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mailman-dinit.git",
+      "branch": "master",
+      "revision": "6fe6c2392af852366b8573c312e27e122d1c29c4"
     }
   }
 }
