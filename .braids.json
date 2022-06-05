@@ -15,6 +15,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesA/apache-dinit.git",
       "branch": "master",
       "revision": "b39c195fc9a4b40e695a4d2d04a6adff96e3b954"
+    },
+    "apcupsd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/apcupsd-dinit.git",
+      "branch": "master",
+      "revision": "0bc50e54262d4744b38daf8cc65e9ec86ba8db5f"
     }
   }
 }

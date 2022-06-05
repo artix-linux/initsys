@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/apcupsd -b
+smooth-recovery = true
+logfile         = /var/log/dinit/apcupsd.log
+waits-for       = loginready
