@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/squid -N
+smooth-recovery = true
+logfile         = /var/log/dinit/squid.log
+waits-for       = loginready

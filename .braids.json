@@ -700,6 +700,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/spotifyd-dinit.git",
       "branch": "master",
       "revision": "f74e1c53bb5b84cb3b0f2565a1aec8133c693ca5"
+    },
+    "squid-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/squid-dinit.git",
+      "branch": "master",
+      "revision": "643bb47adfca130bf2a4f8ed725e008bef88ca2d"
     }
   }
 }
