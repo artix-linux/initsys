@@ -2121,6 +2121,11 @@
       "branch": "master",
       "revision": "5fc46a5beb590e4bbc53e5ca3e482428b3beb607"
     },
+    "skalibs": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/skalibs.git",
+      "branch": "master",
+      "revision": "fe27df9b8a18fed26b8c6a3273748bbd1049c095"
+    },
     "sndio-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sndio-dinit.git",
       "branch": "master",
