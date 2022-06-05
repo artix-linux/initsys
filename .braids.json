@@ -3036,6 +3036,11 @@
       "branch": "master",
       "revision": "3f1b6af28f2cce2a7a4d1a66d326172d5bf17109"
     },
+    "sv-helper": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sv-helper.git",
+      "branch": "master",
+      "revision": "603d11676d3c943817e2e8cc9bf185631b5d05bc"
+    },
     "syncthing-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syncthing-dinit.git",
       "branch": "master",
