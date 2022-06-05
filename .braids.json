@@ -1646,6 +1646,11 @@
       "branch": "master",
       "revision": "3beb72fbf8bdfcf478daa07cecd44b13103c1651"
     },
+    "unbound-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unbound-openrc.git",
+      "branch": "master",
+      "revision": "20a2ca4acaaf6aacb432cde51259e2c25d891432"
+    },
     "unrealircd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unrealircd-dinit.git",
       "branch": "master",
