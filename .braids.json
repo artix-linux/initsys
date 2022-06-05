@@ -896,6 +896,11 @@
       "branch": "master",
       "revision": "24bb59e2c6e4f5ce0d3b1143ffeda766f4d5ea3e"
     },
+    "minidlna-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/minidlna-openrc.git",
+      "branch": "master",
+      "revision": "29cc1ab926f6149d1462bd5579a098bbb6c758a6"
+    },
     "minio-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minio-dinit.git",
       "branch": "master",
