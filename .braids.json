@@ -491,6 +491,11 @@
       "branch": "master",
       "revision": "59a22bbc53e2f9956c725090f68681dd6f221cb6"
     },
+    "coturn-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/coturn-runit.git",
+      "branch": "master",
+      "revision": "2abb7d9a62c9c96b4f97c377d47c35c1696dacbf"
+    },
     "coturn-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coturn-s6.git",
       "branch": "master",
