@@ -2426,6 +2426,11 @@
       "branch": "master",
       "revision": "7921c3eb41696dd3c450d74c0778dd6db641ff26"
     },
+    "tlp-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tlp-s6.git",
+      "branch": "master",
+      "revision": "f41f744a3b7032e9b2d2b6f3bc42a338a953217e"
+    },
     "tor-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tor-dinit.git",
       "branch": "master",
