@@ -2396,6 +2396,11 @@
       "branch": "master",
       "revision": "9a88f1cfa753f3c6f60b451af774f03efa7dca06"
     },
+    "tigervnc-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tigervnc-s6.git",
+      "branch": "master",
+      "revision": "07b298648a3d61940325f4225c1e6061c87d8d9c"
+    },
     "tinydns-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinydns-dinit.git",
       "branch": "master",
