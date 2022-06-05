@@ -1386,6 +1386,11 @@
       "branch": "master",
       "revision": "5b307f5fdcee875b583f0a1d6b3aabebe953aa45"
     },
+    "mopidy-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mopidy-s6.git",
+      "branch": "master",
+      "revision": "6136a32bdb0f4f90a674db2339ed774eab6da963"
+    },
     "motion-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/motion-dinit.git",
       "branch": "master",
