@@ -640,6 +640,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesR/rspamd-dinit.git",
       "branch": "master",
       "revision": "6db357563140db086bcb8c3c7d1167e96ddcc063"
+    },
+    "rsync-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rsync-dinit.git",
+      "branch": "master",
+      "revision": "c2e48440a990a9f54c75ee83919f115e97ba874f"
     }
   }
 }
