@@ -330,6 +330,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesH/hdparm-dinit.git",
       "branch": "master",
       "revision": "b267fe9c0f7699f64d0ce8c7aafc5063e0c8bca1"
+    },
+    "hiawatha-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hiawatha-dinit.git",
+      "branch": "master",
+      "revision": "8a81d8f0219d39d5b2c46e765d619a36bace2c79"
     }
   }
 }

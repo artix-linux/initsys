@@ -1,0 +1,20 @@
+# Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
+pkgname=hiawatha-dinit
+pkgver=20211101
+pkgrel=2
+pkgdesc="dinit service scripts for hiawatha"
+arch=('any')
+url="https://artixlinux.org"
+license=('BSD')
+groups=('dinit-galaxy')
+depends=('hiawatha' 'dinit')
+conflicts=('init-hiawatha')
+provides=('init-hiawatha')
+source=("hiawatha" "lefh-renew")
+sha256sums=('d208be648e38e10a8a4a040535256708c31f4de3a41339921d3be080acb2b34c'
+            '0dff2f47b7bfecbe5c36884efc17d2417d282a3d3526b5b97ed31b190cb02633')
+
+package() {
+    install -Dm644 hiawatha   "$pkgdir/etc/dinit.d/hiawatha"
+    install -Dm644 lefh-renew "$pkgdir/etc/dinit.d/lefh-renew"
+}

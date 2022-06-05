@@ -1,0 +1,4 @@
+type      = scripted
+command   = /usr/bin/lefh renew restart
+restart   = false
+waits-for = loginready
