@@ -870,6 +870,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesX/xinetd-dinit.git",
       "branch": "master",
       "revision": "ae89fce3b38a143c3995505cccefdaa1c510f26d"
+    },
+    "xl2tpd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xl2tpd-dinit.git",
+      "branch": "master",
+      "revision": "5784bfac57092fe7c242a19f0a3ba79f2f15693e"
     }
   }
 }
