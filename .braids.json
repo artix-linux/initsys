@@ -41,6 +41,11 @@
       "branch": "master",
       "revision": "f3acb7a49fb998e8df2d0cd3cde8aeb777b6e2f0"
     },
+    "apache-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/apache-s6.git",
+      "branch": "master",
+      "revision": "9f57a6510e071a899d7182587a8e27b3ba7490ae"
+    },
     "apcupsd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apcupsd-dinit.git",
       "branch": "master",
