@@ -2381,6 +2381,11 @@
       "branch": "master",
       "revision": "31918d7237e35189a651ec72931b304886c80a31"
     },
+    "thermald-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/thermald-s6.git",
+      "branch": "master",
+      "revision": "c86046652c0c663178aad60444fa53db602840d1"
+    },
     "tigervnc-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tigervnc-dinit.git",
       "branch": "master",
