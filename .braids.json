@@ -2511,6 +2511,11 @@
       "branch": "master",
       "revision": "efb71c361297eb773fa61d5687ffb710049f4e22"
     },
+    "rng-tools-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rng-tools-runit.git",
+      "branch": "master",
+      "revision": "f71cd1bddc64c7ef00c4e1ecfa71fbc2894f5271"
+    },
     "rng-tools-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rng-tools-s6.git",
       "branch": "master",
