@@ -126,6 +126,11 @@
       "branch": "master",
       "revision": "461fecb1fabbafa5555fd876f5003f918a5545ac"
     },
+    "atftp-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/atftp-runit.git",
+      "branch": "master",
+      "revision": "81b2f4e302b92f8ce6150b8c136cb1070d71cfd8"
+    },
     "atftp-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesA/atftp-s6.git",
       "branch": "master",
