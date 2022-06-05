@@ -286,6 +286,11 @@
       "branch": "master",
       "revision": "7363dcdb29f441d4197144ff7053cf11b2f68429"
     },
+    "cgmanager-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cgmanager-s6.git",
+      "branch": "master",
+      "revision": "8c7b26696367c592e4a039675dfd4f282ff6bb77"
+    },
     "chrony-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chrony-dinit.git",
       "branch": "master",
