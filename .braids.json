@@ -176,6 +176,11 @@
       "branch": "master",
       "revision": "ab325866a034d12e12b9134d296c6db87f85208b"
     },
+    "bftpd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bftpd-s6.git",
+      "branch": "master",
+      "revision": "8c2c7787e2f2a34bdaaca3fbf6db92770f949497"
+    },
     "bind-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bind-dinit.git",
       "branch": "master",
