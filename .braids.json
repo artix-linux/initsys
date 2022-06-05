@@ -1211,6 +1211,11 @@
       "branch": "master",
       "revision": "1596a5fd4364d9bfda36106e64dd1c6107802706"
     },
+    "lvm2-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lvm2-s6.git",
+      "branch": "master",
+      "revision": "ed3e30048aae5622bdac0b4d1ec0a39cb381c29c"
+    },
     "lxd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lxd-dinit.git",
       "branch": "master",
