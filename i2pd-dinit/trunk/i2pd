@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/bin/i2pd --log=stdout
+smooth-recovery = true
+logfile         = /var/log/dinit/i2pd.log
+run-as          = i2pd
+waits-for       = loginready

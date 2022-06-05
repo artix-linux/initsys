@@ -340,6 +340,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesH/hostapd-dinit.git",
       "branch": "master",
       "revision": "b0df5a0138d3c6f61abec1bb12a38fba959a4ed3"
+    },
+    "i2pd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/i2pd-dinit.git",
+      "branch": "master",
+      "revision": "45c87a7ea364cd15a17af275d62c4e8dfd0285e9"
     }
   }
 }
