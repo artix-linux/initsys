@@ -291,6 +291,11 @@
       "branch": "master",
       "revision": "d2a7efc6ddad7254be6f11d48b77a65a251d816c"
     },
+    "cups-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cups-openrc.git",
+      "branch": "master",
+      "revision": "ef6141d7306afabcf3bc0b34f31382dd1724c3cd"
+    },
     "cyrus-sasl-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cyrus-sasl-dinit.git",
       "branch": "master",
