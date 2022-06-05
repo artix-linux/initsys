@@ -1536,6 +1536,11 @@
       "branch": "master",
       "revision": "2da9841aa0f3cafb63c0ecad74976cae52b816b8"
     },
+    "tailscale-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tailscale-openrc.git",
+      "branch": "master",
+      "revision": "8f09924b6c5faa21306a8907cb8438191876ad8b"
+    },
     "thermald-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thermald-dinit.git",
       "branch": "master",

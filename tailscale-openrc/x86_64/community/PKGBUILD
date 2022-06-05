@@ -1,0 +1,24 @@
+# Maintainer: Nathan <ndowens@artixlinux.org>
+pkgname=tailscale-openrc
+pkgver=20210531
+pkgrel=1
+pkgdesc="OpenRC init script for tailscale"
+arch=('any')
+url="https://gitea.artixlinux.org/artixlinux/packages-openrc"
+license=('GPL2')
+groups=('openrc-galaxy')
+depends=('tailscale' 'openrc')
+provides=('init-tailscale')
+conflicts=('init-tailscale')
+source=('tailscaled'{,.confd})
+sha256sums=('8c8306d3c7f6cce64a511b378d02af7dd179751351398db226b13b7f672e068e'
+            '06f04d9add861580c420b6207525bfc21112d9b1c9ad9e55caf77fc06f278095')
+
+package() {
+  cd "$srcdir"
+
+  install -Dm755 tailscaled -t "$pkgdir"/etc/init.d
+  install -Dm644 tailscaled.confd "$pkgdir"/etc/conf.d/tailscaled
+}
+
+# vim:set ts=2 sw=2 et:
