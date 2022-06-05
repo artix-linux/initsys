@@ -1981,6 +1981,11 @@
       "branch": "master",
       "revision": "31fd0eab76f44e0c65f88cd449a5f162623375e0"
     },
+    "s6-dns": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/s6-dns.git",
+      "branch": "master",
+      "revision": "71cd4c1a618e49b37ea7ccf0f1beec116c55bb41"
+    },
     "salt-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/salt-dinit.git",
       "branch": "master",
