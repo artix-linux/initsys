@@ -511,6 +511,11 @@
       "branch": "master",
       "revision": "6b67e84d7c8f1bd13c68d3ea91a59c890936d8d7"
     },
+    "cpupower-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cpupower-runit.git",
+      "branch": "master",
+      "revision": "704295a1aa645fd68035ab0d7746ae9650460cca"
+    },
     "cpupower-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpupower-s6.git",
       "branch": "master",
