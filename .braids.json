@@ -1221,6 +1221,11 @@
       "branch": "master",
       "revision": "b70f5043c4f0de79fd7f18e69486fe67b456aaca"
     },
+    "gpm-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gpm-runit.git",
+      "branch": "master",
+      "revision": "147dc1bd321385be8233faf578aa0fb9203b9403"
+    },
     "gpm-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gpm-s6.git",
       "branch": "master",
