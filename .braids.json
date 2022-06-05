@@ -1486,6 +1486,11 @@
       "branch": "master",
       "revision": "4c61079aa82b8bf01d2ad692a14d8009f685fff7"
     },
+    "stunnel-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/stunnel-openrc.git",
+      "branch": "master",
+      "revision": "022e4dfbcb3c34cffdae03d78b08d458874c7d48"
+    },
     "subversion-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/subversion-dinit.git",
       "branch": "master",
