@@ -191,6 +191,11 @@
       "branch": "master",
       "revision": "bef561d519dcacb4666302d1f9df81451141f24d"
     },
+    "cgmanager-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cgmanager-openrc.git",
+      "branch": "master",
+      "revision": "7363dcdb29f441d4197144ff7053cf11b2f68429"
+    },
     "chrony-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chrony-dinit.git",
       "branch": "master",

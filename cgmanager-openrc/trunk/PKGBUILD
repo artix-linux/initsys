@@ -1,0 +1,24 @@
+# Maintainer: Rafli Akmal <rafliakmaltejakusuma@gmail.com>
+# Contributor: artoo <artoo@artixlinux.org>
+# Contributor: Oscar Campos <damnwidget@artixlinux.org>
+
+pkgname=cgmanager-openrc
+pkgver=20210506
+pkgrel=1
+pkgdesc="OpenRC cgmanager init script"
+arch=('any')
+url="https://gitea.artixlinux.org/artixlinux/packages-openrc"
+license=('GPL2')
+groups=('openrc-galaxy')
+provides=('init-cgmanager')
+depends=('openrc' 'cgmanager')
+conflicts=('init-cgmanager')
+source=("cgproxy.initd"
+        "cgmanager.initd")
+sha256sums=('7823ff6220954bd9bd6f1f527f30f319f76daffec9f8b8fc6b74e647fb48202f'
+            '12185c91bc1a018fc854fc2372bf46b9cc33ae320ee9f6f3c8b5cdd5db0e5073')
+
+package() {
+    install -Dm644 "${srcdir}"/cgmanager.initd "${pkgdir}"/etc/init.d/cgmanager
+    install -Dm755 "${srcdir}"/cgproxy.initd "${pkgdir}"/etc/init.d/cgproxy
+}
