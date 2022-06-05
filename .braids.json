@@ -410,6 +410,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/lvm2-dinit.git",
       "branch": "master",
       "revision": "fdb052029473050ee0c3c12259bfef75d2cb9fcc"
+    },
+    "lxd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lxd-dinit.git",
+      "branch": "master",
+      "revision": "05958aa1d722ae2518d18c756a8841c054d6e604"
     }
   }
 }
