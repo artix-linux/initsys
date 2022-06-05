@@ -495,6 +495,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesN/nftables-dinit.git",
       "branch": "master",
       "revision": "4b6f2074f4311362d69fba5adf92e538395dcbac"
+    },
+    "nginx-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nginx-dinit.git",
+      "branch": "master",
+      "revision": "28ff611069184ad7385d3adec90ab7f454b42ec1"
     }
   }
 }
