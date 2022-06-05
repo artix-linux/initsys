@@ -1,0 +1,20 @@
+# Maintainer: Nathan <ndowens@artixlinux.org>
+
+pkgname=v2ray-openrc
+pkgver=20210731
+pkgrel=1
+pkgdesc="OpenRC v2ray init script"
+arch=('any')
+url="https://gitea.artixlinux.org/artixlinux/packages-openrc"
+license=('GPL2')
+groups=('openrc-galaxy')
+provides=('init-v2ray')
+depends=('openrc' 'v2ray')
+conflicts=('init-v2ray')
+source=("v2ray.initd")
+sha256sums=('ca2c6368e134d6a5bf86223eb935108a30b5de8092f4897e7062abad9dfe87af')
+
+package() {
+    install -Dm755 "${srcdir}"/v2ray.initd "${pkgdir}"/etc/init.d/v2ray
+}
+

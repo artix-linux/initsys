@@ -1681,6 +1681,11 @@
       "branch": "master",
       "revision": "f971dabc3026e7e717f75c795f0c6da4830401f1"
     },
+    "v2ray-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-openrc.git",
+      "branch": "master",
+      "revision": "bce6678851e28a29df7d8692cd8a2aff0c601aa8"
+    },
     "vnstat-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vnstat-dinit.git",
       "branch": "master",
