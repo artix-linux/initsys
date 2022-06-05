@@ -1,0 +1,5 @@
+type         = scripted
+command      = /etc/dinit.d/scripts/hdparm
+restart      = false
+options      = starts-on-console
+waits-for    = udev-trigger
