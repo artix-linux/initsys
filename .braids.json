@@ -620,6 +620,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesR/radicale-dinit.git",
       "branch": "master",
       "revision": "273ef105d86e95d5701a1879757ced6815b8f015"
+    },
+    "redis-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/redis-dinit.git",
+      "branch": "master",
+      "revision": "8b27f39370d8bdf7ffc8a38132c4063d6f5d9bbc"
     }
   }
 }
