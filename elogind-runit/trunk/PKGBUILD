@@ -1,0 +1,24 @@
+# Maintainer: Qontinuum <qontinuum@artixlinux.org>
+# Contributor: Muhammad Herdiansyah <koni@artixlinux.org>
+
+pkgname=elogind-runit
+pkgver=20220508
+pkgrel=1
+pkgdesc='runit service scripts for elogind'
+arch=('any')
+url='https://artixlinux.org'
+license=('BSD')
+depends=('dbus-runit' 'elogind')
+provides=('init-elogind' 'init-logind')
+conflicts=('init-elogind' 'init-logind')
+source=('elogind.run' 'elogind.check')
+sha256sums=('f1375235c4543f3081ddfa7c71bb4f5343b3048c7fd4d9dc312ce6163055f396'
+            'cbdf3306817595f4b719b2cabfe0538519291e58b0ad76d908deb1f0b2596977')
+
+package() {
+    install -Dm755 "$srcdir/elogind.run" "$pkgdir/etc/runit/sv/elogind/run"
+    install -Dm755 "$srcdir/elogind.check" "$pkgdir/etc/runit/sv/elogind/check"
+
+    install -d "${pkgdir}/etc/runit/runsvdir/default"
+    ln -s "../../sv/elogind" "${pkgdir}/etc/runit/runsvdir/default/elogind"
+}
