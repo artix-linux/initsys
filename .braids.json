@@ -755,6 +755,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/syslog-ng-dinit.git",
       "branch": "master",
       "revision": "8918e7d6e51f9cdcd3afad5eb5b32641ac9b8d20"
+    },
+    "tailscale-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tailscale-dinit.git",
+      "branch": "master",
+      "revision": "2da9841aa0f3cafb63c0ecad74976cae52b816b8"
     }
   }
 }
