@@ -2706,6 +2706,11 @@
       "branch": "master",
       "revision": "fc70d94a8666a211cc7bb57d842d8f9af2ed00f2"
     },
+    "xinetd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xinetd-s6.git",
+      "branch": "master",
+      "revision": "14c351dc36089a298bbcce4fdd420b96025c9b86"
+    },
     "xl2tpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xl2tpd-dinit.git",
       "branch": "master",
