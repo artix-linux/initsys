@@ -26,6 +26,11 @@
       "branch": "master",
       "revision": "44df635f6081e8f11e6b453122bfbdd791432fbb"
     },
+    "alsa-utils-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/alsa-utils-s6.git",
+      "branch": "master",
+      "revision": "b769ecbec0f0b51e65c595c853edfbf0cf70b083"
+    },
     "apache-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apache-dinit.git",
       "branch": "master",
