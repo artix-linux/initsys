@@ -1746,6 +1746,11 @@
       "branch": "master",
       "revision": "69d1b1e9394c48df36d297dc2644bbed7bf98fcc"
     },
+    "wpa_supplicant-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wpa_supplicant-openrc.git",
+      "branch": "master",
+      "revision": "86119b22964748baf8dcb8a34d29eb7d94d2373a"
+    },
     "xdm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xdm-dinit.git",
       "branch": "master",
