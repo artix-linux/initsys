@@ -1,0 +1,2 @@
+# apcupsd-s6
+
