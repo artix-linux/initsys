@@ -570,6 +570,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesP/php-fpm-dinit.git",
       "branch": "master",
       "revision": "f5e879eee3a3effc1341e4ad34ccb6b3a1c28183"
+    },
+    "postfix-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/postfix-dinit.git",
+      "branch": "master",
+      "revision": "356368d6d89c50f957ba6d45f9da2d4563c3357d"
     }
   }
 }

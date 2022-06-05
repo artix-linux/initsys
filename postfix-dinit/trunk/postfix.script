@@ -1,0 +1,3 @@
+#!/bin/sh
+postfix check
+exec /usr/lib/postfix/bin/master -d
