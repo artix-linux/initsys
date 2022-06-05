@@ -781,6 +781,11 @@
       "branch": "master",
       "revision": "b892f3da064f446139f4f321f393b7a6dab4c002"
     },
+    "lirc-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lirc-openrc.git",
+      "branch": "master",
+      "revision": "799c2097e73eed0588d55cdb464011f2b86e50ab"
+    },
     "lm_sensors-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lm_sensors-dinit.git",
       "branch": "master",
