@@ -1586,6 +1586,11 @@
       "branch": "master",
       "revision": "188eaf09233cbd7275f2eed8ea13abda6fe1cff1"
     },
+    "tor-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tor-openrc.git",
+      "branch": "master",
+      "revision": "3532b6ea43b295c66a1b5ee3746af79a626a18e6"
+    },
     "toxcore-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/toxcore-dinit.git",
       "branch": "master",
