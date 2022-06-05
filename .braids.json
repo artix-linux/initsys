@@ -2041,6 +2041,11 @@
       "branch": "master",
       "revision": "e002ed5c6675afe14d64b1e159c295a90026b1e6"
     },
+    "samba-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/samba-s6.git",
+      "branch": "master",
+      "revision": "d03998bfd78dfe3f925d4fbc5f19d9a3d61f25ac"
+    },
     "sane-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sane-dinit.git",
       "branch": "master",
