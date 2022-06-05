@@ -2546,6 +2546,11 @@
       "branch": "master",
       "revision": "f794d4fa3963f5aa17d04e1515ae1e2e1ac43532"
     },
+    "unrealircd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unrealircd-s6.git",
+      "branch": "master",
+      "revision": "d8035cac58fedb5d201f6c2e2ba91a5b792782c2"
+    },
     "uptimed-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesU/uptimed-openrc.git",
       "branch": "master",
