@@ -850,6 +850,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesW/webhook-dinit.git",
       "branch": "master",
       "revision": "0c552acea73b728fa51ef0243c0c63c585c0fb60"
+    },
+    "wireguard-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wireguard-dinit.git",
+      "branch": "master",
+      "revision": "3759bc1cd6c58f5b0adbf8775375d6f7e6266bb4"
     }
   }
 }

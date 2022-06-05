@@ -1,0 +1,6 @@
+#!/bin/sh
+. /etc/dinit.d/config/wireguard.conf
+case "$1" in
+    start) wg-quick up "${WG_INTERFACE}" ;;
+    stop) wg-quick down "${WG_INTERFACE}" ;;
+esac
