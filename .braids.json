@@ -2791,6 +2791,11 @@
       "branch": "master",
       "revision": "fe27df9b8a18fed26b8c6a3273748bbd1049c095"
     },
+    "slim-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/slim-runit.git",
+      "branch": "master",
+      "revision": "99d855aaf0be06caa7913e3323951a16783802d7"
+    },
     "sndio-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sndio-dinit.git",
       "branch": "master",
