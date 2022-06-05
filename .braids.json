@@ -2451,6 +2451,11 @@
       "branch": "master",
       "revision": "cd6a82b556ad067bc8539ed9ea644cf3e535300c"
     },
+    "qemu-guest-agent-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesQ/qemu-guest-agent-runit.git",
+      "branch": "master",
+      "revision": "5ec62047e1a8d5c2fe9351f5130ff5ab9804d6cd"
+    },
     "qemu-guest-agent-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qemu-guest-agent-s6.git",
       "branch": "master",
