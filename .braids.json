@@ -3026,6 +3026,11 @@
       "branch": "master",
       "revision": "444a676ced027145e41e31767e31b245ceb7cefa"
     },
+    "subversion-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/subversion-runit.git",
+      "branch": "master",
+      "revision": "24f7593f8e05fe3993e99619d8019e750e50328d"
+    },
     "subversion-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/subversion-s6.git",
       "branch": "master",
