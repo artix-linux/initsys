@@ -86,6 +86,11 @@
       "branch": "master",
       "revision": "0a7d1a517f5e2ceace89b824e3947f59dd44dac8"
     },
+    "avahi-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/avahi-openrc.git",
+      "branch": "master",
+      "revision": "8a1e49b27508d215c230683a64f97eb43c5f3302"
+    },
     "backlight-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/backlight-dinit.git",
       "branch": "master",
