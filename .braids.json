@@ -626,6 +626,11 @@
       "branch": "master",
       "revision": "252b697388e5a8ccb60fea4d89a03f1cadfe53ff"
     },
+    "grafana-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/grafana-openrc.git",
+      "branch": "master",
+      "revision": "6682d13200725987b2190835ef336cf254e60546"
+    },
     "haveged-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesH/haveged-dinit.git",
       "branch": "master",
