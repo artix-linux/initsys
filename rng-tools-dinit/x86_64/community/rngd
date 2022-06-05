@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/rngd -f
+smooth-recovery = true
+logfile         = /var/log/dinit/rngd.log
+waits-for       = loginready
