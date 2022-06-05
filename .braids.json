@@ -795,6 +795,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/transmission-dinit.git",
       "branch": "master",
       "revision": "76c146f3ddd64e56915925dcbb9540aa3a6aa5ba"
+    },
+    "trojan-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/trojan-dinit.git",
+      "branch": "master",
+      "revision": "87249c9c6f991871d92ed088858e153137cc069c"
     }
   }
 }
