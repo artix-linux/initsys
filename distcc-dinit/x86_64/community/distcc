@@ -1,0 +1,6 @@
+type            = process
+command         = /etc/dinit.d/scripts/distcc
+smooth-recovery = true
+logfile         = /var/log/dinit/distcc.log
+run-as          = distcc
+waits-for       = loginready
