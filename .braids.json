@@ -1371,6 +1371,11 @@
       "branch": "master",
       "revision": "9200c9c8238f07a6699aa4f09a99e5f43c51de33"
     },
+    "modemmanager-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/modemmanager-s6.git",
+      "branch": "master",
+      "revision": "3771051f2c823796e38de81cb22cf7954331bebc"
+    },
     "mopidy-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mopidy-dinit.git",
       "branch": "master",
