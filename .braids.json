@@ -691,6 +691,11 @@
       "branch": "master",
       "revision": "e4a8bfb89277e4a57cc1ec7e14ac769cb3755691"
     },
+    "device-mapper-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/device-mapper-runit.git",
+      "branch": "master",
+      "revision": "7b754131fd038f1cc6987f6854adb8ce870ca7a8"
+    },
     "device-mapper-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/device-mapper-s6.git",
       "branch": "master",
