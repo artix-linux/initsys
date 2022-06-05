@@ -686,6 +686,11 @@
       "branch": "master",
       "revision": "d872cdba2abe9f567dd18ca1b043f76bb9f8cdaa"
     },
+    "intel-undervolt-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/intel-undervolt-openrc.git",
+      "branch": "master",
+      "revision": "82e8d315f7a70ebafb95d758e3d6b41769783309"
+    },
     "interception-tools-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesI/interception-tools-dinit.git",
       "branch": "master",

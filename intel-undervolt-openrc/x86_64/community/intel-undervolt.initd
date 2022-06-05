@@ -1,0 +1,6 @@
+#!/usr/bin/openrc-run
+
+command="/usr/bin/intel-undervolt"
+command_args=" daemon"
+pidfile="/run/intel-undervolt.pid"
+command_background=true
