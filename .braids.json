@@ -3556,6 +3556,11 @@
       "branch": "master",
       "revision": "fc70d94a8666a211cc7bb57d842d8f9af2ed00f2"
     },
+    "xinetd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xinetd-runit.git",
+      "branch": "master",
+      "revision": "46152cd7f7b224b37d55484879a68faae88d9498"
+    },
     "xinetd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xinetd-s6.git",
       "branch": "master",
