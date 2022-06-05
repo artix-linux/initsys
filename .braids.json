@@ -1301,6 +1301,11 @@
       "branch": "master",
       "revision": "0430c9df71f28f07343eefd0dcc05475e6e547aa"
     },
+    "hiawatha-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hiawatha-runit.git",
+      "branch": "master",
+      "revision": "2c1823cfcd43a9b04b92974e66340266d31b5ba7"
+    },
     "hiawatha-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hiawatha-s6.git",
       "branch": "master",

@@ -1,0 +1,43 @@
+# Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
+
+_sed_args=(-e 's|/var/service|/run/runit/service|g' -e 's|/var/run|/run|g' -e 's|/usr/sbin|/usr/bin|g' -e 's|/opt/bin|/usr/bin|g' -e 's|/usr/libexec|/usr/lib|g')
+
+pkgname=hiawatha-runit
+pkgver=20200425
+pkgrel=4
+pkgdesc="runit service scripts for hiawatha"
+arch=('any')
+url="https://artixlinux.org"
+license=('BSD')
+groups=('runit-galaxy')
+depends=('hiawatha' 'runit')
+conflicts=('init-hiawatha')
+provides=('init-hiawatha')
+source=("hiawatha.run")
+sha256sums=('7dc109397fa96b65f34cfa110ca9bdf076f096ce9c0d03a6addc34228f9637b3')
+
+_inst_logsv() {
+    for file in run finish check; do
+        if test -f "$srcdir/log$1.$file"; then
+            install -Dm755 "$srcdir/log$1.$file" "$pkgdir/etc/runit/sv/$1/log/$file"
+            sed "${_sed_args[@]}" -i "$pkgdir/etc/runit/sv/$1/log/$file"
+        fi
+    done
+}
+
+_inst_sv() {
+    if test -f "$srcdir/$1.conf"; then
+        install -Dm644 "$srcdir/$1.conf" "$pkgdir/etc/runit/sv/$1/conf"
+    fi
+
+    for file in run finish check; do
+        if test -f "$srcdir/$1.$file"; then
+            install -Dm755 "$srcdir/$1.$file" "$pkgdir/etc/runit/sv/$1/$file"
+            sed "${_sed_args[@]}" -i "$pkgdir/etc/runit/sv/$1/$file"
+        fi
+    done
+}
+
+package() {
+    _inst_sv 'hiawatha'
+}
