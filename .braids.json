@@ -1046,6 +1046,11 @@
       "branch": "master",
       "revision": "c4c4fe1aa07fe60567aa4d5df4c1b96b208236d8"
     },
+    "fcron-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fcron-runit.git",
+      "branch": "master",
+      "revision": "7f4c1c80792409118c0745252949fc97f28410dc"
+    },
     "fcron-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcron-s6.git",
       "branch": "master",
