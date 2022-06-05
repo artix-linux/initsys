@@ -3516,6 +3516,11 @@
       "branch": "master",
       "revision": "86119b22964748baf8dcb8a34d29eb7d94d2373a"
     },
+    "wpa_supplicant-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wpa_supplicant-runit.git",
+      "branch": "master",
+      "revision": "a924ff5e708afc6524ca4bfb9f3d91886afa561d"
+    },
     "wpa_supplicant-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wpa_supplicant-s6.git",
       "branch": "master",
