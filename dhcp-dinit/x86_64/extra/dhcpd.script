@@ -1,0 +1,8 @@
+#!/bin/sh
+case "$1" in
+    ipv4) ARGS="-4" ;;
+    ipv6) ARGS="-6" ;;
+esac
+mkdir -p /var/lib/dhcp
+touch /var/lib/dhcp/dhcpd.leases
+exec dhcpd -f "$ARGS" -q -pf /run/dhcpd4.pid
