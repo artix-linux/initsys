@@ -946,6 +946,11 @@
       "branch": "master",
       "revision": "2a00dfab6460f72486fbc23d69ff9198e4ff3ff6"
     },
+    "murmur-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/murmur-openrc.git",
+      "branch": "master",
+      "revision": "3c1501ed208662bef839d99e1b8e3ab7a2649504"
+    },
     "networkmanager-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager-dinit.git",
       "branch": "master",

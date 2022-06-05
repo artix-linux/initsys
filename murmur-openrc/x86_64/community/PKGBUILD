@@ -1,0 +1,23 @@
+# Maintainer: Nathan Owens <ndowens@artixlinux.org>
+
+pkgname=murmur-openrc
+pkgver=20210505
+pkgrel=1
+pkgdesc="${pkgname/-openrc/} OpenRC init"
+arch=('any')
+url="https://gitea.artixlinux.org/artixlinux/packages-openrc"
+license=('GPL2')
+groups=('openrc-galaxy')
+depends=('openrc' 'murmur')
+provides=('init-murmur')
+conflicts=('init-murmur')
+backup=('etc/conf.d/murmur')
+source=("${pkgname/-openrc/}.initd"
+	"${pkgname/-openrc/}.confd")
+b2sums=('a8979d92b9ed03b5e6cfdd5266943c2bb4fddcaf632fd8e065e13fca8d5245177b89236150c3875684499c1c076f0ea057953eb2bfdb32a41b7235d245c275c0'
+        'fb4f80569349a1bb8b07de5da9bdded6f9b8acf22306405465455ca6cf6921383617746ffb95eda6a75c77eb72c1979a90d8eefba169e9bc1f94458f888f8d30')
+
+package() {
+	install -Dm755 "$srcdir/murmur.initd" "$pkgdir/etc/init.d/murmur"
+	install -Dm644 "$srcdir/murmur.confd" "$pkgdir/etc/conf.d/murmur"
+}
