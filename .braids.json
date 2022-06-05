@@ -1296,6 +1296,11 @@
       "branch": "master",
       "revision": "6db357563140db086bcb8c3c7d1167e96ddcc063"
     },
+    "rspamd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rspamd-openrc.git",
+      "branch": "master",
+      "revision": "a64394753d53dba04704386617e6dad30e6e1ca0"
+    },
     "rsync-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rsync-dinit.git",
       "branch": "master",
