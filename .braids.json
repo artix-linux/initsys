@@ -2646,6 +2646,11 @@
       "branch": "master",
       "revision": "4704f391e367e860e9149483aa74a043c8e9b46f"
     },
+    "webhook-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/webhook-s6.git",
+      "branch": "master",
+      "revision": "3459b26295ca32f2464a0ecfe0f2c06d35df8963"
+    },
     "wireguard-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wireguard-dinit.git",
       "branch": "master",
