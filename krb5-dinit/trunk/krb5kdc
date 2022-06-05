@@ -1,0 +1,4 @@
+type            = process
+command         = /usr/bin/krb5kdc -n
+smooth-recovery = true
+waits-for       = loginready

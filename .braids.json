@@ -375,6 +375,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesK/knot-dinit.git",
       "branch": "master",
       "revision": "75db2fdff52c89a05aa0d9ecc50ff4f5d19990a2"
+    },
+    "krb5-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesK/krb5-dinit.git",
+      "branch": "master",
+      "revision": "eb4533a7e59c7643f9509197feaa533bb0661dba"
     }
   }
 }
