@@ -906,6 +906,11 @@
       "branch": "master",
       "revision": "dd3073fab6e69564cd56297f56e256231440b6dd"
     },
+    "minio-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/minio-openrc.git",
+      "branch": "master",
+      "revision": "2190fa69cf573e64f11d340e86d9abebac1bdd28"
+    },
     "mopidy-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mopidy-dinit.git",
       "branch": "master",
