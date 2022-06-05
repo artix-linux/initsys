@@ -540,6 +540,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesO/opensips-dinit.git",
       "branch": "master",
       "revision": "2c71aa0539547f643abf3b5757101a6749a69c37"
+    },
+    "opensmtpd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/opensmtpd-dinit.git",
+      "branch": "master",
+      "revision": "1ec74d151e4b0fa9923686c5c388440662b8cfde"
     }
   }
 }
