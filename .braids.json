@@ -701,6 +701,11 @@
       "branch": "master",
       "revision": "ea4fd1c7785f2b0500d22746655ee714cee9bf87"
     },
+    "iptables-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iptables-openrc.git",
+      "branch": "master",
+      "revision": "7a1c18bc1bc0fdc14bde8882da37496cfd9ea994"
+    },
     "iwd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iwd-dinit.git",
       "branch": "master",
