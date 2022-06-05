@@ -2471,6 +2471,11 @@
       "branch": "master",
       "revision": "2791412851dfbb6ec136f72a0ac05f2864b93353"
     },
+    "transmission-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/transmission-s6.git",
+      "branch": "master",
+      "revision": "a20ff5e491b72c79f0ef933205faf636a679502f"
+    },
     "trojan-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/trojan-dinit.git",
       "branch": "master",
