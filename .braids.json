@@ -865,6 +865,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesX/xdm-dinit.git",
       "branch": "master",
       "revision": "ffa50cd4150173b036396e40657eeb059c2b047c"
+    },
+    "xinetd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xinetd-dinit.git",
+      "branch": "master",
+      "revision": "ae89fce3b38a143c3995505cccefdaa1c510f26d"
     }
   }
 }
