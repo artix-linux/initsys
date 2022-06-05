@@ -575,6 +575,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesP/postfix-dinit.git",
       "branch": "master",
       "revision": "356368d6d89c50f957ba6d45f9da2d4563c3357d"
+    },
+    "postgresql-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/postgresql-dinit.git",
+      "branch": "master",
+      "revision": "93e9989156231235632e48a51535dcf9b4e35686"
     }
   }
 }

@@ -1,0 +1,7 @@
+#!/bin/sh -x
+. /etc/dinit.d/config/postgres.conf
+if [ "$PGOPTS" ]; then
+    exec /usr/bin/postgres -D "$PGDATA" "$PGOPTS"
+else
+    exec /usr/bin/postgres -D "$PGDATA"
+fi
