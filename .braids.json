@@ -665,6 +665,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/sddm-dinit.git",
       "branch": "master",
       "revision": "4a574e18c887a4112b1073ab112ea191a5a6305d"
+    },
+    "seatd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/seatd-dinit.git",
+      "branch": "master",
+      "revision": "ab60fceb813e0cf9b9646ba247d3b75ea3a4c4c9"
     }
   }
 }
