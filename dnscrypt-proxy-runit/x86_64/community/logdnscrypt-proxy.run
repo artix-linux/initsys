@@ -1,0 +1,6 @@
+#!/bin/sh
+[ -e /var/log/dnscrypt-proxy ] || {
+    mkdir /var/log/dnscrypt-proxy
+    chown dnscrypt:dnscrypt /var/log/dnscrypt-proxy
+}
+exec chpst -u dnscrypt:dnscrypt svlogd -t /var/log/dnscrypt-proxy

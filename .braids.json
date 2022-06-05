@@ -796,6 +796,11 @@
       "branch": "master",
       "revision": "1081e830431c771c3ad931bdfa566a032c152852"
     },
+    "dnscrypt-proxy-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dnscrypt-proxy-runit.git",
+      "branch": "master",
+      "revision": "7fb6366be96cd7eb7cc748737533f8a910d56e78"
+    },
     "dnscrypt-proxy-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dnscrypt-proxy-s6.git",
       "branch": "master",
