@@ -830,6 +830,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-dinit.git",
       "branch": "master",
       "revision": "f971dabc3026e7e717f75c795f0c6da4830401f1"
+    },
+    "vnstat-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vnstat-dinit.git",
+      "branch": "master",
+      "revision": "3fc6670a4e4a74ddf1d0d2acfbee198fa0137d49"
     }
   }
 }
