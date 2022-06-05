@@ -1616,6 +1616,11 @@
       "branch": "master",
       "revision": "87249c9c6f991871d92ed088858e153137cc069c"
     },
+    "trojan-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/trojan-openrc.git",
+      "branch": "master",
+      "revision": "8884a136cfcf4c010f63c2ada1fb174ce84988f8"
+    },
     "udpxy-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesU/udpxy-dinit.git",
       "branch": "master",
