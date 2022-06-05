@@ -735,6 +735,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/stunnel-dinit.git",
       "branch": "master",
       "revision": "4c61079aa82b8bf01d2ad692a14d8009f685fff7"
+    },
+    "subversion-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/subversion-dinit.git",
+      "branch": "master",
+      "revision": "cd2697f77ed0f131cd597d4798980d3e66ab2967"
     }
   }
 }

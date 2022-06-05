@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/svnserve -d --foreground
+smooth-recovery = true
+logfile         = /var/log/dinit/svnserve.log
+waits-for       = loginready
