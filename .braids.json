@@ -826,6 +826,11 @@
       "branch": "master",
       "revision": "b1cc7fc5ed7834acbd570166bb2ac566455773bb"
     },
+    "mailgraph-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mailgraph-openrc.git",
+      "branch": "master",
+      "revision": "1c904a56d1b52c80cad1a46b8cf4dde781c315a5"
+    },
     "mailman-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mailman-dinit.git",
       "branch": "master",
