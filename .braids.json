@@ -725,6 +725,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/strongswan-dinit.git",
       "branch": "master",
       "revision": "ebc146c2e7c9dd0001fe6f37ff69405c39ead373"
+    },
+    "stubby-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/stubby-dinit.git",
+      "branch": "master",
+      "revision": "aaa2abf0cc2708e32114a3344111b952099b2227"
     }
   }
 }
