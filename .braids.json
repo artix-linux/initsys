@@ -2491,6 +2491,11 @@
       "branch": "master",
       "revision": "a1e98878e448ddebd95adb6ed703290ce79a66f2"
     },
+    "redis-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/redis-runit.git",
+      "branch": "master",
+      "revision": "bc5c80aa08af5262616d0084fa88bb506ff624ab"
+    },
     "redis-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesR/redis-s6.git",
       "branch": "master",
