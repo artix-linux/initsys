@@ -1076,6 +1076,11 @@
       "branch": "master",
       "revision": "9b3e10c0e2f731e0cf12ac6ff877607c4e9aa91c"
     },
+    "iwd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iwd-s6.git",
+      "branch": "master",
+      "revision": "bb2dd4b822456b7281f8c41ea53b13b5cb1956c8"
+    },
     "jenkins-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jenkins-dinit.git",
       "branch": "master",
