@@ -416,6 +416,11 @@
       "branch": "master",
       "revision": "864f1449c8d9980de642b6fa91418753617c1f24"
     },
+    "dnsmasq-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dnsmasq-openrc.git",
+      "branch": "master",
+      "revision": "e5bb5166ed0be5670ed795b8324e8c1b0b8a2565"
+    },
     "docker-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/docker-dinit.git",
       "branch": "master",
