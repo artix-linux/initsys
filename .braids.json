@@ -536,6 +536,11 @@
       "branch": "master",
       "revision": "0a262eee575c6ee9f2c4500f8f57f378aef9df70"
     },
+    "firewalld-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/firewalld-openrc.git",
+      "branch": "master",
+      "revision": "6a055982c077dc8f01d05aff57631a601f836d30"
+    },
     "freeradius-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freeradius-dinit.git",
       "branch": "master",
