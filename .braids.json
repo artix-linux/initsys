@@ -2735,6 +2735,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesZ/znc-openrc.git",
       "branch": "master",
       "revision": "ca2e85f6461066c04b0ccb20315c755983f97450"
+    },
+    "znc-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/znc-s6.git",
+      "branch": "master",
+      "revision": "ce3b78e33fb9f62e6c1d35c48d17b9fbbc38cba0"
     }
   }
 }
