@@ -471,6 +471,11 @@
       "branch": "master",
       "revision": "89e7ea175504000f575ff513c7afc365395f8999"
     },
+    "ejabberd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/ejabberd-openrc.git",
+      "branch": "master",
+      "revision": "a08c262a63c6c3f7181419819354a1dc5bb7e550"
+    },
     "elogind-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesE/elogind-dinit.git",
       "branch": "master",

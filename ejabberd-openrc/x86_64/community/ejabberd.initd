@@ -1,0 +1,11 @@
+#!/usr/bin/openrc-run
+
+supervisor=supervise-daemon
+command="/usr/bin/ejabberdctl"
+command_args="${EJABBERDCTL_OPT} foreground"
+
+depend() {
+	use dns
+	need net
+	provide jabber-server
+}
