@@ -500,6 +500,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesN/nginx-dinit.git",
       "branch": "master",
       "revision": "28ff611069184ad7385d3adec90ab7f454b42ec1"
+    },
+    "ngircd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-dinit.git",
+      "branch": "master",
+      "revision": "272dab5b8e32cc87f46d47864f07c132b49db916"
     }
   }
 }
