@@ -191,6 +191,11 @@
       "branch": "master",
       "revision": "fd7c9fcbd4f9da0bb1ee4b3fe52c27d2b65c3078"
     },
+    "backlight-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/backlight-runit.git",
+      "branch": "master",
+      "revision": "0ab56dbdbc24bf3554a2a9e64eeda50b4ed5c83c"
+    },
     "backlight-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesB/backlight-s6.git",
       "branch": "master",
