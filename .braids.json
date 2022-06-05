@@ -126,6 +126,11 @@
       "branch": "master",
       "revision": "8a793a7c48df4f22389aa1828aefb406247f9795"
     },
+    "bind-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bind-openrc.git",
+      "branch": "master",
+      "revision": "3077a7f5c8ced751e0ccfb16c0cd206310a42ec3"
+    },
     "bluez-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bluez-dinit.git",
       "branch": "master",
