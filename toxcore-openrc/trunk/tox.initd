@@ -1,0 +1,24 @@
+#!/usr/bin/openrc-run
+
+PIDDIR=/run/tox-bootstrapd
+KEYSDIR=/var/lib/tox-bootstrapd
+TOX_USER=tox-bootstrapd
+TOX_GROUP=tox-bootstrapd
+
+supervisor=supervise-daemon
+command="tox-bootstrapd"
+pidfile="${PIDDIR}"/tox-bootstrapd.pid
+command_args="--config /etc/tox-bootstrapd.conf --foreground"
+command_user="${TOX_USER}:${TOX_GROUP}"
+
+depend() {
+	need net
+}
+
+start() {
+	ebegin "Starting tox-dht-bootstrap daemon"
+
+	checkpath -d -q -o "${TOX_USER}":"${TOX_GROUP}" "${PIDDIR}"
+	checkpath -d -q -o "${TOX_USER}":"${TOX_GROUP}" "${KEYSDIR}"
+	eend $?
+}

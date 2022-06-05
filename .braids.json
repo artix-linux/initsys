@@ -1596,6 +1596,11 @@
       "branch": "master",
       "revision": "9db39fe65cbbcc9dc7465ee43576c0d98cf88317"
     },
+    "toxcore-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/toxcore-openrc.git",
+      "branch": "master",
+      "revision": "ca73247aff08afe2f3b23f09ee19cb08ee873bfc"
+    },
     "transmission-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transmission-dinit.git",
       "branch": "master",
