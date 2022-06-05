@@ -281,6 +281,11 @@
       "branch": "master",
       "revision": "94c2c8496da4471d6c6f8229c20b40165ea6814b"
     },
+    "cryptsetup-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cryptsetup-openrc.git",
+      "branch": "master",
+      "revision": "1e8505105a8d1b3b3b56a1765939af0a5586a518"
+    },
     "cups-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cups-dinit.git",
       "branch": "master",
