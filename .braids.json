@@ -2191,6 +2191,11 @@
       "branch": "master",
       "revision": "2faecffa7267afaf0112a5bb8184e9f0255f80d1"
     },
+    "openvpn-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openvpn-runit.git",
+      "branch": "master",
+      "revision": "2da56aab62b35c0f42ffa499603466791567289f"
+    },
     "openvpn-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openvpn-s6.git",
       "branch": "master",
