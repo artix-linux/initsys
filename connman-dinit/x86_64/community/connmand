@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/bin/connmand -n
+smooth-recovery = true
+logfile         = /var/log/dinit/connman.log
+depends-on      = dbus
+depends-on      = udevd
