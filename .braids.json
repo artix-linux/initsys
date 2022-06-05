@@ -921,6 +921,11 @@
       "branch": "master",
       "revision": "a08c262a63c6c3f7181419819354a1dc5bb7e550"
     },
+    "ejabberd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/ejabberd-runit.git",
+      "branch": "master",
+      "revision": "b6bd46cad159f37115cf0d4ae9c01b21969df5be"
+    },
     "ejabberd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesE/ejabberd-s6.git",
       "branch": "master",
