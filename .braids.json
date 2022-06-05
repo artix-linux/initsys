@@ -1276,6 +1276,11 @@
       "branch": "master",
       "revision": "e3d87455116d264c4f99327c10974e7ef6916b86"
     },
+    "rng-tools-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rng-tools-openrc.git",
+      "branch": "master",
+      "revision": "efb71c361297eb773fa61d5687ffb710049f4e22"
+    },
     "rpcbind-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rpcbind-dinit.git",
       "branch": "master",
