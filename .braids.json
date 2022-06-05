@@ -3131,6 +3131,11 @@
       "branch": "master",
       "revision": "31918d7237e35189a651ec72931b304886c80a31"
     },
+    "thermald-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/thermald-runit.git",
+      "branch": "master",
+      "revision": "7ecfa48084af61bf1ca1ad2989fe2f3a164ac4d8"
+    },
     "thermald-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thermald-s6.git",
       "branch": "master",
