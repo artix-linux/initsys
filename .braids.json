@@ -931,6 +931,11 @@
       "branch": "master",
       "revision": "b70f5043c4f0de79fd7f18e69486fe67b456aaca"
     },
+    "gpm-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gpm-s6.git",
+      "branch": "master",
+      "revision": "651741fc8c74910681fef6e95e309bd39f5dd467"
+    },
     "grafana-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grafana-dinit.git",
       "branch": "master",
