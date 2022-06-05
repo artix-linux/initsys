@@ -711,6 +711,11 @@
       "branch": "master",
       "revision": "2ccb69c276497fcdce4d35db66b61d19ebd3d790"
     },
+    "dhcp-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dhcp-runit.git",
+      "branch": "master",
+      "revision": "70dfd4a6da129ca5cac0847dbb97c59e93c97007"
+    },
     "dhcp-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcp-s6.git",
       "branch": "master",
