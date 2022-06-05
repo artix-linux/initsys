@@ -721,6 +721,11 @@
       "branch": "master",
       "revision": "b3fd7a418ed82286c6e0f3f2659f4610dbac93e6"
     },
+    "erlang-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/erlang-s6.git",
+      "branch": "master",
+      "revision": "5c64eebece64ab15fdc381eff864e28f6645b4c5"
+    },
     "espeakup-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesE/espeakup-dinit.git",
       "branch": "master",
