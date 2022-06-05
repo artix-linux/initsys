@@ -251,6 +251,11 @@
       "branch": "master",
       "revision": "87a7ff89f8af84edbcbe3b1af61c650943f27f96"
     },
+    "coturn-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/coturn-openrc.git",
+      "branch": "master",
+      "revision": "59a22bbc53e2f9956c725090f68681dd6f221cb6"
+    },
     "cpupower-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpupower-dinit.git",
       "branch": "master",

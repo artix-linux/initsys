@@ -1,0 +1,13 @@
+#!/usr/bin/openrc-run
+
+description="TURN and STUN Server"
+name=turnserver
+command=/usr/bin/turnserver
+command_user="turnserver:turnserver"
+pidfile=/run/turnserver/turnserver.pid
+command_args="--no-stdout-log --daemon --pidfile $pidfile"
+
+start_pre() {
+	checkpath --directory --owner "$command_user" --mode 0775 \
+		/run/turnserver /var/log/turnserver
+}
