@@ -496,6 +496,11 @@
       "branch": "master",
       "revision": "c50f77893407d6d1b823b275de5358d5f612f9c6"
     },
+    "ddclient-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/ddclient-s6.git",
+      "branch": "master",
+      "revision": "8df3d09b8ffeedce9e9485f1ca5a8a8ce2dc6d54"
+    },
     "deluge-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/deluge-dinit.git",
       "branch": "master",
