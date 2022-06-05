@@ -1316,6 +1316,11 @@
       "branch": "master",
       "revision": "9064e29d0ac7215a8e5b34d1e2c56df609722276"
     },
+    "salt-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/salt-openrc.git",
+      "branch": "master",
+      "revision": "2497f82b64bde7ffb04835b62e076ad3fb61a590"
+    },
     "samba-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/samba-dinit.git",
       "branch": "master",
