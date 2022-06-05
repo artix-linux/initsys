@@ -1516,6 +1516,11 @@
       "branch": "master",
       "revision": "1d250949d6ed73ae427359eb35761379057d2191"
     },
+    "syncthing-relaysrv-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/syncthing-relaysrv-openrc.git",
+      "branch": "master",
+      "revision": "c9670276905d97651e6651187382a38e7181bc68"
+    },
     "syslog-ng-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syslog-ng-dinit.git",
       "branch": "master",

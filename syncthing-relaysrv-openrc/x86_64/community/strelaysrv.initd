@@ -1,0 +1,27 @@
+#!/usr/bin/openrc-run
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+SR_USER=strelaysrv
+SR_GROUP=strelaysrv
+SR_HOMEDIR=/var/lib/strelaysrv
+SR_LOGFILE=/var/log/syncthing/strelaysrv.log
+
+description="Relay service for syncthing"
+
+supervisor=supervise-daemon
+pidfile="/run/strelaysrv.pid"
+command="syncthing-relaysrv"
+command_args="${SR_OPTS}"
+command_user="${SR_USER}:${SR_GROUP}"
+output_log="$SR_LOGFILE"
+error_log="$output_log"
+supervise_daemon_args="--chdir ${SR_HOMEDIR}"
+
+depend() {
+  need net
+}
+
+start_pre() {
+  checkpath -q -d -o ${SR_USER}:${SR_GROUP} ${SR_HOMEDIR}
+  checkpath -q -f -o ${SR_USER}:${SR_GROUP} ${SR_LOGFILE}
+}
