@@ -1946,6 +1946,11 @@
       "branch": "master",
       "revision": "f63afb217b690a7e5fbc8be0884b1eaa0aebdafd"
     },
+    "nftables-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nftables-runit.git",
+      "branch": "master",
+      "revision": "2b54afa355771f46ea9c8f53556ba54ceb15f901"
+    },
     "nftables-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nftables-s6.git",
       "branch": "master",
