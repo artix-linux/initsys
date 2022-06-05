@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/prometheus --config.file=/etc/prometheus/prometheus.yml
+smooth-recovery = true
+logfile         = /var/log/dinit/prometheus.log
+waits-for       = loginready
