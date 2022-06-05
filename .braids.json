@@ -1686,6 +1686,11 @@
       "branch": "master",
       "revision": "bce6678851e28a29df7d8692cd8a2aff0c601aa8"
     },
+    "veracrypt-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/veracrypt-openrc.git",
+      "branch": "master",
+      "revision": "b56a6faf4ec3c54d10349f23477fd39502b27455"
+    },
     "vnstat-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vnstat-dinit.git",
       "branch": "master",
