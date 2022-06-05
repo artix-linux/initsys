@@ -1656,6 +1656,11 @@
       "branch": "master",
       "revision": "57c687dca07b2517ef4abc6f7165459edd1feaa2"
     },
+    "unrealircd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unrealircd-openrc.git",
+      "branch": "master",
+      "revision": "f794d4fa3963f5aa17d04e1515ae1e2e1ac43532"
+    },
     "usbguard-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesU/usbguard-dinit.git",
       "branch": "master",

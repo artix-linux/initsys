@@ -1,0 +1,16 @@
+#!/usr/bin/openrc-run
+
+pidfile="/run/${RC_SVCNAME}.pid"
+command="/usr/bin/unrealircd"
+command_background=true
+command_user="ircd:ircd"
+
+depend() {
+	after net nss
+	use dns logger
+	provide ircd
+}
+
+start_pre() {
+	checkpath -d /var/log/unrealircd
+}
