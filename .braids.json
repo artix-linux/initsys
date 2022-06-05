@@ -2756,6 +2756,11 @@
       "branch": "master",
       "revision": "6fd789927f3d152323286d2686a31a50ac851549"
     },
+    "shairplay-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/shairplay-runit.git",
+      "branch": "master",
+      "revision": "537a2ca02c14345dd57c515981a00f5614e2eed0"
+    },
     "shairplay-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shairplay-s6.git",
       "branch": "master",
