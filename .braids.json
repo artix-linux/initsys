@@ -1816,6 +1816,11 @@
       "branch": "master",
       "revision": "5b307f5fdcee875b583f0a1d6b3aabebe953aa45"
     },
+    "mopidy-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mopidy-runit.git",
+      "branch": "master",
+      "revision": "303129917fc386d05348bc9d4d84dd1b4f844550"
+    },
     "mopidy-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mopidy-s6.git",
       "branch": "master",
