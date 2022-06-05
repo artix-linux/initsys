@@ -2171,6 +2171,11 @@
       "branch": "master",
       "revision": "8e03eeac25e53bad42dae6e2a20ab34e882fd5bf"
     },
+    "openssh-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openssh-runit.git",
+      "branch": "master",
+      "revision": "274a37e647ffdc7992345ac6e9f3cde67f8c5693"
+    },
     "openssh-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openssh-s6.git",
       "branch": "master",
