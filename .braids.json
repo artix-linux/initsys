@@ -151,6 +151,11 @@
       "branch": "master",
       "revision": "dd6af6c44c804fc6486ef67fc5344eee8269c132"
     },
+    "audit-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/audit-runit.git",
+      "branch": "master",
+      "revision": "08fdf0b5f7d5b787e1f05bf49c7dc18dddefad18"
+    },
     "audit-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesA/audit-s6.git",
       "branch": "master",
