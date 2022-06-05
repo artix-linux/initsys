@@ -2716,6 +2716,11 @@
       "branch": "master",
       "revision": "bdb6174f4a32202ebdf6df4b299bd6b3f15cbb3b"
     },
+    "sddm-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sddm-runit.git",
+      "branch": "master",
+      "revision": "da4ccc51f0f0cd5272a413cf6589cad7b77dfaf9"
+    },
     "sddm-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sddm-s6.git",
       "branch": "master",
