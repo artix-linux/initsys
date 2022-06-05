@@ -261,6 +261,11 @@
       "branch": "master",
       "revision": "c0c1d966e176564997eb86168a598f5ac7da6824"
     },
+    "cpupower-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cpupower-openrc.git",
+      "branch": "master",
+      "revision": "6b67e84d7c8f1bd13c68d3ea91a59c890936d8d7"
+    },
     "cronie-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cronie-dinit.git",
       "branch": "master",
