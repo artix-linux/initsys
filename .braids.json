@@ -560,6 +560,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesP/pcsclite-dinit.git",
       "branch": "master",
       "revision": "0d521215588beedfd718d1f783cb61e47105f2da"
+    },
+    "pdnsd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pdnsd-dinit.git",
+      "branch": "master",
+      "revision": "442203f97379298749ca09ea2a40f6f29125f30c"
     }
   }
 }
