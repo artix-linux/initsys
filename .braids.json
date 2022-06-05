@@ -2571,6 +2571,11 @@
       "branch": "master",
       "revision": "d602e35bfb2d86af63e858b3a4271dd39e9f633f"
     },
+    "rsync-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rsync-runit.git",
+      "branch": "master",
+      "revision": "21ba3e874cf5c602e73e60901965ff61fc4b5c73"
+    },
     "rsync-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rsync-s6.git",
       "branch": "master",
