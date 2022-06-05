@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/consul agent -config-dir=/etc/consul.d
+smooth-recovery = true
+logfile         = /var/log/dinit/consul.log
+waits-for       = loginready

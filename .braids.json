@@ -120,6 +120,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/connman-dinit.git",
       "branch": "master",
       "revision": "546f638e60258d55666810d6505108ab2d6ff85b"
+    },
+    "consul-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/consul-dinit.git",
+      "branch": "master",
+      "revision": "9459791e5251cc1910f66d546a189de6e58da13b"
     }
   }
 }
