@@ -285,6 +285,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesF/fuse-dinit.git",
       "branch": "master",
       "revision": "ca581e6ad535cba137eb45cfca8a8fba5f73dc92"
+    },
+    "fwknop-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fwknop-dinit.git",
+      "branch": "master",
+      "revision": "f04bd1175acef9ec6fb7ff47072fc6e23c9bc905"
     }
   }
 }

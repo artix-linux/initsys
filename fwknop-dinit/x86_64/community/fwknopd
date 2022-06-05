@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/fwknopd -f
+smooth-recovery = true
+logfile         = /var/log/dinit/fwknopd.log
+waits-for       = loginready
