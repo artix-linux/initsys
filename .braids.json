@@ -1906,6 +1906,11 @@
       "branch": "master",
       "revision": "7188d7429873989da19e569fd21ad8a9a31bd6a7"
     },
+    "networkmanager-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager-runit.git",
+      "branch": "master",
+      "revision": "99e5405a67edafa529f1d5ee5b0cc7098a0ab1c9"
+    },
     "networkmanager-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager-s6.git",
       "branch": "master",
