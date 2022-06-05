@@ -2331,6 +2331,11 @@
       "branch": "master",
       "revision": "fe485a151782a2bd2d3bef7eb8285522502fac2a"
     },
+    "syncthing-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/syncthing-s6.git",
+      "branch": "master",
+      "revision": "6b92184254f0f2dd604828daafdd3e566500e353"
+    },
     "syslog-ng-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syslog-ng-dinit.git",
       "branch": "master",
