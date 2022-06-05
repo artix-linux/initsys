@@ -1116,6 +1116,11 @@
       "branch": "master",
       "revision": "b5cc635fbf88b8f540113ef2a5be7deae979f737"
     },
+    "openvpn-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openvpn-openrc.git",
+      "branch": "master",
+      "revision": "2faecffa7267afaf0112a5bb8184e9f0255f80d1"
+    },
     "pcsclite-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pcsclite-dinit.git",
       "branch": "master",
