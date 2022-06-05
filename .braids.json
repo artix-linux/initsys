@@ -2251,6 +2251,11 @@
       "branch": "master",
       "revision": "01fec084fdf5d66e99abd35f0d9ac9abc1b7a1db"
     },
+    "php-fpm-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/php-fpm-runit.git",
+      "branch": "master",
+      "revision": "16709620f3a7b7db4e0e04e21377532e0a62f5c8"
+    },
     "php-fpm-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/php-fpm-s6.git",
       "branch": "master",
