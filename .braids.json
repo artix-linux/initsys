@@ -376,6 +376,11 @@
       "branch": "master",
       "revision": "59a22bbc53e2f9956c725090f68681dd6f221cb6"
     },
+    "coturn-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/coturn-s6.git",
+      "branch": "master",
+      "revision": "2fbde1f2f30de9c017735309acd7d9e3efdcc9c5"
+    },
     "cpupower-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cpupower-dinit.git",
       "branch": "master",
