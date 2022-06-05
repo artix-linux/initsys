@@ -130,6 +130,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/coturn-dinit.git",
       "branch": "master",
       "revision": "87a7ff89f8af84edbcbe3b1af61c650943f27f96"
+    },
+    "cpupower-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cpupower-dinit.git",
+      "branch": "master",
+      "revision": "c0c1d966e176564997eb86168a598f5ac7da6824"
     }
   }
 }
