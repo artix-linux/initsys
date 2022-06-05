@@ -1291,6 +1291,11 @@
       "branch": "master",
       "revision": "5cc6a94b41573fed0aa438ddcf6f97845b630eb7"
     },
+    "matrix-synapse-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/matrix-synapse-s6.git",
+      "branch": "master",
+      "revision": "feab7f0a7c0b447ab89abba9fd4b0bdd1ffdad4c"
+    },
     "matterbridge-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/matterbridge-dinit.git",
       "branch": "master",
