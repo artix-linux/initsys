@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/smbd -F -d=1 --no-process-group
+smooth-recovery = true
+logfile         = /var/log/dinit/smbd.log
+depends-on      = samba-pre
