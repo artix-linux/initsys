@@ -1,0 +1,6 @@
+#!/usr/bin/openrc-run
+
+supervisor=supervise-daemon
+pidfile=/run/bftpd.pid
+command=bftpd
+command_args="-D"

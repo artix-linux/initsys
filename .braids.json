@@ -116,6 +116,11 @@
       "branch": "master",
       "revision": "95e5d327c425b23bbf1287cce9de5ff9ee6aebce"
     },
+    "bftpd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bftpd-openrc.git",
+      "branch": "master",
+      "revision": "ab325866a034d12e12b9134d296c6db87f85208b"
+    },
     "bind-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bind-dinit.git",
       "branch": "master",
