@@ -2131,6 +2131,11 @@
       "branch": "master",
       "revision": "08893f472d786d295388b4f86ffae48197ccda11"
     },
+    "opensips-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/opensips-runit.git",
+      "branch": "master",
+      "revision": "6291675e117908720f1de3395cf651702a46dc69"
+    },
     "opensips-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opensips-s6.git",
       "branch": "master",
