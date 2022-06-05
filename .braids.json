@@ -811,6 +811,11 @@
       "branch": "master",
       "revision": "05958aa1d722ae2518d18c756a8841c054d6e604"
     },
+    "lxd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lxd-openrc.git",
+      "branch": "master",
+      "revision": "10462738d6eb077416ea7c5b304aa425e7c1dd2e"
+    },
     "lxdm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lxdm-dinit.git",
       "branch": "master",
