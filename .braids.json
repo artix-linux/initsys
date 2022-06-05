@@ -2271,6 +2271,11 @@
       "branch": "master",
       "revision": "ac4f7fed665b8fb4c8ca91229e43e627d3bf3e7a"
     },
+    "stubby-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/stubby-s6.git",
+      "branch": "master",
+      "revision": "ac6aa0f15ba0962d9b54bd555f094bdb70eb3034"
+    },
     "stunnel-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stunnel-dinit.git",
       "branch": "master",
