@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/matterbridge -conf /etc/matterbridge.toml
+smooth-recovery = true
+logfile         = /var/log/dinit/matterbridge.log
+waits-for       = loginready
