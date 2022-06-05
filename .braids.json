@@ -271,6 +271,11 @@
       "branch": "master",
       "revision": "f704ee78ede55591df400863f01887450ed5eff7"
     },
+    "cronie-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cronie-openrc.git",
+      "branch": "master",
+      "revision": "08a745f2deb09c8e8097f2ddbf65d5ba28ef1b4f"
+    },
     "cryptsetup-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cryptsetup-dinit.git",
       "branch": "master",
