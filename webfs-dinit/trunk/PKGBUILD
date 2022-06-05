@@ -1,0 +1,23 @@
+# Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
+pkgname=webfs-dinit
+pkgver=20211103
+pkgrel=2
+pkgdesc="dinit service scripts for webfs"
+arch=('any')
+url="https://artixlinux.org"
+license=('BSD')
+groups=('dinit-galaxy')
+depends=('webfs' 'dinit')
+conflicts=('init-webfs')
+provides=('init-webfs')
+backup=('etc/dinit.d/config/webfsd.conf')
+source=("webfsd" "webfsd.conf" "webfsd.script")
+sha256sums=('7bcb088178654cf070dca2d7adc73cd1d9c0b9ccad0fd4748bcc746405e1d528'
+            'c613f565c963094db8c52f6b9ab2c1849ef5d7b2c98e6519b9baa6450e52fb3e'
+            '53c0b22e6d17e9e60f1c84ab353743209d5110c775f893459cf5f478e200673d')
+
+package() {
+    install -Dm644 webfsd        "$pkgdir/etc/dinit.d/webfsd"
+    install -Dm644 webfsd.conf   "$pkgdir/etc/dinit.d/config/webfsd.conf"
+    install -Dm755 webfsd.script "$pkgdir/etc/dinit.d/scripts/webfsd"
+}

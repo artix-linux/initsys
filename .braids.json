@@ -840,6 +840,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesV/vsftpd-dinit.git",
       "branch": "master",
       "revision": "68445c60993b5a1a4e43d0edc56c202718cf4731"
+    },
+    "webfs-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/webfs-dinit.git",
+      "branch": "master",
+      "revision": "e18d4b1b66d5d5da5b88099dc1721a564e5977e1"
     }
   }
 }
