@@ -501,6 +501,11 @@
       "branch": "master",
       "revision": "796a38a5db5045688f47f06466c93003e32cf767"
     },
+    "exim-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/exim-openrc.git",
+      "branch": "master",
+      "revision": "467eb672b467b919237acccd19911afe53fd9d0b"
+    },
     "fcgiwrap-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcgiwrap-dinit.git",
       "branch": "master",

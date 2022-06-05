@@ -1,0 +1,20 @@
+#!/usr/bin/openrc-run
+
+description="EXIM internet mailer"
+
+supervisor=supervise-daemon
+command=/usr/bin/exim
+command_args=${command_args:--bdf -q15m}
+cfgfile=/etc/mail/exim.conf
+required_files="$cfgfile"
+
+depend() {
+	use antivirus net
+	provide mta
+}
+
+start_pre() {
+	ebegin
+	$command -bV >/dev/null 2>>${startuplog:-/dev/null}
+	eend $?
+}
