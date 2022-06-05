@@ -630,6 +630,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesR/rng-tools-dinit.git",
       "branch": "master",
       "revision": "e3d87455116d264c4f99327c10974e7ef6916b86"
+    },
+    "rpcbind-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rpcbind-dinit.git",
+      "branch": "master",
+      "revision": "0571ba2a213f776fb2baadc58a620d05bce98cc8"
     }
   }
 }
