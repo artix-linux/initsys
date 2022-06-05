@@ -555,6 +555,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesO/openvpn-dinit.git",
       "branch": "master",
       "revision": "b5cc635fbf88b8f540113ef2a5be7deae979f737"
+    },
+    "pcsclite-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pcsclite-dinit.git",
+      "branch": "master",
+      "revision": "0d521215588beedfd718d1f783cb61e47105f2da"
     }
   }
 }

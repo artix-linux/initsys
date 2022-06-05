@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/pcscd -f
+smooth-recovery = true
+logfile         = /var/log/dinit/pcscd.log
+waits-for       = loginready
