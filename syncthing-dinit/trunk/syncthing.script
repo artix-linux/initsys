@@ -1,0 +1,4 @@
+#!/bin/sh
+[ -r /etc/dinit.d/config/syncthing.conf ] && . /etc/dinit.d/config/syncthing.conf
+export HOME="$HOMEDIR"
+exec /usr/bin/syncthing -logflags=0 -home="$HOMEDIR/.config/syncthing"
