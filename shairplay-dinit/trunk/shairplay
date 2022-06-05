@@ -1,0 +1,5 @@
+type            = process
+command         = /etc/dinit.d/scripts/shairplay
+smooth-recovery = true
+logfile         = /var/log/dinit/shairplay.log
+waits-for       = loginready
