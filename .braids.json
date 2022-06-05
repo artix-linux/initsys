@@ -451,6 +451,11 @@
       "branch": "master",
       "revision": "52657b7d4658cc57918aa77d9c1c7386bd776c72"
     },
+    "connman-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/connman-runit.git",
+      "branch": "master",
+      "revision": "a896383213af327466d0d873abd1448783e42b57"
+    },
     "connman-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesC/connman-s6.git",
       "branch": "master",
