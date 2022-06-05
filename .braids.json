@@ -441,6 +441,11 @@
       "branch": "master",
       "revision": "5366f3bb99e380e85c5e8d9a66fc76932c69721c"
     },
+    "dovecot-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dovecot-openrc.git",
+      "branch": "master",
+      "revision": "15cc679f1c2db3e449740d5a9cc8d1f3e367b1d4"
+    },
     "dropbear-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dropbear-dinit.git",
       "branch": "master",
