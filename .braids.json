@@ -385,6 +385,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/libvirt-dinit.git",
       "branch": "master",
       "revision": "3a6c6d1c52c44eb90fe03033456a0b730b6dd4d2"
+    },
+    "lightdm-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lightdm-dinit.git",
+      "branch": "master",
+      "revision": "e97103cf07fea7b2f621069e1a7e13a6ad8e3137"
     }
   }
 }
