@@ -455,6 +455,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesM/minidlna-dinit.git",
       "branch": "master",
       "revision": "24bb59e2c6e4f5ce0d3b1143ffeda766f4d5ea3e"
+    },
+    "minio-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/minio-dinit.git",
+      "branch": "master",
+      "revision": "dd3073fab6e69564cd56297f56e256231440b6dd"
     }
   }
 }

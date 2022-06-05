@@ -1,0 +1,7 @@
+type            = process
+command         = /etc/dinit.d/scripts/minio
+smooth-recovery = true
+logfile         = /var/log/dinit/minio.log
+run-as          = minio
+depends-on      = minio-pre
+waits-for       = loginready

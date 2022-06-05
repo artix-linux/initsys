@@ -1,0 +1,4 @@
+#!/bin/sh
+[ -r /etc/dinit.d/config/minio.conf ] && . /etc/dinit.d/config/minio.conf
+chown -R minio "$MINIO_VLUMES"
+chmod u+rxw "$MINIO_VLUMES"
