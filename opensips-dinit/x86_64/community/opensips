@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/opensips -F -f /etc/opensips/opensips.cfg -w /var/tmp -E
+smooth-recovery = true
+logfile         = /var/log/dinit/opensips.log
+waits-for       = loginready

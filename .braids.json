@@ -535,6 +535,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesO/openntpd-dinit.git",
       "branch": "master",
       "revision": "712259ff4a6974ba3b9ac59d166e3b2a46386012"
+    },
+    "opensips-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/opensips-dinit.git",
+      "branch": "master",
+      "revision": "2c71aa0539547f643abf3b5757101a6749a69c37"
     }
   }
 }
