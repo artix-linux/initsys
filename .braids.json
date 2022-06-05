@@ -2471,6 +2471,11 @@
       "branch": "master",
       "revision": "230dfdce23772925a3b2a5f61efd895f18aa5058"
     },
+    "radicale-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/radicale-runit.git",
+      "branch": "master",
+      "revision": "d51eaae8f4113ea4dcdf5549d3abdf8af6fa844a"
+    },
     "radicale-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesR/radicale-s6.git",
       "branch": "master",
