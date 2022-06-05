@@ -1506,6 +1506,11 @@
       "branch": "master",
       "revision": "d9426046364681a6ef4ab7e81a78490a8c4cd6dc"
     },
+    "syncthing-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/syncthing-openrc.git",
+      "branch": "master",
+      "revision": "beddbe708fe3fb74d67d9ccbb61277d9b7ec91b9"
+    },
     "syncthing-relaysrv-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syncthing-relaysrv-dinit.git",
       "branch": "master",
