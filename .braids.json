@@ -585,6 +585,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesP/postgrey-dinit.git",
       "branch": "master",
       "revision": "ba17fca99cca6f8a65bc4ea709bbdf733818e130"
+    },
+    "powerdns-recursor-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/powerdns-recursor-dinit.git",
+      "branch": "master",
+      "revision": "09eea0f547ba2b729bbd38cb576d5f31bbf16b43"
     }
   }
 }

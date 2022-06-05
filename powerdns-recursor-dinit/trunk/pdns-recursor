@@ -1,0 +1,5 @@
+type            = process
+command         = /etc/dinit.d/scripts/pdns-recursor
+smooth-recovery = true
+logfile         = /var/log/dinit/pdns-recursor.log
+waits-for       = loginready
