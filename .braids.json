@@ -991,6 +991,11 @@
       "branch": "master",
       "revision": "467eb672b467b919237acccd19911afe53fd9d0b"
     },
+    "exim-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/exim-runit.git",
+      "branch": "master",
+      "revision": "2464acf8000b53266faa3c7579f0144af0890266"
+    },
     "exim-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesE/exim-s6.git",
       "branch": "master",
