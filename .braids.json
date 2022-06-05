@@ -1436,6 +1436,11 @@
       "branch": "master",
       "revision": "149215e31fafdddcbc1aefd38b87ee8492c2aaba"
     },
+    "sshguard-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sshguard-openrc.git",
+      "branch": "master",
+      "revision": "5eab2f462160cd9376ec3de2c98744708c3dc467"
+    },
     "sslh-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sslh-dinit.git",
       "branch": "master",
