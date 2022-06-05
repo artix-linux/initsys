@@ -1241,6 +1241,11 @@
       "branch": "master",
       "revision": "6682d13200725987b2190835ef336cf254e60546"
     },
+    "grafana-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/grafana-runit.git",
+      "branch": "master",
+      "revision": "2ca8db3f1c1d34e67159aef31589556e0d4e9df5"
+    },
     "grafana-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grafana-s6.git",
       "branch": "master",
