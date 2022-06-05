@@ -226,6 +226,11 @@
       "branch": "master",
       "revision": "ab325866a034d12e12b9134d296c6db87f85208b"
     },
+    "bftpd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bftpd-runit.git",
+      "branch": "master",
+      "revision": "0edb65d3ce759e067761348777360a4b74523896"
+    },
     "bftpd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bftpd-s6.git",
       "branch": "master",
