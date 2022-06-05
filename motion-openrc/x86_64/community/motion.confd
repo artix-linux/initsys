@@ -1,0 +1,11 @@
+# Run in setup mode
+#MOTION_OPT="-s"
+
+# Config path and filename
+#MOTION_OPT+="-c"
+
+# Log level (1-9)
+#MOTION_OPT+="-d 1"
+
+# Disable motion detection at startup
+#MOTION_OPT+="-m"

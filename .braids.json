@@ -926,6 +926,11 @@
       "branch": "master",
       "revision": "12ae25f22722c72b2fb93ab2aff6ea41f49ff531"
     },
+    "motion-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/motion-openrc.git",
+      "branch": "master",
+      "revision": "195c324d1a6a186d38dd4a90a4aeac6e78994ee5"
+    },
     "mpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mpd-dinit.git",
       "branch": "master",
