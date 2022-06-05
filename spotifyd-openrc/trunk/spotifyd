@@ -1,0 +1,7 @@
+#!/usr/bin/openrc-run
+#Copyright by Artix team under GPLv2
+
+supervisor=supervise-daemon
+command="/usr/bin/spotifyd"
+command_args=" --no-daemon"
+pidfile=/run/spotifyd.pid
