@@ -1,0 +1,27 @@
+# Maintainer: Dudemanguy <dudemanguy@artixlinux.org>
+pkgname=gdm-s6
+pkgver=20220410
+pkgrel=3
+pkgdesc="s6-rc service scripts for gdm"
+arch=('any')
+url="https://gitea.artixlinux.org/artix/s6-services"
+groups=('s6-world')
+provides=('init-gdm')
+conflicts=('init-gdm')
+depends=('gdm' 'logind-s6' 's6-base')
+makedepends=('git')
+install=gdm.install
+_commit=0f039049afe38f22c0a0196fb3dfb2a064127994
+source=("git+https://gitea.artixlinux.org/artix/s6-services.git#commit=$_commit")
+sha256sums=('SKIP')
+
+package() {
+    cd "${srcdir}"/s6-services
+    sh install.sh "gdm" "${pkgdir}"
+
+    # hack for upgrading from a really old version
+    rm "${pkgdir}"/etc/s6/sv/gdm-log/pipeline-name
+    mkdir -p "${pkgdir}"/etc/s6/sv/gdm/contents.d
+    touch "${pkgdir}"/etc/s6/sv/gdm/contents.d/{gdm-log,gdm-srv}
+    echo "bundle" > "${pkgdir}"/etc/s6/sv/gdm/type
+}
