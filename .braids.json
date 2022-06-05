@@ -1716,6 +1716,11 @@
       "branch": "master",
       "revision": "e18d4b1b66d5d5da5b88099dc1721a564e5977e1"
     },
+    "webfs-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/webfs-openrc.git",
+      "branch": "master",
+      "revision": "4be66bbd68377f066206d898882869f29df9bb46"
+    },
     "webhook-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webhook-dinit.git",
       "branch": "master",

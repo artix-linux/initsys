@@ -1,0 +1,11 @@
+# Document serv directory
+#SRV_ROOT=/srv/http
+
+# Owner
+#WEBFSD_OWNER="http:http"
+
+# Port
+PORT=8080
+
+# File to serve by default
+#SRV_FILE=index.html

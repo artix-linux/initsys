@@ -1,0 +1,21 @@
+#!/usr/bin/openrc-run
+
+SRV_ROOT="${SRV_ROOT:-/srv/http}"
+WEBFSD_OWNER="${WEBFSD_OWNER:-http:http}"
+PORT="${PORT:-8080}"
+SRV_FILE="${SRV_FILE:-index.html}"
+
+supervisor=supervise-daemon
+pidfile=/run/webfsd.pid
+command="/usr/bin/webfsd"
+command_user="$WEBFSD_OWNER"
+command_args="-p ${PORT} -u ${WEBFSD_OWNER} -r ${SRV_ROOT} -f ${SRV_FILE} -F"
+
+depend() {
+	after net
+	provide httpd
+}
+
+start_pre() {
+	checkpath -d -o "$command_user" "${SRV_ROOT}"
+}
