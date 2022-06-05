@@ -2776,6 +2776,11 @@
       "branch": "master",
       "revision": "f6c3ed57301ee9b60e9e5363ff4bced2d5c3e416"
     },
+    "shairport-sync-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/shairport-sync-runit.git",
+      "branch": "master",
+      "revision": "37fadcc883446fb25212db82ffb32984c1986597"
+    },
     "shairport-sync-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shairport-sync-s6.git",
       "branch": "master",
