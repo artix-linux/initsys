@@ -20,6 +20,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesA/apcupsd-dinit.git",
       "branch": "master",
       "revision": "0bc50e54262d4744b38daf8cc65e9ec86ba8db5f"
+    },
+    "apparmor-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/apparmor-dinit.git",
+      "branch": "master",
+      "revision": "3cc2613f5e9ccbb36dfa2f8fa2e7d2547bbbd3e7"
     }
   }
 }
