@@ -1,0 +1,32 @@
+# Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
+
+_sed_args=(-e 's|/var/run|/run|g' -e 's|\(/usr\)\?/sbin|/usr/bin|g')
+
+pkgname=seatd-runit
+pkgver=20211030
+pkgrel=1
+pkgdesc="runit service script for seatd"
+arch=('any')
+url="https://artixlinux.org"
+license=('BSD')
+depends=('dbus-runit' 'seatd')
+provides=('init-logind')
+conflicts=('init-logind' 'init-elogind')
+source=("seatd.run")
+sha256sums=('f5dc16d5499999e5f6fcc7f2072a5afdbcab7a60d03eb47b20e579ac96165dc4')
+
+_inst_sv(){
+    for file in run finish check; do
+        if test -f "$srcdir/$1.$file"; then
+            install -Dm755 "$srcdir/$1.$file" "$pkgdir/etc/runit/sv/$1/$file"
+            sed "${_sed_args[@]}" -i "$pkgdir/etc/runit/sv/$1/$file"
+        fi
+    done
+}
+
+package() {
+    _inst_sv 'seatd'
+
+    install -d "${pkgdir}/etc/runit/runsvdir/default"
+    ln -sf "/etc/runit/sv/seatd" "${pkgdir}/etc/runit/runsvdir/default/seatd"
+}
