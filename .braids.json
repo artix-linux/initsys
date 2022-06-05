@@ -1646,6 +1646,11 @@
       "branch": "master",
       "revision": "4b6bf2559d7e5ff26b4eebacc006c9e3241f6178"
     },
+    "opensmtpd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/opensmtpd-s6.git",
+      "branch": "master",
+      "revision": "25575629b0a82da4af5a0c8eb673229729fa0ce1"
+    },
     "openssh-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openssh-dinit.git",
       "branch": "master",

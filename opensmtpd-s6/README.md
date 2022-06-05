@@ -1,0 +1,2 @@
+# opensmtpd-s6
+
