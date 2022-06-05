@@ -1,0 +1,44 @@
+#!/usr/bin/openrc-run
+# Copyright 1999-2019 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+description="NSD is an authoritative-only, high performance, open source name server"
+extra_commands="configtest"
+extra_started_commands="reload"
+
+supervisor=supervise-daemon
+# these can be overridden in /etc/conf.d/nsd if necessary
+NSD_CONFIG="${NSD_CONFIG:-/etc/nsd/nsd.conf}"
+NSD_CHECKCONF="${NSD_CHECKCONF:-/usr/bin/nsd-checkconf}"
+command="${NSD_BINARY:-nsd}"
+command_args="-c ${NSD_CONFIG} -d"
+
+depend() {
+	need net
+	use logger
+}
+
+checkconfig() {
+	if ! test -e "${NSD_CONFIG}"; then
+		eerror "You need to create an appropriate config file."
+		eerror "An example can be found in /etc/nsd/nsd.conf.sample"
+		return 1
+	elif ! "${NSD_CHECKCONF}" "${NSD_CONFIG}"; then
+		eerror "You have errors in your configfile (${NSD_CONFIG})"
+		return $?
+	fi
+	return 0
+}
+
+configtest() {
+	ebegin "Checking ${SVCNAME} configuration"
+	checkconfig
+	eend $?
+}
+
+reload() {
+	checkconfig || return $?
+	ebegin "Reloading config and zone files"
+	supervisor-daemon "$command" --signal HUP
+	eend $?
+}

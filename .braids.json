@@ -1016,6 +1016,11 @@
       "branch": "master",
       "revision": "bce2eeef89ff8992858f4075a046c555490a5a7d"
     },
+    "nsd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nsd-openrc.git",
+      "branch": "master",
+      "revision": "8f498abcdeaf087aaeb56f27736d0f409b636164"
+    },
     "ntp-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ntp-dinit.git",
       "branch": "master",
