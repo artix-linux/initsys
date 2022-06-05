@@ -1346,6 +1346,11 @@
       "branch": "master",
       "revision": "4a574e18c887a4112b1073ab112ea191a5a6305d"
     },
+    "sddm-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sddm-openrc.git",
+      "branch": "master",
+      "revision": "bdb6174f4a32202ebdf6df4b299bd6b3f15cbb3b"
+    },
     "seatd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/seatd-dinit.git",
       "branch": "master",
