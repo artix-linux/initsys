@@ -51,6 +51,11 @@
       "branch": "master",
       "revision": "f3acb7a49fb998e8df2d0cd3cde8aeb777b6e2f0"
     },
+    "apache-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/apache-runit.git",
+      "branch": "master",
+      "revision": "9699fab8d59d7006166e0461f780b36c19451ab2"
+    },
     "apache-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apache-s6.git",
       "branch": "master",
