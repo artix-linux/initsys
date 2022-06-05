@@ -841,6 +841,11 @@
       "branch": "master",
       "revision": "08abe3d457effcb0d6c7b92b4494e40be87a608d"
     },
+    "fuse-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fuse-s6.git",
+      "branch": "master",
+      "revision": "4ccd639db2a0fbdf27aa0a50fe5544d20bf0fa5a"
+    },
     "fwknop-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fwknop-dinit.git",
       "branch": "master",
