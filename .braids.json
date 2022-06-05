@@ -136,6 +136,11 @@
       "branch": "master",
       "revision": "836e86469ea15d5f4e16f6d20da57039aff76c0a"
     },
+    "bluez-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bluez-openrc.git",
+      "branch": "master",
+      "revision": "d59e44737c4f65a1689acc97dfeeeb7c18c283e0"
+    },
     "boinc-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/boinc-dinit.git",
       "branch": "master",
