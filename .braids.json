@@ -221,6 +221,11 @@
       "branch": "master",
       "revision": "be296dd970c52203eb1f0457e25b63ae016eda8d"
     },
+    "colord-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/colord-openrc.git",
+      "branch": "master",
+      "revision": "01535858d328e9ee4e5c9baf6f927cbad31a87ce"
+    },
     "connman-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/connman-dinit.git",
       "branch": "master",
