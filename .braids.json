@@ -651,6 +651,11 @@
       "branch": "master",
       "revision": "c50f77893407d6d1b823b275de5358d5f612f9c6"
     },
+    "ddclient-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/ddclient-runit.git",
+      "branch": "master",
+      "revision": "92a722e7c9bc6cfa50c81f9566d8ea75316ec35e"
+    },
     "ddclient-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/ddclient-s6.git",
       "branch": "master",
