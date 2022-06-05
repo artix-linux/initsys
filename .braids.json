@@ -481,6 +481,11 @@
       "branch": "master",
       "revision": "4d2a966dcf93c9975d93a03a2fcbef52837fbec7"
     },
+    "dbus-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dbus-s6.git",
+      "branch": "master",
+      "revision": "1b2123fdb28654d506aa2f0dad09f54f0dfe12ac"
+    },
     "ddclient-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/ddclient-dinit.git",
       "branch": "master",
