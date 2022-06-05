@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/bin/turnserver -c /etc/turnserver.conf
+smooth-recovery = true
+logfile         = /var/log/dinit/coturn.log
+run-as          = turnserver
+waits-for       = loginready

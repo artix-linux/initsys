@@ -125,6 +125,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/consul-dinit.git",
       "branch": "master",
       "revision": "9459791e5251cc1910f66d546a189de6e58da13b"
+    },
+    "coturn-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/coturn-dinit.git",
+      "branch": "master",
+      "revision": "87a7ff89f8af84edbcbe3b1af61c650943f27f96"
     }
   }
 }
