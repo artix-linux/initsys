@@ -425,6 +425,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesM/mailman-dinit.git",
       "branch": "master",
       "revision": "6fe6c2392af852366b8573c312e27e122d1c29c4"
+    },
+    "mariadb-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mariadb-dinit.git",
+      "branch": "master",
+      "revision": "2eafd5b6c1fdcf3e3a94dd876829592606a15837"
     }
   }
 }

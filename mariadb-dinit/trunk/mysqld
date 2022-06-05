@@ -1,0 +1,5 @@
+type            = process
+command         = /etc/dinit.d/scripts/mysqld
+smooth-recovery = true
+logfile         = /var/log/dinit/mysqld.log
+waits-for       = loginready
