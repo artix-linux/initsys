@@ -1576,6 +1576,11 @@
       "branch": "master",
       "revision": "e870f830f8cf987c8004884233f62b21ab26d236"
     },
+    "tlp-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tlp-openrc.git",
+      "branch": "master",
+      "revision": "7921c3eb41696dd3c450d74c0778dd6db641ff26"
+    },
     "tor-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tor-dinit.git",
       "branch": "master",
