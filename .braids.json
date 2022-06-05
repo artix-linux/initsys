@@ -705,6 +705,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/squid-dinit.git",
       "branch": "master",
       "revision": "643bb47adfca130bf2a4f8ed725e008bef88ca2d"
+    },
+    "sshguard-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sshguard-dinit.git",
+      "branch": "master",
+      "revision": "149215e31fafdddcbc1aefd38b87ee8492c2aaba"
     }
   }
 }

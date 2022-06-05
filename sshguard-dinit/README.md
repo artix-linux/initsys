@@ -1,0 +1,2 @@
+# sshguard-dinit
+
