@@ -1,0 +1,5 @@
+type            = process
+command         = /etc/dinit.d/scripts/exim
+smooth-recovery = true
+run-as          = exim
+waits-for       = loginready

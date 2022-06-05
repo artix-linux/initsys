@@ -255,6 +255,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesE/espeakup-dinit.git",
       "branch": "master",
       "revision": "0d778438f190dbb0787ee4dd5a1d7d313d28783e"
+    },
+    "exim-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/exim-dinit.git",
+      "branch": "master",
+      "revision": "796a38a5db5045688f47f06466c93003e32cf767"
     }
   }
 }
