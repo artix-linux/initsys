@@ -1,0 +1,14 @@
+#!/usr/bin/openrc-run
+
+name="fcgiwrap"
+description="fcgiwrap cgi daemon"
+
+supervisor=supervise-daemon
+command="/usr/bin/fcgiwrap"
+command_args="-c ${nproc:-$(nproc)}"
+command_user="http:http"
+
+depend() {
+	need net localmount
+	after firewall
+}
