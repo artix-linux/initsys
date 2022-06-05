@@ -666,6 +666,11 @@
       "branch": "master",
       "revision": "b0df5a0138d3c6f61abec1bb12a38fba959a4ed3"
     },
+    "hostapd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hostapd-openrc.git",
+      "branch": "master",
+      "revision": "b4c980c23c41662d24620db57a6c4fb80d41db94"
+    },
     "i2pd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesI/i2pd-dinit.git",
       "branch": "master",
