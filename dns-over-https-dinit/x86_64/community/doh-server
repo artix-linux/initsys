@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/doh-server -verbose -conf /etc/dns-over-https/doh-server.conf
+smooth-recovery = true
+logfile         = /var/log/dinit/doh-server.log
+waits-for       = loginready
