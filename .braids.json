@@ -465,6 +465,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesM/mopidy-dinit.git",
       "branch": "master",
       "revision": "06c0175112a34635edbe8635668cf612895ba731"
+    },
+    "motion-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/motion-dinit.git",
+      "branch": "master",
+      "revision": "12ae25f22722c72b2fb93ab2aff6ea41f49ff531"
     }
   }
 }

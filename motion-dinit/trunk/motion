@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/bin/motion
+smooth-recovery = true
+logfile         = /var/log/dinit/motion.log
+run-as          = motion
+waits-for       = loginready
