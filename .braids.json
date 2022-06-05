@@ -2656,6 +2656,11 @@
       "branch": "master",
       "revision": "2497f82b64bde7ffb04835b62e076ad3fb61a590"
     },
+    "salt-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/salt-runit.git",
+      "branch": "master",
+      "revision": "1edaa3022125ce4873f4400fe6a2146129de6bf7"
+    },
     "salt-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/salt-s6.git",
       "branch": "master",
