@@ -205,6 +205,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesD/distcc-dinit.git",
       "branch": "master",
       "revision": "99faec6d5a387593f7adcdc0b56eb484f044e4ab"
+    },
+    "dnscrypt-proxy-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dnscrypt-proxy-dinit.git",
+      "branch": "master",
+      "revision": "d95634204203f5b30003f30b6ab24b2d8ebe08b7"
     }
   }
 }
