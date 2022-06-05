@@ -3536,6 +3536,11 @@
       "branch": "master",
       "revision": "15e8e8fe7ab697595d58786d7ec1814e86697d7c"
     },
+    "xdm-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xdm-runit.git",
+      "branch": "master",
+      "revision": "7baafcd19da59c07e9572d551a5c64989e600887"
+    },
     "xdm-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xdm-s6.git",
       "branch": "master",
