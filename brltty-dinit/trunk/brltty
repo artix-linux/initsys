@@ -1,0 +1,5 @@
+type            = process
+command         = /etc/dinit.d/scripts/brltty
+smooth-recovery = true
+logfile         = /var/log/dinit/brltty.log
+waits-for       = pseudofs

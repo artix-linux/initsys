@@ -85,6 +85,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesB/bootlogd-dinit.git",
       "branch": "master",
       "revision": "4917feb57c29ff0c424c1662161def582e22d748"
+    },
+    "brltty-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/brltty-dinit.git",
+      "branch": "master",
+      "revision": "f1ac3ffd82dd598a7d54a65d4879eaf8fae3d526"
     }
   }
 }
