@@ -845,6 +845,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesW/webfs-dinit.git",
       "branch": "master",
       "revision": "e18d4b1b66d5d5da5b88099dc1721a564e5977e1"
+    },
+    "webhook-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/webhook-dinit.git",
+      "branch": "master",
+      "revision": "0c552acea73b728fa51ef0243c0c63c585c0fb60"
     }
   }
 }
