@@ -430,6 +430,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesM/mariadb-dinit.git",
       "branch": "master",
       "revision": "2eafd5b6c1fdcf3e3a94dd876829592606a15837"
+    },
+    "matrix-synapse-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/matrix-synapse-dinit.git",
+      "branch": "master",
+      "revision": "aa6e849fed1ecf11952ebb4b4a1d6fd431601055"
     }
   }
 }
