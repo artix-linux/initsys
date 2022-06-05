@@ -1,0 +1,22 @@
+#!/bin/sh -e
+
+test ! -r /etc/dinit.d/config/audit.conf || . /etc/dinit.d/config/audit.conf
+case "$1" in
+    start)
+        case "$USE_AUGENRULES" in
+            no|NO) ;;
+            *) test ! -d /etc/audit/rules.d || /usr/bin/augenrules >/dev/null ;;
+        esac
+
+        test ! -f /etc/audit/audit.rules || /usr/bin/auditctl -R /etc/audit/audit.rules >/dev/null
+    ;;
+
+    stop)
+        test -f /etc/audit/audit-stop.rules || exit 0
+        case "$AUDITD_CLEAN_STOP" in
+            no|NO) exit 0 ;;
+            *) ;;
+        esac
+        /usr/bin/auditctl -R /etc/audit/audit-stop.rules >/dev/null
+    ;;
+esac
