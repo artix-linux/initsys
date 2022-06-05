@@ -886,6 +886,11 @@
       "branch": "master",
       "revision": "9ce4ddddcee21551a102db9541f8d107bdb4dc25"
     },
+    "git-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/git-s6.git",
+      "branch": "master",
+      "revision": "7f4a6959ba28fa198418d15720a4ce64ec868806"
+    },
     "gitea-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gitea-dinit.git",
       "branch": "master",
