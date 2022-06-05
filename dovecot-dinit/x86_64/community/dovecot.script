@@ -1,0 +1,3 @@
+#!/bin/sh
+install -dm0755 /run/dovecot
+exec dovecot -F

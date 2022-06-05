@@ -1,0 +1,5 @@
+type            = process
+command         = /etc/dinit.d/scripts/dovecot
+smooth-recovery = true
+logfile         = /var/log/dinit/dovecot.log
+waits-for       = loginready

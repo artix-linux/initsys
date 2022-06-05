@@ -225,6 +225,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesD/docker-dinit.git",
       "branch": "master",
       "revision": "10220e7f4f90cec2474c1dd9163805dc53e7ba5b"
+    },
+    "dovecot-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dovecot-dinit.git",
+      "branch": "master",
+      "revision": "5366f3bb99e380e85c5e8d9a66fc76932c69721c"
     }
   }
 }
