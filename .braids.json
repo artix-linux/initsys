@@ -801,6 +801,11 @@
       "branch": "master",
       "revision": "fdb052029473050ee0c3c12259bfef75d2cb9fcc"
     },
+    "lvm2-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lvm2-openrc.git",
+      "branch": "master",
+      "revision": "1596a5fd4364d9bfda36106e64dd1c6107802706"
+    },
     "lxd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lxd-dinit.git",
       "branch": "master",
