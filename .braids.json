@@ -431,6 +431,11 @@
       "branch": "master",
       "revision": "01535858d328e9ee4e5c9baf6f927cbad31a87ce"
     },
+    "colord-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/colord-runit.git",
+      "branch": "master",
+      "revision": "6eaaf63922c34b7d4a0232b805a9a2b19ec18d67"
+    },
     "colord-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesC/colord-s6.git",
       "branch": "master",
