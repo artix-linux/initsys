@@ -2366,6 +2366,11 @@
       "branch": "master",
       "revision": "8f09924b6c5faa21306a8907cb8438191876ad8b"
     },
+    "tailscale-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tailscale-s6.git",
+      "branch": "master",
+      "revision": "02e1959ee58f452c342e64a20ccfc9bab737efa4"
+    },
     "thermald-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/thermald-dinit.git",
       "branch": "master",
