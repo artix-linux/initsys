@@ -2061,6 +2061,11 @@
       "branch": "master",
       "revision": "a00f5b425b2d1f08a520ff332946e891b2919d6f"
     },
+    "openfire-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openfire-runit.git",
+      "branch": "master",
+      "revision": "c79c4843ce434c8c268872fa604cf7ecff96144f"
+    },
     "openfire-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openfire-s6.git",
       "branch": "master",
