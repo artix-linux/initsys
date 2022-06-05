@@ -160,6 +160,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesD/darkhttpd-dinit.git",
       "branch": "master",
       "revision": "06de2611f092478886e9334187f1d6e912d0d53c"
+    },
+    "dbus-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dbus-dinit.git",
+      "branch": "master",
+      "revision": "9d0ba3baf1219729d9f936a665b387e6b69524a8"
     }
   }
 }
