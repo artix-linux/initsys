@@ -1326,6 +1326,11 @@
       "branch": "master",
       "revision": "00697ada8015de454a285fa35c43516e3514b291"
     },
+    "samba-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/samba-openrc.git",
+      "branch": "master",
+      "revision": "e002ed5c6675afe14d64b1e159c295a90026b1e6"
+    },
     "sane-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sane-dinit.git",
       "branch": "master",
