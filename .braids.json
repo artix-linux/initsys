@@ -3416,6 +3416,11 @@
       "branch": "master",
       "revision": "226281256439cef0ba778a76d98706fb74651892"
     },
+    "vnstat-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vnstat-runit.git",
+      "branch": "master",
+      "revision": "88b514102cea9810af610c6ba9354021eeca9bc8"
+    },
     "vnstat-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vnstat-s6.git",
       "branch": "master",
