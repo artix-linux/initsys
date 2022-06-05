@@ -10,6 +10,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-utils-dinit.git",
       "branch": "master",
       "revision": "5bed2cca3ac0a0d42a3e772c1371de522984d181"
+    },
+    "apache-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/apache-dinit.git",
+      "branch": "master",
+      "revision": "b39c195fc9a4b40e695a4d2d04a6adff96e3b954"
     }
   }
 }
