@@ -2211,6 +2211,11 @@
       "branch": "master",
       "revision": "5eab2f462160cd9376ec3de2c98744708c3dc467"
     },
+    "sshguard-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sshguard-s6.git",
+      "branch": "master",
+      "revision": "026bbd6701ab25be7813e0d36cad37d7a5be7036"
+    },
     "sslh-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sslh-dinit.git",
       "branch": "master",
