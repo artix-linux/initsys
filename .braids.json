@@ -335,6 +335,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesH/hiawatha-dinit.git",
       "branch": "master",
       "revision": "8a81d8f0219d39d5b2c46e765d619a36bace2c79"
+    },
+    "hostapd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hostapd-dinit.git",
+      "branch": "master",
+      "revision": "b0df5a0138d3c6f61abec1bb12a38fba959a4ed3"
     }
   }
 }
