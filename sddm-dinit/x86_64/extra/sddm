@@ -1,0 +1,6 @@
+type            = process
+command         = /etc/dinit.d/scripts/sddm
+smooth-recovery = true
+depends-on      = logind
+waits-for       = loginready
+waits-for.d     = live.d
