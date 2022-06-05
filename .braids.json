@@ -2551,6 +2551,11 @@
       "branch": "master",
       "revision": "a64394753d53dba04704386617e6dad30e6e1ca0"
     },
+    "rspamd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rspamd-runit.git",
+      "branch": "master",
+      "revision": "76c865a2ace2cc9fe68143a1529be96e07c491f2"
+    },
     "rspamd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rspamd-s6.git",
       "branch": "master",
