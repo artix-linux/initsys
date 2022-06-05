@@ -1396,6 +1396,11 @@
       "branch": "master",
       "revision": "f0177ace22587b95f84ce4c8866d3d69b7786285"
     },
+    "spamassassin-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin-openrc.git",
+      "branch": "master",
+      "revision": "16783f4705504c3feb2eba0b3175801e17b8f4d1"
+    },
     "spice-vdagent-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spice-vdagent-dinit.git",
       "branch": "master",
