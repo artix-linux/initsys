@@ -675,6 +675,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/shairplay-dinit.git",
       "branch": "master",
       "revision": "e64975416990a61bc723af7817bdb0fd1941803a"
+    },
+    "shairport-sync-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/shairport-sync-dinit.git",
+      "branch": "master",
+      "revision": "b510d5713a03ecc2ea1e881ec07f833b1c1207b4"
     }
   }
 }

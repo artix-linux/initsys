@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/bin/shairport-sync -u -v
+smooth-recovery = true
+logfile         = /var/log/dinit/shairport-sync.log
+run-as          = shairport-sync
+waits-for       = loginready
