@@ -780,6 +780,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/tlp-dinit.git",
       "branch": "master",
       "revision": "e870f830f8cf987c8004884233f62b21ab26d236"
+    },
+    "tor-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tor-dinit.git",
+      "branch": "master",
+      "revision": "188eaf09233cbd7275f2eed8ea13abda6fe1cff1"
     }
   }
 }
