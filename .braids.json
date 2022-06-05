@@ -591,6 +591,11 @@
       "branch": "master",
       "revision": "874eb61ed74a9efc0ce18bf6adc29d6819f08bf3"
     },
+    "cyrus-sasl-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cyrus-sasl-runit.git",
+      "branch": "master",
+      "revision": "f7706ddf94f79f2775c2e779bdf276cca30c76d0"
+    },
     "cyrus-sasl-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cyrus-sasl-s6.git",
       "branch": "master",
