@@ -680,6 +680,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/shairport-sync-dinit.git",
       "branch": "master",
       "revision": "b510d5713a03ecc2ea1e881ec07f833b1c1207b4"
+    },
+    "sndio-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sndio-dinit.git",
+      "branch": "master",
+      "revision": "e55dc1f721673189d6671f4c9ffa9c724b53f57b"
     }
   }
 }
