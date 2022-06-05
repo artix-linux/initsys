@@ -1166,6 +1166,11 @@
       "branch": "master",
       "revision": "93e9989156231235632e48a51535dcf9b4e35686"
     },
+    "postgresql-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/postgresql-openrc.git",
+      "branch": "master",
+      "revision": "154a41aef1a6ba5f96365e70e895371cb750ac72"
+    },
     "postgrey-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postgrey-dinit.git",
       "branch": "master",
