@@ -565,6 +565,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesP/pdnsd-dinit.git",
       "branch": "master",
       "revision": "442203f97379298749ca09ea2a40f6f29125f30c"
+    },
+    "php-fpm-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/php-fpm-dinit.git",
+      "branch": "master",
+      "revision": "f5e879eee3a3effc1341e4ad34ccb6b3a1c28183"
     }
   }
 }
