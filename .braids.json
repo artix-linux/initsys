@@ -135,6 +135,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/cpupower-dinit.git",
       "branch": "master",
       "revision": "c0c1d966e176564997eb86168a598f5ac7da6824"
+    },
+    "cronie-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cronie-dinit.git",
+      "branch": "master",
+      "revision": "f704ee78ede55591df400863f01887450ed5eff7"
     }
   }
 }
