@@ -765,6 +765,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/thermald-dinit.git",
       "branch": "master",
       "revision": "ca3d5d6b7613266afa2d1249cfc62622b35223b1"
+    },
+    "tigervnc-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tigervnc-dinit.git",
+      "branch": "master",
+      "revision": "13b9a26ff4d5f1f5df3844df670837f9134103bf"
     }
   }
 }

@@ -1,0 +1,7 @@
+post_install()
+{
+    echo "==> Make sure to check /etc/dinit.d/vncserver if you edited the"
+    echo "    \$DISPLAY variable in /etc/dinit.d/config/vncserver.conf"
+    echo "    and don't forget to reload the vncserver service so it can read"
+    echo "    the new config."
+}

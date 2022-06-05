@@ -1,0 +1,10 @@
+# You can change this. When this service receives an update, it won't
+# overwrite your changes.
+type            = bgprocess
+command         = /etc/dinit.d/scripts/vncserver
+smooth-recovery = true
+# If you change the $DISPLAY variable in the config file,
+# don't forget to change $DISPLAY here.
+# Also, don't forget to reload the vncserver service before starting.
+pid-file        = /run/vncsession-:0.pid
+waits-for       = loginready
