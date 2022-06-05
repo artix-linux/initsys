@@ -2966,6 +2966,11 @@
       "branch": "master",
       "revision": "403bbbaaf7e3beba6c0b36cd0b3bf855dfb08211"
     },
+    "strongswan-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/strongswan-runit.git",
+      "branch": "master",
+      "revision": "9f529216faac9b81197504e6d72a7245a3267ade"
+    },
     "strongswan-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/strongswan-s6.git",
       "branch": "master",
