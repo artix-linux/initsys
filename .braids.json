@@ -26,6 +26,11 @@
       "branch": "master",
       "revision": "b39c195fc9a4b40e695a4d2d04a6adff96e3b954"
     },
+    "apache-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/apache-openrc.git",
+      "branch": "master",
+      "revision": "f3acb7a49fb998e8df2d0cd3cde8aeb777b6e2f0"
+    },
     "apcupsd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apcupsd-dinit.git",
       "branch": "master",
