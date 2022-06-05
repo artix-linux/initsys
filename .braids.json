@@ -235,6 +235,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesD/dropbear-dinit.git",
       "branch": "master",
       "revision": "634a6e576b310cab4d1bce76e07161b5d408a267"
+    },
+    "earlyoom-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/earlyoom-dinit.git",
+      "branch": "master",
+      "revision": "f4213db122799aa1c46b559fea91dba0b2bda9aa"
     }
   }
 }
