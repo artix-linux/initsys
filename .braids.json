@@ -346,6 +346,11 @@
       "branch": "master",
       "revision": "52657b7d4658cc57918aa77d9c1c7386bd776c72"
     },
+    "connman-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/connman-s6.git",
+      "branch": "master",
+      "revision": "62db5a02a39536074f7e2902693d801389ca6c01"
+    },
     "consul-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/consul-dinit.git",
       "branch": "master",
