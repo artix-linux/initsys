@@ -1151,6 +1151,11 @@
       "branch": "master",
       "revision": "1d5db832d19ab412a62b4580b78370efe1838ce4"
     },
+    "lightdm-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lightdm-s6.git",
+      "branch": "master",
+      "revision": "30e30eadca39b522a39682951ed6cec1a15c2f8f"
+    },
     "lighttpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lighttpd-dinit.git",
       "branch": "master",
