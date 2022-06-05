@@ -1,0 +1,19 @@
+#!/bin/sh
+
+[ ! -d /var/cache/backlight ] && mkdir -p /var/cache/backlight
+[ ! -w /var/cache/backlight ] && chmod 755 /var/cache/backlight
+
+case "$1" in
+    start)
+        for card in $(find /sys/class/backlight/ -type l); do
+            if [ -r "/var/cache/backlight/$(basename "$card")-brightness-old" ]; then
+                cp "/var/cache/backlight/$(basename "$card")-brightness-old" "/sys/class/backlight/$(basename "$card")/brightness"
+            fi
+        done
+    ;;
+    stop)
+        for card in $(find /sys/class/backlight/ -type l); do
+            cp "/sys/class/backlight/$(basename "$card")/brightness" "/var/cache/backlight/$(basename "$card")-brightness-old"
+        done
+    ;;
+esac
