@@ -1,0 +1,12 @@
+#!/usr/bin/openrc-run
+# Copyright 1999-2012 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+pidfile=/run/bumblebee.pid
+command=/usr/bin/bumblebeed
+command_args="-D ${BUMBLEBEE_EXTRA_OPTS}"
+command_background=yes
+
+depend() {
+	need xdm
+}
