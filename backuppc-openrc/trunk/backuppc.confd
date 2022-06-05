@@ -1,0 +1,7 @@
+# /etc/conf.d/backuppc: config file for /etc/init.d/backuppc
+
+CONF_FILE=/etc/backuppc/config.pl
+USER=backuppc
+PID_FILE=/run/BackupPC.pid
+EXEC=/usr/share/backuppc/bin/BackupPC
+EXEC_OPTIONS=-d

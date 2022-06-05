@@ -106,6 +106,11 @@
       "branch": "master",
       "revision": "f98dd946ee71614f7a76314a94e0f0c2351cb393"
     },
+    "backuppc-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/backuppc-openrc.git",
+      "branch": "master",
+      "revision": "fe6be82a77c016a28cb42e59ba3065da8aeabbf6"
+    },
     "bftpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bftpd-dinit.git",
       "branch": "master",

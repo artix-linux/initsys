@@ -1,0 +1,38 @@
+#!/usr/bin/openrc-run
+
+checkconfig() {
+	if [ ! -f ${CONF_FILE} ] ; then
+		eerror "No ${CONF_FILE} exists!"
+	fi
+}
+
+start() {
+	checkconfig || return 1
+
+	PID_DIR=$(dirname "${PID_FILE}")
+	mkdir -p "${PID_DIR}" || return 1
+	chown ${USER}:${USER} "${PID_DIR}" || return 1
+
+	ebegin "Starting BackupPC"
+	start-stop-daemon --start --user ${USER} --group ${USER} --make-pidfile --pidfile ${PID_FILE} --exec ${EXEC} -- ${EXEC_OPTIONS}
+	eend $?
+}
+
+stop() {
+	ebegin "Stopping BackupPC"
+	start-stop-daemon --stop --pidfile ${PID_FILE} --name BackupPC
+	eend $?
+}
+
+restart() {
+	ebegin "Restarting BackupPC"
+	svc_stop
+        sleep 1
+	svc_start
+	eend $? "Failed to restart BackupPC"
+}
+
+status() {
+	return
+	eend $?
+}
