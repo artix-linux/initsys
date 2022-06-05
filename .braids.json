@@ -2886,6 +2886,11 @@
       "branch": "master",
       "revision": "8675f581c43d1e97c42141fbfc377092a36ab72f"
     },
+    "squid-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/squid-runit.git",
+      "branch": "master",
+      "revision": "0d3a8514a5f890be967bcc214c7f5dc7aabc5f6d"
+    },
     "squid-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/squid-s6.git",
       "branch": "master",
