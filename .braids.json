@@ -996,6 +996,11 @@
       "branch": "master",
       "revision": "28ff611069184ad7385d3adec90ab7f454b42ec1"
     },
+    "nginx-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nginx-openrc.git",
+      "branch": "master",
+      "revision": "c2fb0b1b95c5e58b12e7a0826affc91b7649dee3"
+    },
     "ngircd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-dinit.git",
       "branch": "master",
