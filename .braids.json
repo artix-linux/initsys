@@ -1146,6 +1146,11 @@
       "branch": "master",
       "revision": "f5e879eee3a3effc1341e4ad34ccb6b3a1c28183"
     },
+    "php-fpm-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/php-fpm-openrc.git",
+      "branch": "master",
+      "revision": "01fec084fdf5d66e99abd35f0d9ac9abc1b7a1db"
+    },
     "postfix-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postfix-dinit.git",
       "branch": "master",
