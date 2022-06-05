@@ -580,6 +580,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesP/postgresql-dinit.git",
       "branch": "master",
       "revision": "93e9989156231235632e48a51535dcf9b4e35686"
+    },
+    "postgrey-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/postgrey-dinit.git",
+      "branch": "master",
+      "revision": "ba17fca99cca6f8a65bc4ea709bbdf733818e130"
     }
   }
 }

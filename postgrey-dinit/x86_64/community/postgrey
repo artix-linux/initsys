@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/postgrey --inet=127.0.0.1:10030 --user=postgrey --group=postgrey --greylist-text="Greylisted for %%s seconds"
+smooth-recovery = true
+logfile         = /var/log/dinit/postgrey.log
+waits-for       = loginready
