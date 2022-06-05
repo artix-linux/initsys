@@ -331,6 +331,11 @@
       "branch": "master",
       "revision": "a62c59ac6538cd64879f3c14b14a587f528fb856"
     },
+    "brltty-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/brltty-runit.git",
+      "branch": "master",
+      "revision": "5361ff6a17a0d8ee2bcf293cfe6a51de542480d3"
+    },
     "brltty-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesB/brltty-s6.git",
       "branch": "master",
