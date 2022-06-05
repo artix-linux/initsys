@@ -1026,6 +1026,11 @@
       "branch": "master",
       "revision": "dd0e928732ea1f954cde7bcb8ad48c59d2b99922"
     },
+    "fcgiwrap-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fcgiwrap-runit.git",
+      "branch": "master",
+      "revision": "b6a480fea14f5cd9088861a41d2160f1f8d96baf"
+    },
     "fcgiwrap-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcgiwrap-s6.git",
       "branch": "master",
