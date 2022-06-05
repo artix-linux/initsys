@@ -1411,6 +1411,11 @@
       "branch": "master",
       "revision": "9b3e10c0e2f731e0cf12ac6ff877607c4e9aa91c"
     },
+    "iwd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iwd-runit.git",
+      "branch": "master",
+      "revision": "b337dfb186474087761d0229a0777d1a6056aed1"
+    },
     "iwd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iwd-s6.git",
       "branch": "master",
