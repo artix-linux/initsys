@@ -2456,6 +2456,11 @@
       "branch": "master",
       "revision": "ca73247aff08afe2f3b23f09ee19cb08ee873bfc"
     },
+    "toxcore-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/toxcore-s6.git",
+      "branch": "master",
+      "revision": "2e87b3daca5dcd6bd9e534ed53916334a027dbab"
+    },
     "transmission-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transmission-dinit.git",
       "branch": "master",
