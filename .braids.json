@@ -1501,6 +1501,11 @@
       "branch": "master",
       "revision": "c2fb0b1b95c5e58b12e7a0826affc91b7649dee3"
     },
+    "nginx-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nginx-s6.git",
+      "branch": "master",
+      "revision": "df43a4c8a59c11c33d53cde1f628da3910831229"
+    },
     "ngircd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-dinit.git",
       "branch": "master",
