@@ -475,6 +475,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesM/mpd-dinit.git",
       "branch": "master",
       "revision": "a18e1ad190bec44463d44371ba7d1b2e839d12a2"
+    },
+    "murmur-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/murmur-dinit.git",
+      "branch": "master",
+      "revision": "2a00dfab6460f72486fbc23d69ff9198e4ff3ff6"
     }
   }
 }

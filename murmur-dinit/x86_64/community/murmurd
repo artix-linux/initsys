@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/murmurd -ini /etc/murmur.ini -fg
+smooth-recovery = true
+logfile         = /var/log/dinit/murmur.log
+waits-for       = loginready

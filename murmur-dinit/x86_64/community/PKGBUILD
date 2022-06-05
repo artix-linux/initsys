@@ -1,0 +1,18 @@
+# Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
+pkgname=murmur-dinit
+pkgver=20211102
+pkgrel=2
+pkgdesc="dinit service scripts for murmur"
+arch=('any')
+url="https://artixlinux.org"
+license=('BSD')
+groups=('dinit-galaxy')
+depends=('murmur' 'dinit')
+conflicts=('init-murmur')
+provides=('init-murmur')
+source=("murmurd")
+sha256sums=('adf1f7683cbbb321ab4cf8fc759faacb1a460d3edc9e2fcf5ba72f6122ea0c0c')
+
+package() {
+    install -Dm644 murmurd "$pkgdir/etc/dinit.d/murmurd"
+}
