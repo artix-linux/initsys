@@ -1,0 +1,6 @@
+# /etc/conf.d/gitea: config file for /etc/init.d/gitea
+
+GITEA_USER=gitea
+GITEA_CONF=/etc/gitea/app.ini
+GITEA_WORK_DIR=/var/lib/gitea
+GITEA_LOG_FILE=/var/log/gitea/http.log
