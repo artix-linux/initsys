@@ -460,6 +460,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesM/minio-dinit.git",
       "branch": "master",
       "revision": "dd3073fab6e69564cd56297f56e256231440b6dd"
+    },
+    "mopidy-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mopidy-dinit.git",
+      "branch": "master",
+      "revision": "06c0175112a34635edbe8635668cf612895ba731"
     }
   }
 }
