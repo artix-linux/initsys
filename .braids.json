@@ -1006,6 +1006,11 @@
       "branch": "master",
       "revision": "4786a685cd0c8140356c537c1323e22218636782"
     },
+    "fail2ban-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fail2ban-runit.git",
+      "branch": "master",
+      "revision": "ee1965c6b38b6b199597be05f4e2b94375942f2f"
+    },
     "fail2ban-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fail2ban-s6.git",
       "branch": "master",
