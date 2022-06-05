@@ -1,0 +1,8 @@
+MATRIX_SERVERNAME="matrix"
+MATRIX_CONF="/etc/synapse/homeserver.yaml"
+
+# Enable registration
+#MATRIX_OPT="--enable-registration"
+
+# SQLITE database path
+#MATRIX_OPT+="-d PATH"

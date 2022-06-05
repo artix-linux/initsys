@@ -1,0 +1,32 @@
+#!/usr/bin/openrc-run
+
+: ${serv_name:=${MATRIX_SERVERNAME=-matrix}}
+: ${serv_conf:=${MATRIX_CONF=-/etc/synapse/homeserver.yaml}}
+
+directory=/var/lib/synapse
+supervisor=supervise-daemon
+command="/usr/bin/python"
+command_args="-m synapse.app.homeserver -c ${serv_conf} --data-directory ${directory} ${MATRIX_OPT}"
+command_user="synapse:synapse"
+extra_commands="checkconfig"
+error_log=/var/log/synapse.log
+output_log=/var/log/synapse.log
+
+depend() {
+	need net
+	after net
+}
+
+checkconfig() {
+	ebegin "Checking if config exists and create default if one doesn't exist"
+	if [ ! -f "${serv_conf}" ]; then
+		"${command}" -B -m synapse.app.homeserver -c "$serv_conf" --data-directory "$directory" --generate-config --server-name="$serv_name" --report-stats=yes
+	fi
+	eend $?
+}
+
+start_pre() {
+	checkpath -d -m 755 -o "$command_user" "$directory"
+	checkpath -f -m 644 -o "$command_user" "$error_log"
+	checkconfig || return $?
+}
