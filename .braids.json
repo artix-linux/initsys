@@ -1471,6 +1471,11 @@
       "branch": "master",
       "revision": "c96dcf57df55962c988fbb5c6c56da737c75a24a"
     },
+    "nfs-utils-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nfs-utils-s6.git",
+      "branch": "master",
+      "revision": "4b98f41a611437116a1a265c4647e559b0368d54"
+    },
     "nftables-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nftables-dinit.git",
       "branch": "master",
