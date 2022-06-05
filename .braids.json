@@ -1771,6 +1771,11 @@
       "branch": "master",
       "revision": "29cc1ab926f6149d1462bd5579a098bbb6c758a6"
     },
+    "minidlna-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/minidlna-runit.git",
+      "branch": "master",
+      "revision": "57ddbc9c813644b3d36df8b5a23f923bb5d80be8"
+    },
     "minidlna-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minidlna-s6.git",
       "branch": "master",
