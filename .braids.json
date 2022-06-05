@@ -2006,6 +2006,11 @@
       "branch": "master",
       "revision": "8f498abcdeaf087aaeb56f27736d0f409b636164"
     },
+    "nsd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nsd-runit.git",
+      "branch": "master",
+      "revision": "65971944dc0151339ee03737ead78b2fd5292406"
+    },
     "nsd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nsd-s6.git",
       "branch": "master",
