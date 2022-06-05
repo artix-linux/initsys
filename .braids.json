@@ -161,6 +161,11 @@
       "branch": "master",
       "revision": "fe6be82a77c016a28cb42e59ba3065da8aeabbf6"
     },
+    "backuppc-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/backuppc-s6.git",
+      "branch": "master",
+      "revision": "6411334103e17d99f0bcc9f16b972712107cd77e"
+    },
     "bftpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bftpd-dinit.git",
       "branch": "master",
