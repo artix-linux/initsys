@@ -2486,6 +2486,11 @@
       "branch": "master",
       "revision": "8884a136cfcf4c010f63c2ada1fb174ce84988f8"
     },
+    "trojan-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/trojan-s6.git",
+      "branch": "master",
+      "revision": "f3274adaa94d15001fc6c87b44a370c5a659c98d"
+    },
     "udpxy-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesU/udpxy-dinit.git",
       "branch": "master",
