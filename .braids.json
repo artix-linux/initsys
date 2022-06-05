@@ -1546,6 +1546,11 @@
       "branch": "master",
       "revision": "a840500f3fe9e1ba0ec47ba6e2ed185c5f34a275"
     },
+    "ntp-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/ntp-s6.git",
+      "branch": "master",
+      "revision": "4fd15d984d9fdc4456676c5e22221e1ac94ff17e"
+    },
     "nvidia-utils-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nvidia-utils-dinit.git",
       "branch": "master",
