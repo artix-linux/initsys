@@ -946,6 +946,11 @@
       "branch": "master",
       "revision": "6682d13200725987b2190835ef336cf254e60546"
     },
+    "grafana-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/grafana-s6.git",
+      "branch": "master",
+      "revision": "537262c3bfca790b7111716581ea4eb186f348e4"
+    },
     "haveged-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesH/haveged-dinit.git",
       "branch": "master",
