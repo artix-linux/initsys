@@ -1276,6 +1276,11 @@
       "branch": "master",
       "revision": "533eaab035a3730083b182db7fd17435e0d4f99c"
     },
+    "mariadb-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mariadb-s6.git",
+      "branch": "master",
+      "revision": "1868fd0e830f981fe387a440a521e4a289f10466"
+    },
     "matrix-synapse-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/matrix-synapse-dinit.git",
       "branch": "master",
