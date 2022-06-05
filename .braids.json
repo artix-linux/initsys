@@ -171,6 +171,11 @@
       "branch": "master",
       "revision": "f1ac3ffd82dd598a7d54a65d4879eaf8fae3d526"
     },
+    "brltty-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/brltty-openrc.git",
+      "branch": "master",
+      "revision": "a62c59ac6538cd64879f3c14b14a587f528fb856"
+    },
     "bumblebee-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bumblebee-dinit.git",
       "branch": "master",
