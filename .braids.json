@@ -1986,6 +1986,11 @@
       "branch": "master",
       "revision": "4731645f9d109889f8dd2fe9b8391a511fdc1ef1"
     },
+    "ngircd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-runit.git",
+      "branch": "master",
+      "revision": "daf1c5b332e60b18e99656c0da40af68f12451bc"
+    },
     "ngircd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-s6.git",
       "branch": "master",
