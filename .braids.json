@@ -726,6 +726,11 @@
       "branch": "master",
       "revision": "9b099741771acd01eaebe64bad94b93bd14cf526"
     },
+    "dhcpcd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dhcpcd-runit.git",
+      "branch": "master",
+      "revision": "c3d32f1d43519d3f026b28d1068d6d0b0e055295"
+    },
     "dhcpcd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcpcd-s6.git",
       "branch": "master",
