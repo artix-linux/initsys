@@ -1526,6 +1526,11 @@
       "branch": "master",
       "revision": "8918e7d6e51f9cdcd3afad5eb5b32641ac9b8d20"
     },
+    "syslog-ng-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/syslog-ng-openrc.git",
+      "branch": "master",
+      "revision": "ac2a639cd188c29d7ba733fa94d7a8a7e722daf1"
+    },
     "tailscale-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tailscale-dinit.git",
       "branch": "master",
