@@ -901,6 +901,11 @@
       "branch": "master",
       "revision": "67e1c876bbfddd2ef5830bd40d20b35761e52f9b"
     },
+    "earlyoom-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/earlyoom-runit.git",
+      "branch": "master",
+      "revision": "b1b97d5c9b3e8d5badcde6407b2711dda4d71f54"
+    },
     "earlyoom-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesE/earlyoom-s6.git",
       "branch": "master",
