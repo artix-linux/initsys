@@ -866,6 +866,11 @@
       "branch": "master",
       "revision": "6d05557b43223267688565b3e92c4df66e0e0799"
     },
+    "matterbridge-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/matterbridge-openrc.git",
+      "branch": "master",
+      "revision": "540e3707a4e3cd1a2ce786d2d20da9413387e7d2"
+    },
     "mdadm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mdadm-dinit.git",
       "branch": "master",
