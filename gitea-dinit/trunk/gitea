@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/bin/gitea web -w /var/lib/gitea --config /etc/gitea/app.ini
+smooth-recovery = true
+logfile         = /var/log/dinit/gitea.log
+run-as          = gitea
+waits-for       = loginready
