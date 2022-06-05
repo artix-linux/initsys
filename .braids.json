@@ -2371,6 +2371,11 @@
       "branch": "master",
       "revision": "e24ad45051c59920f6227459b8e9bb1e63ee7611"
     },
+    "pptpd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pptpd-runit.git",
+      "branch": "master",
+      "revision": "593601f5261db30b7cd8af4cb4ed714e0b1b7454"
+    },
     "pptpd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pptpd-s6.git",
       "branch": "master",
