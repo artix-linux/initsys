@@ -951,6 +951,11 @@
       "branch": "master",
       "revision": "3c1501ed208662bef839d99e1b8e3ab7a2649504"
     },
+    "net-snmp-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/net-snmp-openrc.git",
+      "branch": "master",
+      "revision": "cae3b1d7acc516467b503e06e5de7560b6eb9f3d"
+    },
     "netifrc": {
       "url": "gitea@gitea.artixlinux.org:packagesN/netifrc.git",
       "branch": "master",
