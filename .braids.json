@@ -855,6 +855,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesW/wireguard-dinit.git",
       "branch": "master",
       "revision": "3759bc1cd6c58f5b0adbf8775375d6f7e6266bb4"
+    },
+    "wpa_supplicant-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wpa_supplicant-dinit.git",
+      "branch": "master",
+      "revision": "69d1b1e9394c48df36d297dc2644bbed7bf98fcc"
     }
   }
 }
