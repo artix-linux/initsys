@@ -1611,6 +1611,11 @@
       "branch": "master",
       "revision": "10462738d6eb077416ea7c5b304aa425e7c1dd2e"
     },
+    "lxd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lxd-runit.git",
+      "branch": "master",
+      "revision": "fc56142899f17a9ba1723c3a3ee89eb391abfd83"
+    },
     "lxd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lxd-s6.git",
       "branch": "master",
