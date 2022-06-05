@@ -686,6 +686,11 @@
       "branch": "master",
       "revision": "67e1c876bbfddd2ef5830bd40d20b35761e52f9b"
     },
+    "earlyoom-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/earlyoom-s6.git",
+      "branch": "master",
+      "revision": "9081a804b91aff5c00c2d84bdb3a3082524d6479"
+    },
     "ejabberd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesE/ejabberd-dinit.git",
       "branch": "master",
