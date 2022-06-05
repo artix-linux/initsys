@@ -846,6 +846,11 @@
       "branch": "master",
       "revision": "2eafd5b6c1fdcf3e3a94dd876829592606a15837"
     },
+    "mariadb-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mariadb-openrc.git",
+      "branch": "master",
+      "revision": "533eaab035a3730083b182db7fd17435e0d4f99c"
+    },
     "matrix-synapse-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/matrix-synapse-dinit.git",
       "branch": "master",
