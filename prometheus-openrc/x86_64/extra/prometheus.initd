@@ -1,0 +1,26 @@
+#!/usr/bin/openrc-run
+# Copyright 2016-2018 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+description="Prometheus monitoring system and time series database"
+pidfile=${pidfile:-"/run/${RC_SVCNAME}.pid"}
+user=${user:-${SVCNAME}}
+group=${group:-${SVCNAME}}
+
+command="/usr/bin/prometheus"
+command_args="${command_args:---config.file=/etc/prometheus/prometheus.yml --storage.tsdb.path=/var/lib/prometheus/data}"
+command_user="${user}:${group}"
+output_log="/var/log/${RC_SVCNAME}/${RC_SVCNAME}.log"
+error_log="${output_log}"
+extra_started_commands="reload"
+
+depend() {
+	after net
+}
+
+reload() {
+        ebegin "Reloading ${SVCNAME}"
+        supervise-daemon prometheus --signal HUP
+        eend $? "Failed to stop ${SVCNAME}"
+}
+

@@ -1226,6 +1226,11 @@
       "branch": "master",
       "revision": "15d6d17616675b4d5e39dada45e2a4a89a0930b7"
     },
+    "prometheus-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/prometheus-openrc.git",
+      "branch": "master",
+      "revision": "8c2b1bcec82a98cf6a0e822ba3db89b79b670fb7"
+    },
     "qemu-guest-agent-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qemu-guest-agent-dinit.git",
       "branch": "master",
