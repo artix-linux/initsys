@@ -2581,6 +2581,11 @@
       "branch": "master",
       "revision": "bce6678851e28a29df7d8692cd8a2aff0c601aa8"
     },
+    "v2ray-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-s6.git",
+      "branch": "master",
+      "revision": "916d2aa71e4311124e3dcd59207bc90e265e2fef"
+    },
     "veracrypt-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesV/veracrypt-openrc.git",
       "branch": "master",
