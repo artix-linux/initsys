@@ -1636,6 +1636,11 @@
       "branch": "master",
       "revision": "b5095a26a1a2596ac984fdd9f311311a6ef36273"
     },
+    "ufw-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/ufw-openrc.git",
+      "branch": "master",
+      "revision": "7b1332c002050928a923e477e8adec1d27d115d2"
+    },
     "unbound-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unbound-dinit.git",
       "branch": "master",
