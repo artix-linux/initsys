@@ -531,6 +531,11 @@
       "branch": "master",
       "revision": "08a745f2deb09c8e8097f2ddbf65d5ba28ef1b4f"
     },
+    "cronie-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cronie-runit.git",
+      "branch": "master",
+      "revision": "cee113002cb048a20f71f951a0ab39af1a01d504"
+    },
     "cronie-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cronie-s6.git",
       "branch": "master",
