@@ -2846,6 +2846,11 @@
       "branch": "master",
       "revision": "09c410063dc495ec5afa5edde534374b5a71f726"
     },
+    "spice-vdagent-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spice-vdagent-runit.git",
+      "branch": "master",
+      "revision": "3b17aa725f1e5bc5fe61da2f3b9aefa1ad6bbd41"
+    },
     "spice-vdagent-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spice-vdagent-s6.git",
       "branch": "master",
