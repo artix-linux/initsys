@@ -1236,6 +1236,11 @@
       "branch": "master",
       "revision": "2226b1ecb0c76fc40036ebb09afedba6a9f8e435"
     },
+    "pure-ftpd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pure-ftpd-openrc.git",
+      "branch": "master",
+      "revision": "e36a4198668c4222926d4b82cc8b1035af55807f"
+    },
     "qemu-guest-agent-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesQ/qemu-guest-agent-dinit.git",
       "branch": "master",
