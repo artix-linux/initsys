@@ -1036,6 +1036,11 @@
       "branch": "master",
       "revision": "049b7497296834b7189626862df9632d759cd0a9"
     },
+    "nvidia-utils-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nvidia-utils-openrc.git",
+      "branch": "master",
+      "revision": "9612bca2b6f96f0586c1b440856d5f95f37c73e4"
+    },
     "openfire-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openfire-dinit.git",
       "branch": "master",
