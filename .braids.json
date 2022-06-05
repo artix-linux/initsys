@@ -1406,6 +1406,11 @@
       "branch": "master",
       "revision": "9a68d9a329b95b1b12a3c7a823cad9c4cd50c9e5"
     },
+    "spice-vdagent-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spice-vdagent-openrc.git",
+      "branch": "master",
+      "revision": "09c410063dc495ec5afa5edde534374b5a71f726"
+    },
     "spotifyd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spotifyd-dinit.git",
       "branch": "master",
