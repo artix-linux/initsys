@@ -391,6 +391,11 @@
       "branch": "master",
       "revision": "ff1f69a6f0efa7d67ccdca44986e780faa17d8db"
     },
+    "chrony-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/chrony-runit.git",
+      "branch": "master",
+      "revision": "b86ed0a95a251dbdfc2d412554adcef11ef89c78"
+    },
     "chrony-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesC/chrony-s6.git",
       "branch": "master",
