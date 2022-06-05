@@ -616,6 +616,11 @@
       "branch": "master",
       "revision": "42d8bd0078bb25c9299ed8bc1a2deb3c1a5b5bba"
     },
+    "gpm-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gpm-openrc.git",
+      "branch": "master",
+      "revision": "b70f5043c4f0de79fd7f18e69486fe67b456aaca"
+    },
     "grafana-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesG/grafana-dinit.git",
       "branch": "master",
