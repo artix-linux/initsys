@@ -91,6 +91,11 @@
       "branch": "master",
       "revision": "59fb80c3941f932df24ccc54df1db4831d17cea3"
     },
+    "apparmor-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/apparmor-runit.git",
+      "branch": "master",
+      "revision": "e0aa31ca269c647d91304f324b2becc8ba226e9c"
+    },
     "apparmor-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apparmor-s6.git",
       "branch": "master",
