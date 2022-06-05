@@ -1,0 +1,6 @@
+#!/bin/sh
+[ ! -f /etc/stunnel/stunnel.conf ] && cp /etc/stunnel/stunnel.conf-sample /etc/stunnel/stunnel.conf
+sed -i 's/;setuid/setuid/' /etc/stunnel/stunnel.conf
+sed -i 's/;setgid/setgid/' /etc/stunnel/stunnel.conf
+sed -i 's/;foreground/foreground/' /etc/stunnel/stunnel.conf
+exec /usr/bin/stunnel
