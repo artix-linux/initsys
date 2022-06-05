@@ -1,0 +1,12 @@
+#!/usr/bin/openrc-run
+# Copyright 1999-2013 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+supervisor=supervise-daemon
+command="/usr/bin/thermald"
+command_args="--dbus-enable --no-daemon"
+
+depend() {
+	need dbus
+	after logger
+}

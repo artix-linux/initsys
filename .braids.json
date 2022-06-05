@@ -1546,6 +1546,11 @@
       "branch": "master",
       "revision": "ca3d5d6b7613266afa2d1249cfc62622b35223b1"
     },
+    "thermald-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/thermald-openrc.git",
+      "branch": "master",
+      "revision": "31918d7237e35189a651ec72931b304886c80a31"
+    },
     "tigervnc-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tigervnc-dinit.git",
       "branch": "master",
