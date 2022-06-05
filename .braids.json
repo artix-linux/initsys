@@ -1336,6 +1336,11 @@
       "branch": "master",
       "revision": "bece86e71f6cdf9f9fa1c21675837127a10e9bd3"
     },
+    "sane-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sane-openrc.git",
+      "branch": "master",
+      "revision": "83514a6a2b71a280b372ef902def6a240ec81e80"
+    },
     "sddm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sddm-dinit.git",
       "branch": "master",
