@@ -2676,6 +2676,11 @@
       "branch": "master",
       "revision": "e002ed5c6675afe14d64b1e159c295a90026b1e6"
     },
+    "samba-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/samba-runit.git",
+      "branch": "master",
+      "revision": "518b675c84ea559b9b2df38430cb1e345cbd5782"
+    },
     "samba-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/samba-s6.git",
       "branch": "master",
