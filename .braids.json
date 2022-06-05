@@ -1516,6 +1516,11 @@
       "branch": "master",
       "revision": "4731645f9d109889f8dd2fe9b8391a511fdc1ef1"
     },
+    "ngircd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-s6.git",
+      "branch": "master",
+      "revision": "84a9eafa81ab6e0c42d2add875f8d0a24666f225"
+    },
     "nsd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nsd-dinit.git",
       "branch": "master",
