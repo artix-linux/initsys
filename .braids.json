@@ -6,6 +6,11 @@
       "branch": "master",
       "revision": "3bb1e7100f655c7474c63efe84cfac2720342ed2"
     },
+    "acpid-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/acpid-openrc.git",
+      "branch": "master",
+      "revision": "02512db38625c309e72a26d8e6c8eba1cc389e2c"
+    },
     "alsa-utils-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-utils-dinit.git",
       "branch": "master",
