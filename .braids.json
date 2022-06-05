@@ -1061,6 +1061,11 @@
       "branch": "master",
       "revision": "7a1c18bc1bc0fdc14bde8882da37496cfd9ea994"
     },
+    "iptables-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iptables-s6.git",
+      "branch": "master",
+      "revision": "dde53ce371133bcf170943d7a2676e1b57651c06"
+    },
     "iwd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iwd-dinit.git",
       "branch": "master",
