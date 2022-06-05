@@ -1841,6 +1841,11 @@
       "branch": "master",
       "revision": "8c2b1bcec82a98cf6a0e822ba3db89b79b670fb7"
     },
+    "prometheus-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/prometheus-s6.git",
+      "branch": "master",
+      "revision": "65459e93c9d7f391893d93d1d587c6914dc1257d"
+    },
     "prosody-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesP/prosody-openrc.git",
       "branch": "master",
