@@ -201,6 +201,11 @@
       "branch": "master",
       "revision": "0022ac9fd97cec519f3b471f268789c4228924dc"
     },
+    "chrony-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/chrony-openrc.git",
+      "branch": "master",
+      "revision": "ff1f69a6f0efa7d67ccdca44986e780faa17d8db"
+    },
     "clamav-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clamav-dinit.git",
       "branch": "master",
