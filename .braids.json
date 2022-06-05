@@ -1416,6 +1416,11 @@
       "branch": "master",
       "revision": "1166b1775fe0f6e5829a5083b419972d7191fc50"
     },
+    "mpd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mpd-s6.git",
+      "branch": "master",
+      "revision": "ecd70d3922dfcee2ef1a7c826c8d7c6b19fd02e8"
+    },
     "murmur-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/murmur-dinit.git",
       "branch": "master",
