@@ -1126,6 +1126,11 @@
       "branch": "master",
       "revision": "0d521215588beedfd718d1f783cb61e47105f2da"
     },
+    "pcsclite-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pcsclite-openrc.git",
+      "branch": "master",
+      "revision": "d2a10d63a7e5a2b0a1bb00836a9ad20e1335c1a8"
+    },
     "pdnsd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pdnsd-dinit.git",
       "branch": "master",
