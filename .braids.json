@@ -1836,6 +1836,11 @@
       "branch": "master",
       "revision": "195c324d1a6a186d38dd4a90a4aeac6e78994ee5"
     },
+    "motion-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/motion-runit.git",
+      "branch": "master",
+      "revision": "e452c6b1adaec22feaad9f3552f582a91bd40fb8"
+    },
     "motion-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesM/motion-s6.git",
       "branch": "master",
