@@ -16,6 +16,11 @@
       "branch": "master",
       "revision": "5bed2cca3ac0a0d42a3e772c1371de522984d181"
     },
+    "alsa-utils-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/alsa-utils-openrc.git",
+      "branch": "master",
+      "revision": "44df635f6081e8f11e6b453122bfbdd791432fbb"
+    },
     "apache-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesA/apache-dinit.git",
       "branch": "master",
