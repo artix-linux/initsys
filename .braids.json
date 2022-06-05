@@ -341,6 +341,11 @@
       "branch": "master",
       "revision": "e1907275fc68408471a4cc8f85549baeb7849f65"
     },
+    "deluge-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/deluge-openrc.git",
+      "branch": "master",
+      "revision": "33e257c6bf0fdc3abda6480153981e0abc97b823"
+    },
     "device-mapper-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/device-mapper-dinit.git",
       "branch": "master",
