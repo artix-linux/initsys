@@ -65,6 +65,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesB/bind-dinit.git",
       "branch": "master",
       "revision": "8a793a7c48df4f22389aa1828aefb406247f9795"
+    },
+    "bluez-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bluez-dinit.git",
+      "branch": "master",
+      "revision": "836e86469ea15d5f4e16f6d20da57039aff76c0a"
     }
   }
 }
