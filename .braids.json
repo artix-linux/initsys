@@ -511,6 +511,11 @@
       "branch": "master",
       "revision": "33e257c6bf0fdc3abda6480153981e0abc97b823"
     },
+    "deluge-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/deluge-s6.git",
+      "branch": "master",
+      "revision": "9d3092e54e16ae86d91de6b1b32088f96395552f"
+    },
     "device-mapper-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/device-mapper-dinit.git",
       "branch": "master",
