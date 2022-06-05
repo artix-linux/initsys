@@ -1266,6 +1266,11 @@
       "branch": "master",
       "revision": "8b27f39370d8bdf7ffc8a38132c4063d6f5d9bbc"
     },
+    "redis-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/redis-openrc.git",
+      "branch": "master",
+      "revision": "a1e98878e448ddebd95adb6ed703290ce79a66f2"
+    },
     "rng-tools-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rng-tools-dinit.git",
       "branch": "master",
