@@ -485,6 +485,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager-dinit.git",
       "branch": "master",
       "revision": "7ce3e82fa8e77ac59c978efc8746ab37692f8cbd"
+    },
+    "nfs-utils-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nfs-utils-dinit.git",
+      "branch": "master",
+      "revision": "b78554932364dca8efdeb2748ce77b1bdbacae79"
     }
   }
 }
