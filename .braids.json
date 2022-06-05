@@ -1496,6 +1496,11 @@
       "branch": "master",
       "revision": "cd2697f77ed0f131cd597d4798980d3e66ab2967"
     },
+    "subversion-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/subversion-openrc.git",
+      "branch": "master",
+      "revision": "444a676ced027145e41e31767e31b245ceb7cefa"
+    },
     "syncthing-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syncthing-dinit.git",
       "branch": "master",
