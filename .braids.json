@@ -2441,6 +2441,11 @@
       "branch": "master",
       "revision": "3532b6ea43b295c66a1b5ee3746af79a626a18e6"
     },
+    "tor-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tor-s6.git",
+      "branch": "master",
+      "revision": "8802aefa9fa88ad713f92cad28ddfdb27e0614da"
+    },
     "toxcore-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/toxcore-dinit.git",
       "branch": "master",
