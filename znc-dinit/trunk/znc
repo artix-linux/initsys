@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/bin/znc -f -d /var/lib/znc
+smooth-recovery = true
+logfile         = /var/log/dinit/znc.log
+run-as          = znc
+waits-for       = loginready
