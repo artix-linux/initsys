@@ -1136,6 +1136,11 @@
       "branch": "master",
       "revision": "442203f97379298749ca09ea2a40f6f29125f30c"
     },
+    "pdnsd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pdnsd-openrc.git",
+      "branch": "master",
+      "revision": "c2521826ba233ece30fed814d26ba512a80bf0b6"
+    },
     "php-fpm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/php-fpm-dinit.git",
       "branch": "master",

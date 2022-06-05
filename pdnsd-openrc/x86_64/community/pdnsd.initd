@@ -1,0 +1,27 @@
+#!/usr/bin/openrc-run
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+supervisor=supervise-daemon
+command="/usr/bin/pdnsd"
+command_args="-s -t ${PDNSDCONFIG}"
+extra_started_commands="reload"
+
+depend() {
+	use net
+	provide dns
+}
+
+start_pre() {
+	if [ ! -e /etc/pdnsd.conf ] ; then
+		eerror "You need an /etc/pdnsd.conf file first."
+		eerror "There is a sample in /usr/share/doc/pdnsd/pdnsd.conf"
+		return 1
+	fi
+}
+
+reload() {
+	ebegin "Reloading pdnsd.conf"
+	/usr/bin/pdnsd-ctl config
+	eend $?
+}
