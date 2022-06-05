@@ -2661,6 +2661,11 @@
       "branch": "master",
       "revision": "1b8c93db5bdb6e891ad68b0c9fc855660413fc4c"
     },
+    "wireguard-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wireguard-s6.git",
+      "branch": "master",
+      "revision": "058855f23433ae11bf6069138caa81fc237d73a8"
+    },
     "wpa_supplicant-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wpa_supplicant-dinit.git",
       "branch": "master",
