@@ -766,6 +766,11 @@
       "branch": "master",
       "revision": "4786a685cd0c8140356c537c1323e22218636782"
     },
+    "fail2ban-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fail2ban-s6.git",
+      "branch": "master",
+      "revision": "4a0a98ec279865e22e29ae91b50f20ce58260529"
+    },
     "fcgiwrap-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fcgiwrap-dinit.git",
       "branch": "master",
