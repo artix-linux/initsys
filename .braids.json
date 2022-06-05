@@ -820,6 +820,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesU/unrealircd-dinit.git",
       "branch": "master",
       "revision": "57c687dca07b2517ef4abc6f7165459edd1feaa2"
+    },
+    "usbguard-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/usbguard-dinit.git",
+      "branch": "master",
+      "revision": "db86ed765c3d612ec48c4855e5eda356a99fca7a"
     }
   }
 }
