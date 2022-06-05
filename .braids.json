@@ -466,6 +466,11 @@
       "branch": "master",
       "revision": "d4aa67b95012cd57dbd5cc63ec99899e5000146c"
     },
+    "darkhttpd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/darkhttpd-s6.git",
+      "branch": "master",
+      "revision": "00844034a2999589c64cfe72e0ff2684605a92ee"
+    },
     "dbus-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dbus-dinit.git",
       "branch": "master",
