@@ -2291,6 +2291,11 @@
       "branch": "master",
       "revision": "154a41aef1a6ba5f96365e70e895371cb750ac72"
     },
+    "postgresql-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/postgresql-runit.git",
+      "branch": "master",
+      "revision": "3336291f6a2868c853f2190f636fbae37f4eb25a"
+    },
     "postgresql-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postgresql-s6.git",
       "branch": "master",

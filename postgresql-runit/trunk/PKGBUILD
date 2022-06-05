@@ -1,0 +1,48 @@
+# Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
+
+_sed_args=(-e 's|/var/service|/run/runit/service|g' -e 's|/var/run|/run|g' -e 's|/usr/sbin|/usr/bin|g' -e 's|/opt/bin|/usr/bin|g' -e 's|/usr/libexec|/usr/lib|g')
+
+pkgname=postgresql-runit
+pkgver=20210203
+pkgrel=2
+pkgdesc="runit service scripts for postgresql"
+arch=('any')
+url="https://artixlinux.org"
+license=('BSD')
+groups=('runit-world')
+depends=('postgresql' 'runit')
+conflicts=('init-postgresql')
+provides=('init-postgresql')
+source=("postgresql.run"
+        "logpostgresql.run"
+        "postgresql.conf")
+sha256sums=('5dc26034a57c3ad37c8b8619038577d594458a806cc89defb39133b83b4555eb'
+            '007cd1227fa789ef5616275ed079f9cc8a4ac95fc2d8f2fa71ca30bb2defc33f'
+            '62870cdb1665f8a4a614110617bc9f2a1c39ca38898bbbf80befa67c6752438e')
+
+_inst_logsv() {
+    for file in run finish check; do
+        if test -f "$srcdir/log$1.$file"; then
+            install -Dm755 "$srcdir/log$1.$file" "$pkgdir/etc/runit/sv/$1/log/$file"
+            sed "${_sed_args[@]}" -i "$pkgdir/etc/runit/sv/$1/log/$file"
+        fi
+    done
+}
+
+_inst_sv() {
+    if test -f "$srcdir/$1.conf"; then
+        install -Dm644 "$srcdir/$1.conf" "$pkgdir/etc/runit/sv/$1/conf"
+    fi
+
+    for file in run finish check; do
+        if test -f "$srcdir/$1.$file"; then
+            install -Dm755 "$srcdir/$1.$file" "$pkgdir/etc/runit/sv/$1/$file"
+            sed "${_sed_args[@]}" -i "$pkgdir/etc/runit/sv/$1/$file"
+        fi
+    done
+}
+
+package() {
+    _inst_sv 'postgresql'
+    _inst_logsv 'postgresql'
+}
