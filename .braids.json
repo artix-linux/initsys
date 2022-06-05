@@ -175,6 +175,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesD/deluge-dinit.git",
       "branch": "master",
       "revision": "e1907275fc68408471a4cc8f85549baeb7849f65"
+    },
+    "device-mapper-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/device-mapper-dinit.git",
+      "branch": "master",
+      "revision": "5c7a7913e4dd61c6e48c5d10548e9b4397be3c86"
     }
   }
 }
