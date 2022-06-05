@@ -265,6 +265,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesF/fcgiwrap-dinit.git",
       "branch": "master",
       "revision": "f9b2512048daa4af3e91bdb3ccb2df48e669c9e8"
+    },
+    "fcron-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fcron-dinit.git",
+      "branch": "master",
+      "revision": "1f8d758c1d8155e25b29f9a3d0d356e3fa27d62d"
     }
   }
 }
