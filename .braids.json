@@ -100,6 +100,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/cgmanager-dinit.git",
       "branch": "master",
       "revision": "bef561d519dcacb4666302d1f9df81451141f24d"
+    },
+    "chrony-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/chrony-dinit.git",
+      "branch": "master",
+      "revision": "0022ac9fd97cec519f3b471f268789c4228924dc"
     }
   }
 }

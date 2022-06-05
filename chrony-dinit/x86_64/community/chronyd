@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/chronyd -d
+smooth-recovery = true
+logfile         = /var/log/dinit/chronyd.log
+waits-for       = loginready
