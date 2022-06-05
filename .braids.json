@@ -3496,6 +3496,11 @@
       "branch": "master",
       "revision": "1b8c93db5bdb6e891ad68b0c9fc855660413fc4c"
     },
+    "wireguard-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wireguard-runit.git",
+      "branch": "master",
+      "revision": "f124c44665bdf7fbc8b7700e0b9c1b642ca04c76"
+    },
     "wireguard-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wireguard-s6.git",
       "branch": "master",
