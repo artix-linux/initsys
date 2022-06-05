@@ -46,6 +46,11 @@
       "branch": "master",
       "revision": "3cc2613f5e9ccbb36dfa2f8fa2e7d2547bbbd3e7"
     },
+    "apparmor-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/apparmor-openrc.git",
+      "branch": "master",
+      "revision": "59fb80c3941f932df24ccc54df1db4831d17cea3"
+    },
     "at-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesA/at-dinit.git",
       "branch": "master",
