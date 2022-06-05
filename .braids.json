@@ -966,6 +966,11 @@
       "branch": "master",
       "revision": "1ec495cf3cdf514093a1f3242f16b715be5e87bd"
     },
+    "espeakup-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/espeakup-runit.git",
+      "branch": "master",
+      "revision": "148db0880ed00ea355251d60bd2d65a6ac975b3c"
+    },
     "espeakup-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesE/espeakup-s6.git",
       "branch": "master",
