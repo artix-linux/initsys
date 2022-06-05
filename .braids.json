@@ -805,6 +805,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesU/udpxy-dinit.git",
       "branch": "master",
       "revision": "04747f0a69aac2eeaa765dd2d1c88ef50e4cf45b"
+    },
+    "ufw-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/ufw-dinit.git",
+      "branch": "master",
+      "revision": "b5095a26a1a2596ac984fdd9f311311a6ef36273"
     }
   }
 }
