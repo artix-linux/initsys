@@ -2531,6 +2531,11 @@
       "branch": "master",
       "revision": "1b7671036b38a97dfcbb545540491602527cfa7a"
     },
+    "rpcbind-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rpcbind-runit.git",
+      "branch": "master",
+      "revision": "130ffb624dbde0273d5c3d0ebca3903dd65cd3d5"
+    },
     "rpcbind-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rpcbind-s6.git",
       "branch": "master",
