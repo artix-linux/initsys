@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/firewalld --nofork --nopid
+smooth-recovery = true
+logfile         = /var/log/dinit/firewalld.log
+depends-on      = dbus

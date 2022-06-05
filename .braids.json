@@ -270,6 +270,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesF/fcron-dinit.git",
       "branch": "master",
       "revision": "1f8d758c1d8155e25b29f9a3d0d356e3fa27d62d"
+    },
+    "firewalld-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/firewalld-dinit.git",
+      "branch": "master",
+      "revision": "0a262eee575c6ee9f2c4500f8f57f378aef9df70"
     }
   }
 }
