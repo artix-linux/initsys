@@ -1571,6 +1571,11 @@
       "branch": "master",
       "revision": "b44ab2680ecfd333e3cabcacf044af3469f838a8"
     },
+    "lm_sensors-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lm_sensors-runit.git",
+      "branch": "master",
+      "revision": "f3f86a1da9c62815227264bebe66cba18d376520"
+    },
     "lm_sensors-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lm_sensors-s6.git",
       "branch": "master",
