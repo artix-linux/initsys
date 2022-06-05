@@ -2346,6 +2346,11 @@
       "branch": "master",
       "revision": "ac2a639cd188c29d7ba733fa94d7a8a7e722daf1"
     },
+    "syslogd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/syslogd-s6.git",
+      "branch": "master",
+      "revision": "6d7761e0f00af3332090109496376312f5adb297"
+    },
     "tailscale-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tailscale-dinit.git",
       "branch": "master",
