@@ -311,6 +311,11 @@
       "branch": "master",
       "revision": "06de2611f092478886e9334187f1d6e912d0d53c"
     },
+    "darkhttpd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/darkhttpd-openrc.git",
+      "branch": "master",
+      "revision": "d4aa67b95012cd57dbd5cc63ec99899e5000146c"
+    },
     "dbus-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dbus-dinit.git",
       "branch": "master",
