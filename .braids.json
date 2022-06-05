@@ -611,6 +611,11 @@
       "branch": "master",
       "revision": "d4aa67b95012cd57dbd5cc63ec99899e5000146c"
     },
+    "darkhttpd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/darkhttpd-runit.git",
+      "branch": "master",
+      "revision": "70f47003f4f1850685d997de030c9fb3798027ad"
+    },
     "darkhttpd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/darkhttpd-s6.git",
       "branch": "master",
