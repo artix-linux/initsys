@@ -350,6 +350,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-undervolt-dinit.git",
       "branch": "master",
       "revision": "d872cdba2abe9f567dd18ca1b043f76bb9f8cdaa"
+    },
+    "interception-tools-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/interception-tools-dinit.git",
+      "branch": "master",
+      "revision": "8845813b9b583619953bbd70e3875c20ad6223ac"
     }
   }
 }

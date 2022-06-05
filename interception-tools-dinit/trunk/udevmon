@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/udevmon -c /etc/interception/udevmon.yaml
+smooth-recovery = true
+logfile         = /var/log/dinit/udevmon.log
+depends-on      = udev-settle
