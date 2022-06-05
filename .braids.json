@@ -1431,6 +1431,11 @@
       "branch": "master",
       "revision": "90089547b7b4a40785eddeb3ca1227d61072fce2"
     },
+    "jenkins-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jenkins-runit.git",
+      "branch": "master",
+      "revision": "bcff73582f0c33af404bfa7a249f88e590b05d3e"
+    },
     "jenkins-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jenkins-s6.git",
       "branch": "master",
