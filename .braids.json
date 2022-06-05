@@ -171,6 +171,11 @@
       "branch": "master",
       "revision": "8a1e49b27508d215c230683a64f97eb43c5f3302"
     },
+    "avahi-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/avahi-runit.git",
+      "branch": "master",
+      "revision": "2efdb0731e3c57389053d0bd35ba3bfe9250dfaf"
+    },
     "avahi-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesA/avahi-s6.git",
       "branch": "master",
