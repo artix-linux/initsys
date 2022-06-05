@@ -1671,6 +1671,11 @@
       "branch": "master",
       "revision": "533eaab035a3730083b182db7fd17435e0d4f99c"
     },
+    "mariadb-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mariadb-runit.git",
+      "branch": "master",
+      "revision": "c79f4fc6be57cbb240c8e2f031bc61aaf98f0a30"
+    },
     "mariadb-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mariadb-s6.git",
       "branch": "master",
