@@ -1261,6 +1261,11 @@
       "branch": "master",
       "revision": "f1e2198e4b8648cdf3a13a7c36e701ad76bd1f95"
     },
+    "mailman-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mailman-s6.git",
+      "branch": "master",
+      "revision": "e92ddba2ba579665b65b597314e8bd580f67d09e"
+    },
     "mariadb-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mariadb-dinit.git",
       "branch": "master",
