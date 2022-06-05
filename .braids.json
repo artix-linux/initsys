@@ -3186,6 +3186,11 @@
       "branch": "master",
       "revision": "7921c3eb41696dd3c450d74c0778dd6db641ff26"
     },
+    "tlp-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tlp-runit.git",
+      "branch": "master",
+      "revision": "69d083366e78815b595e09f9f4855a668676445a"
+    },
     "tlp-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tlp-s6.git",
       "branch": "master",
