@@ -1456,6 +1456,11 @@
       "branch": "master",
       "revision": "7188d7429873989da19e569fd21ad8a9a31bd6a7"
     },
+    "networkmanager-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager-s6.git",
+      "branch": "master",
+      "revision": "f5c0676e61fd1faa4b487418b283fdd26c81ffc7"
+    },
     "nfs-utils-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nfs-utils-dinit.git",
       "branch": "master",
