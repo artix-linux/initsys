@@ -741,6 +741,11 @@
       "branch": "master",
       "revision": "2655836b9320c3cb96cace8829f1ee47ffa3dbf3"
     },
+    "execline": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/execline.git",
+      "branch": "master",
+      "revision": "7fb51683b134216dd0c3433719c980f94a02b071"
+    },
     "exim-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesE/exim-dinit.git",
       "branch": "master",
