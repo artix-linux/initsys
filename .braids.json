@@ -76,6 +76,11 @@
       "branch": "master",
       "revision": "38972427dd6f35c4074a40f835a6c9d67a52e498"
     },
+    "audit-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/audit-openrc.git",
+      "branch": "master",
+      "revision": "dd6af6c44c804fc6486ef67fc5344eee8269c132"
+    },
     "avahi-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesA/avahi-dinit.git",
       "branch": "master",
