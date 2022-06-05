@@ -976,6 +976,11 @@
       "branch": "master",
       "revision": "b78554932364dca8efdeb2748ce77b1bdbacae79"
     },
+    "nfs-utils-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nfs-utils-openrc.git",
+      "branch": "master",
+      "revision": "c96dcf57df55962c988fbb5c6c56da737c75a24a"
+    },
     "nftables-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nftables-dinit.git",
       "branch": "master",
