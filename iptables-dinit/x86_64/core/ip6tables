@@ -1,0 +1,4 @@
+type      = scripted
+command   = /usr/bin/ip6tables-restore /etc/iptables/ip6tables.rules -w 3
+restart   = false
+waits-for = loginready
