@@ -1,0 +1,2 @@
+# openfire-openrc
+

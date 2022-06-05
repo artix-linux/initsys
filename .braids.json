@@ -1046,6 +1046,11 @@
       "branch": "master",
       "revision": "20161e0b2844e261960244df18d6ffb59e3dc546"
     },
+    "openfire-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openfire-openrc.git",
+      "branch": "master",
+      "revision": "a00f5b425b2d1f08a520ff332946e891b2919d6f"
+    },
     "openldap-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openldap-dinit.git",
       "branch": "master",

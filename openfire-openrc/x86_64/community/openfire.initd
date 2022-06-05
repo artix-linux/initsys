@@ -1,0 +1,12 @@
+#!/usr/bin/openrc-run
+
+supervisor=supervise-daemon
+command="/usr/bin/java"
+command_args="-server $OPENFIRE_OPTS -DopenfireHome=/var/lib/openfire -Dopenfire.lib.dir=/usr/lib/openfire -classpath /usr/lib/openfire/startup.jar -jar /usr/lib/openfire/startup.jar"
+command_user="openfire:openfire"
+
+depend() {
+	need net
+	after firewall
+	use dns logger
+}
