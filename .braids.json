@@ -1476,6 +1476,11 @@
       "branch": "master",
       "revision": "aaa2abf0cc2708e32114a3344111b952099b2227"
     },
+    "stubby-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/stubby-openrc.git",
+      "branch": "master",
+      "revision": "ac4f7fed665b8fb4c8ca91229e43e627d3bf3e7a"
+    },
     "stunnel-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stunnel-dinit.git",
       "branch": "master",
