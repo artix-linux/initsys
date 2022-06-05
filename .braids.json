@@ -571,6 +571,11 @@
       "branch": "master",
       "revision": "ef6141d7306afabcf3bc0b34f31382dd1724c3cd"
     },
+    "cups-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cups-runit.git",
+      "branch": "master",
+      "revision": "3319fe0c96b5aafbae0e6f657a169b9f52a458ce"
+    },
     "cups-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cups-s6.git",
       "branch": "master",
