@@ -2346,6 +2346,11 @@
       "branch": "master",
       "revision": "ac2a639cd188c29d7ba733fa94d7a8a7e722daf1"
     },
+    "syslog-ng-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/syslog-ng-s6.git",
+      "branch": "master",
+      "revision": "f31740339cd982a61d71447b949eff5d7b873801"
+    },
     "syslogd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syslogd-s6.git",
       "branch": "master",
