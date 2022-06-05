@@ -576,6 +576,11 @@
       "branch": "master",
       "revision": "0d2fb50f992e686567ff2f13e9362b75aaf13324"
     },
+    "gdm-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/gdm-openrc.git",
+      "branch": "master",
+      "revision": "1daaa476bfa4c37d4ae7427bd4ea9c733531d3c3"
+    },
     "git-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesG/git-dinit.git",
       "branch": "master",
