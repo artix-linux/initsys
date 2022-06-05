@@ -1361,6 +1361,11 @@
       "branch": "master",
       "revision": "82e8d315f7a70ebafb95d758e3d6b41769783309"
     },
+    "intel-undervolt-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/intel-undervolt-runit.git",
+      "branch": "master",
+      "revision": "56f324c9a2f08fb42821996d84e93710d440e567"
+    },
     "intel-undervolt-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-undervolt-s6.git",
       "branch": "master",
