@@ -3061,6 +3061,11 @@
       "branch": "master",
       "revision": "c9670276905d97651e6651187382a38e7181bc68"
     },
+    "syncthing-relaysrv-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/syncthing-relaysrv-runit.git",
+      "branch": "master",
+      "revision": "e8385357b6baa3ce695f5318d2a68558cfcd4080"
+    },
     "syncthing-relaysrv-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syncthing-relaysrv-s6.git",
       "branch": "master",
