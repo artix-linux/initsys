@@ -316,6 +316,11 @@
       "branch": "master",
       "revision": "1dc8b59d9940ae93fdf0a6e1ba0ad5b858d91785"
     },
+    "clamav-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/clamav-s6.git",
+      "branch": "master",
+      "revision": "63686637a37fe6f5c12478f49b6b4a3da1f1c5c7"
+    },
     "colord-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/colord-dinit.git",
       "branch": "master",
