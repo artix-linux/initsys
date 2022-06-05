@@ -595,6 +595,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesP/powerdns-recursor-dinit.git",
       "branch": "master",
       "revision": "09eea0f547ba2b729bbd38cb576d5f31bbf16b43"
+    },
+    "pptpd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pptpd-dinit.git",
+      "branch": "master",
+      "revision": "563afb75c71fc25b5ce0ce32171b9ef5215778e3"
     }
   }
 }

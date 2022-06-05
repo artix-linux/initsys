@@ -1,0 +1,4 @@
+type            = process
+command         = /usr/bin/pptpd -c /etc/pptpd.conf -p /var/run/pptpd.pid -f
+smooth-recovery = true
+waits-for       = loginready
