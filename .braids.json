@@ -1606,6 +1606,11 @@
       "branch": "master",
       "revision": "b8d827295519ef4611b23fcd946ecf17b1566eaa"
     },
+    "openntpd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openntpd-s6.git",
+      "branch": "master",
+      "revision": "3bae22520bdaeaf31158b2e347f68de602e5c347"
+    },
     "openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openrc.git",
       "branch": "master",
