@@ -2986,6 +2986,11 @@
       "branch": "master",
       "revision": "ac4f7fed665b8fb4c8ca91229e43e627d3bf3e7a"
     },
+    "stubby-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/stubby-runit.git",
+      "branch": "master",
+      "revision": "ce9d2b994a6763fa6331cbf81186ef44146fc442"
+    },
     "stubby-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/stubby-s6.git",
       "branch": "master",
