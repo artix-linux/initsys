@@ -1791,6 +1791,11 @@
       "branch": "master",
       "revision": "2190fa69cf573e64f11d340e86d9abebac1bdd28"
     },
+    "minio-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/minio-runit.git",
+      "branch": "master",
+      "revision": "ece4badc7ad32897d1ce260cdd61c3f118a989ac"
+    },
     "minio-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minio-s6.git",
       "branch": "master",
