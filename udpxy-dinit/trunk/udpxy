@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/udpxy -T -S -p 4022 -B 256kb -v
+smooth-recovery = true
+logfile         = /var/log/dinit/udpxy.log
+waits-for       = loginready

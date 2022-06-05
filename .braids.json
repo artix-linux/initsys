@@ -800,6 +800,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/trojan-dinit.git",
       "branch": "master",
       "revision": "87249c9c6f991871d92ed088858e153137cc069c"
+    },
+    "udpxy-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/udpxy-dinit.git",
+      "branch": "master",
+      "revision": "04747f0a69aac2eeaa765dd2d1c88ef50e4cf45b"
     }
   }
 }
