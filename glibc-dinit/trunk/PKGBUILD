@@ -1,0 +1,21 @@
+# Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
+
+pkgname=glibc-dinit
+pkgver=20211029
+pkgrel=1
+pkgdesc="dinit service scripts for glibc"
+arch=('any')
+url="https://artixlinux.org"
+license=('BSD')
+groups=('dinit-system')
+depends=('glibc' 'dinit')
+conflicts=('init-glibc')
+provides=('init-glibc')
+source=("nscd" "nscd.script")
+sha256sums=('156813a439071d3cff6037ee59022a9ff7148d1b304841261f06d8a286d5a302'
+            '74010c131187f92dc28d08d5b413b9ace737572509c1a0aa2faa6237bba329de')
+
+package() {
+    install -Dm644 nscd        "$pkgdir/etc/dinit.d/nscd"
+    install -Dm755 nscd.script "$pkgdir/etc/dinit.d/scripts/nscd"
+}

@@ -1,0 +1,5 @@
+type            = process
+command         = /etc/dinit.d/scripts/nscd
+smooth-recovery = true
+logfile         = /var/log/dinit/nscd.log
+waits-for       = pseudofs

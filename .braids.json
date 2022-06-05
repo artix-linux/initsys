@@ -305,6 +305,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesG/gitea-dinit.git",
       "branch": "master",
       "revision": "e46d92c2cf98db1d2f6cee1f552dccf41e23c61a"
+    },
+    "glibc-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/glibc-dinit.git",
+      "branch": "master",
+      "revision": "178dbc227c460ffc43f4260bba59a05fcf8f03dc"
     }
   }
 }
