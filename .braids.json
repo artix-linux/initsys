@@ -761,6 +761,11 @@
       "branch": "master",
       "revision": "0e352771817463a9c1283a22a9b0a83fce4611f2"
     },
+    "distcc-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/distcc-runit.git",
+      "branch": "master",
+      "revision": "6e9ea185ab7f0c43236d2de2c4e43bfff3ebcc13"
+    },
     "distcc-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/distcc-s6.git",
       "branch": "master",
