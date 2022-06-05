@@ -3576,6 +3576,11 @@
       "branch": "master",
       "revision": "e39300bfae7bea2abce019fdae31831752c08346"
     },
+    "xl2tpd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xl2tpd-runit.git",
+      "branch": "master",
+      "revision": "6408178763b01303350c2a7a9bb1578dd94202c3"
+    },
     "xl2tpd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xl2tpd-s6.git",
       "branch": "master",
