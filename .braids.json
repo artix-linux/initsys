@@ -1486,6 +1486,11 @@
       "branch": "master",
       "revision": "f63afb217b690a7e5fbc8be0884b1eaa0aebdafd"
     },
+    "nftables-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nftables-s6.git",
+      "branch": "master",
+      "revision": "8cee17c7177af6a8f4b96d1a1369416aca989f6f"
+    },
     "nginx-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nginx-dinit.git",
       "branch": "master",
