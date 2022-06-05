@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/tox-bootstrapd --foreground --config /etc/tox-bootstrapd.conf --log-backend=stdout
+smooth-recovery = true
+logfile         = /var/log/dinit/toxbootstrapd.log
+waits-for       = loginready
