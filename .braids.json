@@ -1626,6 +1626,11 @@
       "branch": "master",
       "revision": "04747f0a69aac2eeaa765dd2d1c88ef50e4cf45b"
     },
+    "udpxy-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/udpxy-openrc.git",
+      "branch": "master",
+      "revision": "8885eced3865c3b727a6e325e90711c864afab35"
+    },
     "ufw-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesU/ufw-dinit.git",
       "branch": "master",

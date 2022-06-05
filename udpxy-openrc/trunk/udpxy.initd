@@ -1,0 +1,13 @@
+#!/usr/bin/openrc-run
+
+name="udpxy"
+description="UDP multicast to TCP relay proxy"
+
+supervisor=supervise-daemon
+command=/usr/bin/udpxy
+command_args="-S -p 4022 -B 256kb -T"
+
+depend() {
+	need net
+	after net
+}
