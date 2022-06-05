@@ -2566,6 +2566,11 @@
       "branch": "master",
       "revision": "d060bde57860b3db339f1b3a5109cd1bc3df89ce"
     },
+    "usbguard-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/usbguard-s6.git",
+      "branch": "master",
+      "revision": "c1790de5928a7da795d17e2bb8f7ceac46cc99f5"
+    },
     "v2ray-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-dinit.git",
       "branch": "master",
