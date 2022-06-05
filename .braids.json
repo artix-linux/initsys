@@ -266,6 +266,11 @@
       "branch": "master",
       "revision": "d59e44737c4f65a1689acc97dfeeeb7c18c283e0"
     },
+    "bluez-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bluez-runit.git",
+      "branch": "master",
+      "revision": "a7c17010cafd0b426808fab9a482b244c47d0e80"
+    },
     "bluez-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bluez-s6.git",
       "branch": "master",
