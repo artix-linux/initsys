@@ -306,6 +306,11 @@
       "branch": "master",
       "revision": "bafaf67c00513ed761f8a53de7d8bc6410d38321"
     },
+    "bolt-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bolt-runit.git",
+      "branch": "master",
+      "revision": "bf57023672adafb522d7272b7235554b59fdb3e6"
+    },
     "bolt-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bolt-s6.git",
       "branch": "master",
