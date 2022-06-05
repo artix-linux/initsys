@@ -145,6 +145,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/cryptsetup-dinit.git",
       "branch": "master",
       "revision": "94c2c8496da4471d6c6f8229c20b40165ea6814b"
+    },
+    "cups-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cups-dinit.git",
+      "branch": "master",
+      "revision": "d2a7efc6ddad7254be6f11d48b77a65a251d816c"
     }
   }
 }
