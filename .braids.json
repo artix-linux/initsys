@@ -3226,6 +3226,11 @@
       "branch": "master",
       "revision": "ca73247aff08afe2f3b23f09ee19cb08ee873bfc"
     },
+    "toxcore-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/toxcore-runit.git",
+      "branch": "master",
+      "revision": "9445f12d3461e33bb2f204a95ae4317c86651c53"
+    },
     "toxcore-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesT/toxcore-s6.git",
       "branch": "master",
