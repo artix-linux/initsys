@@ -295,6 +295,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesG/gdm-dinit.git",
       "branch": "master",
       "revision": "0d2fb50f992e686567ff2f13e9362b75aaf13324"
+    },
+    "git-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/git-dinit.git",
+      "branch": "master",
+      "revision": "990cc44908beb448f592dffc0e1112769824099e"
     }
   }
 }
