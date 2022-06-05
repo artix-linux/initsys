@@ -140,6 +140,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/cronie-dinit.git",
       "branch": "master",
       "revision": "f704ee78ede55591df400863f01887450ed5eff7"
+    },
+    "cryptsetup-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cryptsetup-dinit.git",
+      "branch": "master",
+      "revision": "94c2c8496da4471d6c6f8229c20b40165ea6814b"
     }
   }
 }
