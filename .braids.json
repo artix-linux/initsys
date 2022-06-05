@@ -731,6 +731,11 @@
       "branch": "master",
       "revision": "75db2fdff52c89a05aa0d9ecc50ff4f5d19990a2"
     },
+    "knot-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesK/knot-openrc.git",
+      "branch": "master",
+      "revision": "d7506ba9ee172a633c3dab2e62b84415063f585d"
+    },
     "krb5-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesK/krb5-dinit.git",
       "branch": "master",
