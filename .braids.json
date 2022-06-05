@@ -1996,6 +1996,11 @@
       "branch": "master",
       "revision": "57f4b86d7741139b793ba4959a8406f79aa6cde9"
     },
+    "s6-networking": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/s6-networking.git",
+      "branch": "master",
+      "revision": "73d62f60af1138fe8d87ad5c4a2168441862cca4"
+    },
     "salt-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/salt-dinit.git",
       "branch": "master",
