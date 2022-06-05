@@ -2806,6 +2806,11 @@
       "branch": "master",
       "revision": "6e347dd668f8559a4d0b6e986d23438815402c79"
     },
+    "sndio-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sndio-runit.git",
+      "branch": "master",
+      "revision": "4dc6c559c85b67c34f9b8947a5ed490c1456384d"
+    },
     "sndio-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sndio-s6.git",
       "branch": "master",
