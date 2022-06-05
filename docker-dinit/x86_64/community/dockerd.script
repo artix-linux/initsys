@@ -1,0 +1,4 @@
+#!/bin/sh
+export PATH=/usr/sbin:/usr/bin:/sbin:/bin
+/usr/bin/modprobe -q loop
+exec /usr/bin/dockerd

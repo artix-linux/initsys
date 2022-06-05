@@ -1,0 +1,6 @@
+type            = process
+command         = /etc/dinit.d/scripts/dockerd
+smooth-recovery = true
+logfile         = /var/log/dinit/dockerd.log
+depends-on      = cgroups
+waits-for       = loginready
