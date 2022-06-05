@@ -2136,6 +2136,11 @@
       "branch": "master",
       "revision": "6e347dd668f8559a4d0b6e986d23438815402c79"
     },
+    "sndio-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sndio-s6.git",
+      "branch": "master",
+      "revision": "d3033ff0a6cd8f07c1ec5349cb0efd6531adf0cb"
+    },
     "spamassassin-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin-dinit.git",
       "branch": "master",
