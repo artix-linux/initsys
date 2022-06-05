@@ -406,6 +406,11 @@
       "branch": "master",
       "revision": "08a745f2deb09c8e8097f2ddbf65d5ba28ef1b4f"
     },
+    "cronie-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cronie-s6.git",
+      "branch": "master",
+      "revision": "0d9169cf523986460618f2b3d06fb2b2e2333a1d"
+    },
     "cryptsetup-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cryptsetup-dinit.git",
       "branch": "master",
