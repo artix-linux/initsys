@@ -1336,6 +1336,11 @@
       "branch": "master",
       "revision": "58f6e99476dfa842290b43dd85c4886696f52dfc"
     },
+    "metalog-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/metalog-s6.git",
+      "branch": "master",
+      "revision": "74c1ba97a2933a2637f7ebf44b5aeed13714f4ae"
+    },
     "minidlna-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/minidlna-dinit.git",
       "branch": "master",
