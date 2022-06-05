@@ -615,6 +615,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesQ/qemu-guest-agent-dinit.git",
       "branch": "master",
       "revision": "2deba57eb16b68c2700c72e7b297584b29bc1a5e"
+    },
+    "radicale-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/radicale-dinit.git",
+      "branch": "master",
+      "revision": "273ef105d86e95d5701a1879757ced6815b8f015"
     }
   }
 }
