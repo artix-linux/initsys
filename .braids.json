@@ -510,6 +510,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesN/nsd-dinit.git",
       "branch": "master",
       "revision": "bce2eeef89ff8992858f4075a046c555490a5a7d"
+    },
+    "ntp-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/ntp-dinit.git",
+      "branch": "master",
+      "revision": "3411370963910f3506564ad55ff0baa011476372"
     }
   }
 }
