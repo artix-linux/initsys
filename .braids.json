@@ -566,6 +566,11 @@
       "branch": "master",
       "revision": "f04bd1175acef9ec6fb7ff47072fc6e23c9bc905"
     },
+    "fwknop-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fwknop-openrc.git",
+      "branch": "master",
+      "revision": "44e078a8b3f3f7121853756b7d5ed8cc1e409ba1"
+    },
     "gdm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdm-dinit.git",
       "branch": "master",
