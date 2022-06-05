@@ -195,6 +195,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesD/dinit.git",
       "branch": "master",
       "revision": "292c360ea67e8ea39294fbddea626402320f9ba6"
+    },
+    "dinit-rc": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dinit-rc.git",
+      "branch": "master",
+      "revision": "e1fa7353e056f67e64450efc03637cce12a40165"
     }
   }
 }
