@@ -50,6 +50,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesB/backlight-dinit.git",
       "branch": "master",
       "revision": "fd20a8d863810796ced04aff2c84419cfcbff1f0"
+    },
+    "backuppc-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/backuppc-dinit.git",
+      "branch": "master",
+      "revision": "f98dd946ee71614f7a76314a94e0f0c2351cb393"
     }
   }
 }
