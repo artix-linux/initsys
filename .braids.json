@@ -360,6 +360,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesI/iptables-dinit.git",
       "branch": "master",
       "revision": "ea4fd1c7785f2b0500d22746655ee714cee9bf87"
+    },
+    "iwd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iwd-dinit.git",
+      "branch": "master",
+      "revision": "658e84ded71bcd38f6a8d96f28ea72489dac5306"
     }
   }
 }

@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/lib/iwd/iwd
+smooth-recovery = true
+logfile         = /var/log/dinit/iwd.log
+depends-on      = udev-settle
+depends-on      = dbus
