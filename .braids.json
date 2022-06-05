@@ -2826,6 +2826,11 @@
       "branch": "master",
       "revision": "16783f4705504c3feb2eba0b3175801e17b8f4d1"
     },
+    "spamassassin-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin-runit.git",
+      "branch": "master",
+      "revision": "d08b890fe4e4befbe816882a06a1a7895dfdc745"
+    },
     "spamassassin-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spamassassin-s6.git",
       "branch": "master",
