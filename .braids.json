@@ -245,6 +245,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesE/ejabberd-dinit.git",
       "branch": "master",
       "revision": "89e7ea175504000f575ff513c7afc365395f8999"
+    },
+    "elogind-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/elogind-dinit.git",
+      "branch": "master",
+      "revision": "194bb058454cbfb7674f41386e0437bd50c18353"
     }
   }
 }
