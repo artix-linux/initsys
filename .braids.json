@@ -320,6 +320,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesG/grafana-dinit.git",
       "branch": "master",
       "revision": "252b697388e5a8ccb60fea4d89a03f1cadfe53ff"
+    },
+    "haveged-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/haveged-dinit.git",
+      "branch": "master",
+      "revision": "5640ada9a8518e6d9b66e3062b37f01de5b91fcb"
     }
   }
 }
