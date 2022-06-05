@@ -881,6 +881,11 @@
       "branch": "master",
       "revision": "253384cdd8d62b43345fb747f3bb17049be98fb6"
     },
+    "dropbear-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dropbear-runit.git",
+      "branch": "master",
+      "revision": "a90802d78686a3164702ccd755dfb8f3822a62cd"
+    },
     "dropbear-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dropbear-s6.git",
       "branch": "master",
