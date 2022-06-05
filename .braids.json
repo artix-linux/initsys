@@ -370,6 +370,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesJ/jenkins-dinit.git",
       "branch": "master",
       "revision": "c83c3da10dad9980490c63f02eeadb7991e04a9f"
+    },
+    "knot-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesK/knot-dinit.git",
+      "branch": "master",
+      "revision": "75db2fdff52c89a05aa0d9ecc50ff4f5d19990a2"
     }
   }
 }

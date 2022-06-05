@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/knotd -v
+smooth-recovery = true
+logfile         = /var/log/dinit/knotd.log
+waits-for       = loginready
