@@ -1,0 +1,21 @@
+#!/usr/bin/openrc-run
+
+INSTANCE="${SVCNAME#*.}"
+if [ -z "${INSTANCE}" ] || [ "${SVCNAME}" = "apcupsd" ]; then
+	INSTANCE="apcupsd"
+fi
+
+pidfile=/run/apcupsd.pid
+command=/usr/bin/apcupsd
+command_args="-f /etc/apcupsd/${INSTANCE}.conf"
+command_background=yes
+
+depend() {
+	use net
+}
+
+start_pre() {
+	rm -f /etc/apcupsd/powerfail
+
+	export SERVICE="${SVCNAME}"
+}
