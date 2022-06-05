@@ -1086,6 +1086,11 @@
       "branch": "master",
       "revision": "2c71aa0539547f643abf3b5757101a6749a69c37"
     },
+    "opensips-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/opensips-openrc.git",
+      "branch": "master",
+      "revision": "08893f472d786d295388b4f86ffae48197ccda11"
+    },
     "opensmtpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opensmtpd-dinit.git",
       "branch": "master",

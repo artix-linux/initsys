@@ -1,0 +1,16 @@
+#!/usr/bin/openrc-run
+
+supervisor=supervise-daemon
+command="/usr/bin/opensips"
+command_args="-f ${SIPS_CFG} ${DEBUG} -w ${WORK_DIR} -F"
+required_files="$SIPS_CFG"
+
+depend() {
+	need net
+	after firewall nss netmount
+	use dns
+}
+
+start_pre() {
+	opensips -c -f ${SIPS_CFG} || return $?
+}

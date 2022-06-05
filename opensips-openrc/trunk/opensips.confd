@@ -1,0 +1,3 @@
+SIPS_CFG="/etc/opensips/opensips.cfg"
+WORK_DIR="/var/tmp"
+#DEBUG="-d"
