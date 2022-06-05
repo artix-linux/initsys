@@ -1766,6 +1766,11 @@
       "branch": "master",
       "revision": "cdb2950e43ea861483224e1cca449ca11c5ba87c"
     },
+    "postgrey-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/postgrey-s6.git",
+      "branch": "master",
+      "revision": "f6357f6669d3d7325ac3bdc771ac9d20d453109d"
+    },
     "power-profiles-daemon-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/power-profiles-daemon-dinit.git",
       "branch": "master",
