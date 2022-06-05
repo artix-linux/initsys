@@ -621,6 +621,11 @@
       "branch": "master",
       "revision": "e5bb5166ed0be5670ed795b8324e8c1b0b8a2565"
     },
+    "dnsmasq-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dnsmasq-s6.git",
+      "branch": "master",
+      "revision": "ccff4fce2c70c55c8098f18da18d41a52f33cadf"
+    },
     "docker-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/docker-dinit.git",
       "branch": "master",
