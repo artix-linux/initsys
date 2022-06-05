@@ -1,0 +1,7 @@
+#!/usr/bin/openrc-run
+
+name="tinydns"
+description="tiny DNS cache service"
+
+supervisor=supervise-daemon
+command=/usr/bin/tinydns
