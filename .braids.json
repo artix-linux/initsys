@@ -400,6 +400,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesL/lirc-dinit.git",
       "branch": "master",
       "revision": "b892f3da064f446139f4f321f393b7a6dab4c002"
+    },
+    "lm_sensors-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lm_sensors-dinit.git",
+      "branch": "master",
+      "revision": "f78c697dd9d0dd0767391c4847239f8be87210c1"
     }
   }
 }

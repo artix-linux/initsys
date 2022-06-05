@@ -1,0 +1,13 @@
+#!/bin/sh
+# Note: Please generate /etc/conf.d/lm_sensors by running sensors-detect
+
+[ -r /etc/conf.d/lm_sensors ] && . /etc/conf.d/lm_sensors
+
+case "$1" in
+    start)
+        modprobe -qa $BUS_MODULES $HWMON_MODULES
+    ;;
+    stop)
+        modprobe -qabr $BUS_MODULES $HWMON_MODULES
+    ;;
+esac

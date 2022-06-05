@@ -1,0 +1,5 @@
+type         = scripted
+command      = /etc/dinit.d/scripts/lm_sensors start
+stop-command = /etc/dinit.d/scripts/lm_sensors stop
+restart      = false
+waits-for    = loginready
