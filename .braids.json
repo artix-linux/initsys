@@ -2211,6 +2211,11 @@
       "branch": "master",
       "revision": "d2a10d63a7e5a2b0a1bb00836a9ad20e1335c1a8"
     },
+    "pcsclite-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pcsclite-runit.git",
+      "branch": "master",
+      "revision": "27db7fdeb06bd5fa3a40601bd2cdad69d5fb0ddb"
+    },
     "pcsclite-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pcsclite-s6.git",
       "branch": "master",
