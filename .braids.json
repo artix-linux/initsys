@@ -3371,6 +3371,11 @@
       "branch": "master",
       "revision": "d060bde57860b3db339f1b3a5109cd1bc3df89ce"
     },
+    "usbguard-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/usbguard-runit.git",
+      "branch": "master",
+      "revision": "f23710bfb37f5b87a72dce7caac8458d0ebaf79d"
+    },
     "usbguard-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesU/usbguard-s6.git",
       "branch": "master",
