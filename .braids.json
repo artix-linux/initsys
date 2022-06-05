@@ -3246,6 +3246,11 @@
       "branch": "master",
       "revision": "2791412851dfbb6ec136f72a0ac05f2864b93353"
     },
+    "transmission-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/transmission-runit.git",
+      "branch": "master",
+      "revision": "d5da559e2bc4498460b8753290c6ac65fab38b86"
+    },
     "transmission-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesT/transmission-s6.git",
       "branch": "master",
