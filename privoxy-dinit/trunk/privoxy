@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/privoxy --no-daemon /etc/privoxy/config
+smooth-recovery = true
+logfile         = /var/log/dinit/privoxy.log
+waits-for       = loginready
