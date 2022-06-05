@@ -1491,6 +1491,11 @@
       "branch": "master",
       "revision": "5511049045018bde691904ef725ac90edf81e66a"
     },
+    "libvirt-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/libvirt-runit.git",
+      "branch": "master",
+      "revision": "71363b677cdbcdd4c9d4d5f479c0542b386345bb"
+    },
     "libvirt-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesL/libvirt-s6.git",
       "branch": "master",
