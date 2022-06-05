@@ -301,6 +301,11 @@
       "branch": "master",
       "revision": "87eeeadce8c5a3439dc388640f11b493e3849930"
     },
+    "cyrus-sasl-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cyrus-sasl-openrc.git",
+      "branch": "master",
+      "revision": "874eb61ed74a9efc0ce18bf6adc29d6819f08bf3"
+    },
     "darkhttpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/darkhttpd-dinit.git",
       "branch": "master",

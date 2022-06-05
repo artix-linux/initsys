@@ -1,0 +1,10 @@
+#!/usr/bin/openrc-run
+
+pidfile=/run/saslauthd/saslauthd.pid
+command=/usr/bin/saslauthd
+command_args="${SASLAUTHD_OPTS}"
+command_background=yes
+
+depend() {
+	need net
+}
