@@ -711,6 +711,11 @@
       "branch": "master",
       "revision": "658e84ded71bcd38f6a8d96f28ea72489dac5306"
     },
+    "iwd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/iwd-openrc.git",
+      "branch": "master",
+      "revision": "9b3e10c0e2f731e0cf12ac6ff877607c4e9aa91c"
+    },
     "jenkins-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesJ/jenkins-dinit.git",
       "branch": "master",
