@@ -480,6 +480,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesM/murmur-dinit.git",
       "branch": "master",
       "revision": "2a00dfab6460f72486fbc23d69ff9198e4ff3ff6"
+    },
+    "networkmanager-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager-dinit.git",
+      "branch": "master",
+      "revision": "7ce3e82fa8e77ac59c978efc8746ab37692f8cbd"
     }
   }
 }
