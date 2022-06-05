@@ -876,6 +876,11 @@
       "branch": "master",
       "revision": "f1cb595dc3a45814797bc41c2a59047447a84b20"
     },
+    "mdadm-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mdadm-openrc.git",
+      "branch": "master",
+      "revision": "4021e0f9a1e3f4dcc215defb592be94f4519a8dc"
+    },
     "metalog-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/metalog-dinit.git",
       "branch": "master",
