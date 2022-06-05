@@ -1376,6 +1376,11 @@
       "branch": "master",
       "revision": "b510d5713a03ecc2ea1e881ec07f833b1c1207b4"
     },
+    "shairport-sync-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/shairport-sync-openrc.git",
+      "branch": "master",
+      "revision": "f6c3ed57301ee9b60e9e5363ff4bced2d5c3e416"
+    },
     "sndio-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sndio-dinit.git",
       "branch": "master",
