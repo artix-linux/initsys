@@ -3306,6 +3306,11 @@
       "branch": "master",
       "revision": "7b1332c002050928a923e477e8adec1d27d115d2"
     },
+    "ufw-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/ufw-runit.git",
+      "branch": "master",
+      "revision": "b8e8c033155d11b89a59cc119662e4357e27d628"
+    },
     "ufw-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesU/ufw-s6.git",
       "branch": "master",
