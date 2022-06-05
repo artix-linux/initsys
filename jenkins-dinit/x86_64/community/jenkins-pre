@@ -1,0 +1,4 @@
+type      = scripted
+command   = /usr/bin/install -dm 0755 -o jenkins -g jenkins /var/lib/jenkins
+restart   = false
+waits-for = loginready

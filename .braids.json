@@ -365,6 +365,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesI/iwd-dinit.git",
       "branch": "master",
       "revision": "658e84ded71bcd38f6a8d96f28ea72489dac5306"
+    },
+    "jenkins-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jenkins-dinit.git",
+      "branch": "master",
+      "revision": "c83c3da10dad9980490c63f02eeadb7991e04a9f"
     }
   }
 }

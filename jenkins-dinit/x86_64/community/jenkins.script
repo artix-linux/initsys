@@ -1,0 +1,4 @@
+#!/bin/sh
+export JENKINS_USER=jenkins
+export JENKINS_HOME=/var/lib/jenkins
+exec java -Xmx512m -jar /usr/share/java/jenkins/jenkins.war

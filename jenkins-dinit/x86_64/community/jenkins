@@ -1,0 +1,6 @@
+type            = process
+command         = /etc/dinit.d/scripts/jenkins
+smooth-recovery = true
+logfile         = /var/log/dinit/jenkins.log
+run-as          = jenkins
+depends-on      = jenkins-pre
