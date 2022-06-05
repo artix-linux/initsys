@@ -1785,6 +1785,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesZ/znc-dinit.git",
       "branch": "master",
       "revision": "6c6cdd0c1bb50f2743ba705e99284078bc856c3f"
+    },
+    "znc-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesZ/znc-openrc.git",
+      "branch": "master",
+      "revision": "ca2e85f6461066c04b0ccb20315c755983f97450"
     }
   }
 }
