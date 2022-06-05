@@ -1,0 +1,46 @@
+# Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
+
+_sed_args=(-e 's|/var/run|/run|g' -e 's|/usr/sbin|/usr/bin|g' -e 's|/opt/bin|/usr/bin|g' -e 's|/var/service|/run/runit/service|g' -e 's|/usr/libexec|/usr/lib|g')
+
+pkgname=boinc-runit
+pkgver=20180314
+pkgrel=6
+pkgdesc="Runit service script for boinc"
+arch=('any')
+url="https://artixlinux.org"
+license=('BSD')
+depends=('boinc' 'runit')
+groups=('runit-galaxy')
+provides=('init-boinc')
+conflicts=('init-boinc')
+backup=('etc/runit/sv/boinc/conf')
+source=("boinc.run"
+        "boinc.conf")
+sha256sums=('6faf5951862d0b93a86d4a9a191ea7112f7693093bfe5d6dbc36e66331493455'
+            '83b90c123205da8d4aadd3e761691bec25204109544e654f1d4cab659ed35537')
+
+_inst_logsv() {
+    for file in run finish check; do
+        if test -f "$srcdir/log$1.$file"; then
+            install -Dm755 "$srcdir/log$1.$file" "$pkgdir/etc/runit/sv/$1/log/$file"
+            sed "${_sed_args[@]}" -i "$pkgdir/etc/runit/sv/$1/log/$file"
+        fi
+    done
+}
+
+_inst_sv() {
+    if test -f "$srcdir/$1.conf"; then
+        install -Dm644 "$srcdir/$1.conf" "$pkgdir/etc/runit/sv/$1/conf"
+    fi
+
+    for file in run finish check; do
+        if test -f "$srcdir/$1.$file"; then
+            install -Dm755 "$srcdir/$1.$file" "$pkgdir/etc/runit/sv/$1/$file"
+            sed "${_sed_args[@]}" -i "$pkgdir/etc/runit/sv/$1/$file"
+        fi
+    done
+}
+
+package() {
+    _inst_sv 'boinc'
+}

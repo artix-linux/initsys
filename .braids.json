@@ -286,6 +286,11 @@
       "branch": "master",
       "revision": "fd2cfdeee97261ca5682dc62cc416a70a9597770"
     },
+    "boinc-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/boinc-runit.git",
+      "branch": "master",
+      "revision": "622d06b0229ca161dfb8f45e019022f7535629f1"
+    },
     "boinc-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesB/boinc-s6.git",
       "branch": "master",
