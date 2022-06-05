@@ -856,6 +856,11 @@
       "branch": "master",
       "revision": "44e078a8b3f3f7121853756b7d5ed8cc1e409ba1"
     },
+    "fwknop-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fwknop-s6.git",
+      "branch": "master",
+      "revision": "6d3402496e26f270e71de7ba726fc26f5c759089"
+    },
     "gdm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdm-dinit.git",
       "branch": "master",
