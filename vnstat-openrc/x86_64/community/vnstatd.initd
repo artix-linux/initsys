@@ -1,0 +1,27 @@
+#!/usr/bin/openrc-run
+# Copyright 1999-2017 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+name="vnStat daemon"
+description="vnstatd updates vnStat databases."
+description_reload="Reload ${name}'s configuration"
+extra_started_commands="reload"
+
+VNSTATD_CONFIGFILE=${VNSTATD_CONFIGFILE:-"/etc/vnstat.conf"}
+VNSTATD_PIDFILE=${VNSTATD_PIDFILE:-"/run/vnstat/vnstatd.pid"}
+
+supervisor=supervise-daemon
+pidfile="${VNSTATD_PIDFILE}"
+command="/usr/bin/vnstatd"
+command_args="-n ${VNSTATD_OPTS} --config ${VNSTATD_CONFIGFILE}"
+required_files="${VNSTATD_CONFIGFILE}"
+
+start_pre() {
+	checkpath --directory --mode 0775 --owner vnstat:vnstat $(dirname "${pidfile}")
+}
+
+reload() {
+	ebegin "Reloading ${name} configuration"
+	supervisor-daemon vnstatd --signal HUP
+	eend $?
+}
