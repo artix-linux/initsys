@@ -816,6 +816,11 @@
       "branch": "master",
       "revision": "e5bb5166ed0be5670ed795b8324e8c1b0b8a2565"
     },
+    "dnsmasq-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dnsmasq-runit.git",
+      "branch": "master",
+      "revision": "80551fc0b3b294220c8f7a46624c64b4deba5153"
+    },
     "dnsmasq-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dnsmasq-s6.git",
       "branch": "master",
