@@ -1,0 +1,89 @@
+#!/usr/bin/openrc-run
+
+extra_commands="checkconfig"
+extra_started_commands="reload"
+
+: ${MAILMAN_CONFDIR:=/usr/lib/mailman/Mailman}
+: ${MAILMAN_CONFIG:=${MAILMAN_CONFDIR}/mm_cfg.py}
+: ${MAILMAN_PIDFILE:=/var/lib/mailman/data/master-qrunner.pid}
+: ${MAILMAN_BINARY:=/usr/lib/mailman/bin/mailmanctl}
+
+depend() {
+        need net
+        use mta
+        use logger
+
+        if [ "${rc_need+set}" = "set" ] ; then
+                : # Do nothing, the user has explicitly set rc_need
+        else
+                local x warn_addr
+                for x in $(awk '/^ListenAddress/{ print $2 }' "$MAILMAN_CONFIG" 2>/dev/null) ; do
+                        case "${x}" in
+                                0.0.0.0|0.0.0.0:*) ;;
+                                ::|\[::\]*) ;;
+                                *) warn_addr="${warn_addr} ${x}" ;;
+                        esac
+                done
+                if [ -n "${warn_addr}" ] ; then
+                        need net
+                        ewarn "You are binding an interface in ListenAddress statement in your mailman_config!"
+                        ewarn "You must add rc_need=\"net.FOO\" to your /etc/conf.d/mailmand"
+                        ewarn "where FOO is the interface(s) providing the following address(es):"
+                        ewarn "${warn_addr}"
+                fi
+        fi
+}
+
+checkconfig() {
+        echo "Yo - go find ${MAILMAN_CONFIG}"
+        if [ ! -e "${MAILMAN_CONFIG}" ] ; then
+                eerror "You need an ${MAILMAN_CONFIG} file to run mailman"
+                return 1
+        fi
+
+
+}
+
+mailman_checkproc() {
+    unset COLUMNS
+    mailman_pslist=$(ps xao "%p %a"  | grep -E "/usr/bin/python.*/usr/lib/mailman/bin/mailmanctl" | grep -v grep | awk '{print $1}')
+    if [ -n "$mailman_pslist" ]; then
+        return 0
+    else
+        return 3
+    fi
+}
+
+
+start() {
+        echo "Go find the config"
+        checkconfig || return 1
+
+        ebegin "Starting ${SVCNAME}"
+        ewarn "PIDFILE ${MAILMAN_PIDFILE}"
+        ewarn "PIDFILE ${MAILMAN_BINARY}"
+        ewarn "start-stop-daemon -v --pidfile=${MAILMAN_PIDFILE} --start --exec ${MAILMAN_BINARY} start"
+        start-stop-daemon -v --pidfile="${MAILMAN_PIDFILE}" --start --exec "${MAILMAN_BINARY}" start
+        #start-stop-daemon -v --background --pidfile="{MAILMAN_PIDFILE}" --make-pid --start --exec "${MAILMAN_BINARY}" start
+        eend $?
+}
+
+stop() {
+        if [ "${RC_CMD}" = "restart" ] ; then
+                checkconfig || return 1
+        fi
+
+        ebegin "Stopping ${SVCNAME}"
+        start-stop-daemon --stop --exec "${MAILMAN_BINARY}" \
+            --pidfile "${MAILMAN_PIDFILE}" --quiet
+        eend $?
+}
+
+reload() {
+        checkconfig || return 1
+        ebegin "Reloading ${SVCNAME}"
+        start-stop-daemon --signal HUP \
+            --exec "${MAILMAN_BINARY}" --pidfile "${MAILMAN_PIDFILE}"
+        eend $?
+}
+
