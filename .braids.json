@@ -1966,6 +1966,11 @@
       "branch": "master",
       "revision": "c2fb0b1b95c5e58b12e7a0826affc91b7649dee3"
     },
+    "nginx-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nginx-runit.git",
+      "branch": "master",
+      "revision": "400afd8715cf22f0275b67b4182ea41429897d6b"
+    },
     "nginx-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nginx-s6.git",
       "branch": "master",
