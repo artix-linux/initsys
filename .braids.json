@@ -301,6 +301,11 @@
       "branch": "master",
       "revision": "ff1f69a6f0efa7d67ccdca44986e780faa17d8db"
     },
+    "chrony-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/chrony-s6.git",
+      "branch": "master",
+      "revision": "2450bc20b645ef9da112015d99bea5e910e1e588"
+    },
     "clamav-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/clamav-dinit.git",
       "branch": "master",
