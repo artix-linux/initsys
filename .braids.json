@@ -2231,6 +2231,11 @@
       "branch": "master",
       "revision": "c2521826ba233ece30fed814d26ba512a80bf0b6"
     },
+    "pdnsd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pdnsd-runit.git",
+      "branch": "master",
+      "revision": "7d3920e6c4b84e9dbd95808aecae84e13d7ce6d7"
+    },
     "pdnsd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pdnsd-s6.git",
       "branch": "master",
