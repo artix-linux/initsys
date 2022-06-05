@@ -530,6 +530,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesO/openldap-dinit.git",
       "branch": "master",
       "revision": "a64af9fae6e31f93d66b37e24e6e13979ca3a43d"
+    },
+    "openntpd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openntpd-dinit.git",
+      "branch": "master",
+      "revision": "712259ff4a6974ba3b9ac59d166e3b2a46386012"
     }
   }
 }
