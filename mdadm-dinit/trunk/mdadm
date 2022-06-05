@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/mdadm --monitor --scan --syslog
+smooth-recovery = true
+logfile         = /var/log/dinit/mdadm.log
+waits-for       = pseudofs
