@@ -31,6 +31,11 @@
       "branch": "master",
       "revision": "44df635f6081e8f11e6b453122bfbdd791432fbb"
     },
+    "alsa-utils-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/alsa-utils-runit.git",
+      "branch": "master",
+      "revision": "14b43334c07aba0b1ad26172e8b2e04dc901f4b1"
+    },
     "alsa-utils-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesA/alsa-utils-s6.git",
       "branch": "master",
