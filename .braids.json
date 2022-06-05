@@ -391,6 +391,11 @@
       "branch": "master",
       "revision": "6b67e84d7c8f1bd13c68d3ea91a59c890936d8d7"
     },
+    "cpupower-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cpupower-s6.git",
+      "branch": "master",
+      "revision": "ececaf24f088e6c86adfabd630e9eadf7c072059"
+    },
     "cronie-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cronie-dinit.git",
       "branch": "master",
