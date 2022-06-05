@@ -1201,6 +1201,11 @@
       "branch": "master",
       "revision": "42c78f33f0e5ac6a7d8242c7457a0c690b81c6ea"
     },
+    "glibc-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesG/glibc-runit.git",
+      "branch": "master",
+      "revision": "39dca6b07a039bd90375279e0d74c00afc0bfc30"
+    },
     "glibc-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesG/glibc-s6.git",
       "branch": "master",
