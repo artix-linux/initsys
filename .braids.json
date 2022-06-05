@@ -3436,6 +3436,11 @@
       "branch": "master",
       "revision": "138ca3d63841311bb071895e93317baee73bb537"
     },
+    "vsftpd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vsftpd-runit.git",
+      "branch": "master",
+      "revision": "b60e3a47c1c9bd3de7ff4eb816603642167c3a9c"
+    },
     "vsftpd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vsftpd-s6.git",
       "branch": "master",
