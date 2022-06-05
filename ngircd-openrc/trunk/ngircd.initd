@@ -1,0 +1,11 @@
+#!/usr/bin/openrc-run
+
+supervisor=supervise-daemon
+command=/usr/bin/ngircd
+command_args="-n"
+
+depend() {
+	need net
+	use logger
+	provide ircd
+}
