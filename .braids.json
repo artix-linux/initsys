@@ -1851,6 +1851,11 @@
       "branch": "master",
       "revision": "2226b1ecb0c76fc40036ebb09afedba6a9f8e435"
     },
+    "prosody-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/prosody-s6.git",
+      "branch": "master",
+      "revision": "305c8270ee4b2e3eebbce817b0f8fd18a9772fb1"
+    },
     "pure-ftpd-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesP/pure-ftpd-openrc.git",
       "branch": "master",
