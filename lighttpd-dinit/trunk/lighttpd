@@ -1,0 +1,5 @@
+type            = process
+command         = lighttpd-angel -D -f /etc/lighttpd/lighttpd.conf
+smooth-recovery = true
+logfile         = /var/log/dinit/lighttpd.log
+waits-for       = loginready
