@@ -1856,6 +1856,11 @@
       "branch": "master",
       "revision": "1166b1775fe0f6e5829a5083b419972d7191fc50"
     },
+    "mpd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mpd-runit.git",
+      "branch": "master",
+      "revision": "87d58b3790fafd21a363b3baaf213cfa42ea88ea"
+    },
     "mpd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mpd-s6.git",
       "branch": "master",
