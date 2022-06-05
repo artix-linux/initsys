@@ -3071,6 +3071,11 @@
       "branch": "master",
       "revision": "fe485a151782a2bd2d3bef7eb8285522502fac2a"
     },
+    "syncthing-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/syncthing-runit.git",
+      "branch": "master",
+      "revision": "698830209472cddb08d4f2bbef78c0ef3de316d0"
+    },
     "syncthing-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/syncthing-s6.git",
       "branch": "master",
