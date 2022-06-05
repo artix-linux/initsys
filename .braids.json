@@ -1281,6 +1281,11 @@
       "branch": "master",
       "revision": "19613cd6c7d9b32d5c7f91d2d6752951e2a2730b"
     },
+    "hdparm-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/hdparm-runit.git",
+      "branch": "master",
+      "revision": "34e9caab06191ca2a82f7d738b5cc9e65734c773"
+    },
     "hdparm-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hdparm-s6.git",
       "branch": "master",
