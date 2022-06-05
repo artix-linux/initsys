@@ -3326,6 +3326,11 @@
       "branch": "master",
       "revision": "20a2ca4acaaf6aacb432cde51259e2c25d891432"
     },
+    "unbound-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/unbound-runit.git",
+      "branch": "master",
+      "revision": "50fe01e31f1a7ea105c8b1771067516b860e2c6e"
+    },
     "unbound-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesU/unbound-s6.git",
       "branch": "master",
