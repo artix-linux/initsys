@@ -131,6 +131,11 @@
       "branch": "master",
       "revision": "8a1e49b27508d215c230683a64f97eb43c5f3302"
     },
+    "avahi-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesA/avahi-s6.git",
+      "branch": "master",
+      "revision": "67c93c787630f79dbcbe123b0a4daae6b6ee2e07"
+    },
     "backlight-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/backlight-dinit.git",
       "branch": "master",
