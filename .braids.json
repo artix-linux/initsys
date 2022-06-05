@@ -775,6 +775,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesT/tinydns-dinit.git",
       "branch": "master",
       "revision": "264c4c7a8f0570d142976a343a49756b2234848c"
+    },
+    "tlp-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tlp-dinit.git",
+      "branch": "master",
+      "revision": "e870f830f8cf987c8004884233f62b21ab26d236"
     }
   }
 }
