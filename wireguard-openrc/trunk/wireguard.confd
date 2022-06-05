@@ -1,0 +1,4 @@
+WIREGUARD_INTERFACE="wg0"
+
+# New interface to add
+#WIREGUARD_NFACE="wg1"

@@ -1,0 +1,54 @@
+#!/usr/bin/openrc-run
+
+required_files="/etc/wireguard/${WIREGUARD_INTERFACE}.conf"
+extra_commands="save add sync"
+description_save="Save configuration"
+description_add="Add interface without distrupting service"
+
+depend() {
+	need localmount
+	use dns
+	provide vpn ipsec
+	keyword -shutdown
+}
+
+start() {
+	ebegin "Starting ${SVCNAME}"
+	wg-quick up "$WIREGUARD_INTERFACE"
+	eend $?
+}
+
+stop() {
+	ebegin "Stopping ${SVCNAME}"
+	wg-quick down "${WIREGUARD_INTERFACE}"
+	eend $?
+}
+
+save() {
+	ebegin "Saving configuration"
+	wg-quick save "${WIREGUARD_INTERFACE}"
+	eend $?
+}
+
+
+add() {
+	if [ ! -f "/etc/wireguard/${WIREGUARD_NFACE}.conf" ]; then
+		eerror "Config for ${WIREGUARD_NFACE} not found"
+	else
+		ebegin "Adding interface ${WIREGUARD_NFACE}"
+		wg addconf "${WIREGUARD_NFACE}" "/etc/wireguard/${WIREGUARD_NFACE}.conf"
+		wg-quick strip "$WIREGUARD_NFACE"
+		eend $?
+	fi
+}
+
+
+sync() {
+	if [ ! -f "/etc/wireguard/${WIREGUARD_INTERFACE}.conf" ]; then
+		eerror "Config for ${WIREGUARD_INTERFACE} not found"
+	else
+		ebegin "Syncing ${WIREGUARD_INTERFACE} configuration"
+		wg syncconf "${WIREGUARD_INTERFACE}" "/etc/wireguard/${WIREGUARD_INTERFACE}.conf"
+		eend $?
+	fi
+}
