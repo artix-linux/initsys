@@ -1321,6 +1321,11 @@
       "branch": "master",
       "revision": "4021e0f9a1e3f4dcc215defb592be94f4519a8dc"
     },
+    "mdadm-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mdadm-s6.git",
+      "branch": "master",
+      "revision": "c46c7f943108ea09d0bf0769458c82e04317595d"
+    },
     "metalog-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/metalog-dinit.git",
       "branch": "master",
