@@ -2411,6 +2411,11 @@
       "branch": "master",
       "revision": "8c2b1bcec82a98cf6a0e822ba3db89b79b670fb7"
     },
+    "prometheus-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/prometheus-runit.git",
+      "branch": "master",
+      "revision": "f316fab38baf534cf7b02fb93d6c19a96d54297a"
+    },
     "prometheus-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/prometheus-s6.git",
       "branch": "master",
