@@ -596,6 +596,11 @@
       "branch": "master",
       "revision": "6eef4d01c5c87fa3db8b4bbfc2668f9627c96f95"
     },
+    "dns-over-https-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dns-over-https-s6.git",
+      "branch": "master",
+      "revision": "0a5a334bb22e1ae8390d3c0b5ed7f453c848e41a"
+    },
     "dnscrypt-proxy-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dnscrypt-proxy-dinit.git",
       "branch": "master",
