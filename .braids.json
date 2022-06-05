@@ -2101,6 +2101,11 @@
       "branch": "master",
       "revision": "b8d827295519ef4611b23fcd946ecf17b1566eaa"
     },
+    "openntpd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openntpd-runit.git",
+      "branch": "master",
+      "revision": "5ffd6640d815f7f81f913df36c4ef686c1e6ec2f"
+    },
     "openntpd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openntpd-s6.git",
       "branch": "master",
