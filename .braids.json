@@ -1721,6 +1721,11 @@
       "branch": "master",
       "revision": "01fec084fdf5d66e99abd35f0d9ac9abc1b7a1db"
     },
+    "php-fpm-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/php-fpm-s6.git",
+      "branch": "master",
+      "revision": "78ccae2ed9f43819ba3f631bae395e31242ec46e"
+    },
     "postfix-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postfix-dinit.git",
       "branch": "master",
