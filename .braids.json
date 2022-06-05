@@ -556,6 +556,11 @@
       "branch": "master",
       "revision": "ca581e6ad535cba137eb45cfca8a8fba5f73dc92"
     },
+    "fuse-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/fuse-openrc.git",
+      "branch": "master",
+      "revision": "08abe3d457effcb0d6c7b92b4494e40be87a608d"
+    },
     "fwknop-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fwknop-dinit.git",
       "branch": "master",
