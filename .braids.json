@@ -756,6 +756,11 @@
       "branch": "master",
       "revision": "467eb672b467b919237acccd19911afe53fd9d0b"
     },
+    "exim-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/exim-s6.git",
+      "branch": "master",
+      "revision": "34b1bcaaff91de068e2180d42be5d625e96a269b"
+    },
     "fail2ban-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fail2ban-openrc.git",
       "branch": "master",
