@@ -1,0 +1,4 @@
+type            = process
+command         = /usr/bin/bootlogd -d
+smooth-recovery = true
+depends-on      = pseudofs
