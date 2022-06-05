@@ -1751,6 +1751,11 @@
       "branch": "master",
       "revision": "154a41aef1a6ba5f96365e70e895371cb750ac72"
     },
+    "postgresql-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/postgresql-s6.git",
+      "branch": "master",
+      "revision": "9805abac14dfbd680f8c59bcdd088011944f577d"
+    },
     "postgrey-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postgrey-dinit.git",
       "branch": "master",
