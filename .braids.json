@@ -3166,6 +3166,11 @@
       "branch": "master",
       "revision": "a2761dffb3ba7b3a950abef49919aeccaab665cc"
     },
+    "tinydns-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tinydns-runit.git",
+      "branch": "master",
+      "revision": "fe97b62a271a947db7aace89e2f56a30200a43d7"
+    },
     "tinydns-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tinydns-s6.git",
       "branch": "master",
