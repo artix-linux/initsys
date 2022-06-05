@@ -636,6 +636,11 @@
       "branch": "master",
       "revision": "5640ada9a8518e6d9b66e3062b37f01de5b91fcb"
     },
+    "haveged-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/haveged-openrc.git",
+      "branch": "master",
+      "revision": "a9441a0fa8f0144c981e407bca8800cb3a74cb1e"
+    },
     "hdparm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hdparm-dinit.git",
       "branch": "master",
