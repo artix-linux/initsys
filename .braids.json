@@ -635,6 +635,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesR/rpcbind-dinit.git",
       "branch": "master",
       "revision": "0571ba2a213f776fb2baadc58a620d05bce98cc8"
+    },
+    "rspamd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rspamd-dinit.git",
+      "branch": "master",
+      "revision": "6db357563140db086bcb8c3c7d1167e96ddcc063"
     }
   }
 }

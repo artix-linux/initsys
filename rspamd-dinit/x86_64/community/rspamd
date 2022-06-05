@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/bin/rspamd -c /etc/rspamd/rspamd.conf -f
+smooth-recovery = true
+logfile         = /var/log/dinit/rspamd.log
+run-as          = rspamd
+waits-for       = loginready
