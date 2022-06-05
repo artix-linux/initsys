@@ -491,6 +491,11 @@
       "branch": "master",
       "revision": "0d778438f190dbb0787ee4dd5a1d7d313d28783e"
     },
+    "espeakup-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesE/espeakup-openrc.git",
+      "branch": "master",
+      "revision": "1ec495cf3cdf514093a1f3242f16b715be5e87bd"
+    },
     "exim-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesE/exim-dinit.git",
       "branch": "master",
