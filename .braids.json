@@ -860,6 +860,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesW/wpa_supplicant-dinit.git",
       "branch": "master",
       "revision": "69d1b1e9394c48df36d297dc2644bbed7bf98fcc"
+    },
+    "xdm-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xdm-dinit.git",
+      "branch": "master",
+      "revision": "ffa50cd4150173b036396e40657eeb059c2b047c"
     }
   }
 }
