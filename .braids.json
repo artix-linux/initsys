@@ -1456,6 +1456,11 @@
       "branch": "master",
       "revision": "9ceb80da61fbcbc702f8e787e6c815f41c659a47"
     },
+    "sthttpd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd-openrc.git",
+      "branch": "master",
+      "revision": "d5ded68e4a97f71bc60568a6a9a28213a984e868"
+    },
     "strongswan-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/strongswan-dinit.git",
       "branch": "master",

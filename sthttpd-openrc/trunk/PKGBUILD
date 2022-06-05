@@ -1,0 +1,21 @@
+# Maintainer: Nathan Owens <ndowens @ artixlinux.org>
+
+pkgname=sthttpd-openrc
+pkgver=20210505
+pkgrel=1
+pkgdesc="OpenRC sthttpd init script"
+arch=('any')
+url="https://gitea.artixlinux.org/artixlinux/packages-openrc"
+license=('GPL2')
+groups=('openrc-galaxy')
+depends=('openrc' 'sthttpd')
+provides=('init-sthttpd')
+conflicts=('init-sthttpd')
+source=("thttpd."{confd,initd})
+sha256sums=('25f55ad96c73d8c22117dd6ef331e85fed5a3ba78b4b0ec329832e82a4159e4e'
+            '87d0e0504071009bf4f382e4c204cb7ca1ff95d35eaaf0443b64d09d16dc1706')
+
+package() {
+  install -Dm755 "$srcdir/thttpd.initd" "$pkgdir/etc/init.d/thttpd"
+  install -Dm644 "$srcdir/thttpd.confd" "$pkgdir/etc/conf.d/thttpd"
+}
