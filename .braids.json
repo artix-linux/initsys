@@ -1811,6 +1811,11 @@
       "branch": "master",
       "revision": "e24ad45051c59920f6227459b8e9bb1e63ee7611"
     },
+    "pptpd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/pptpd-s6.git",
+      "branch": "master",
+      "revision": "1e2b90734ec85073bc100b9594f9aeb227e351dc"
+    },
     "privoxy-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/privoxy-dinit.git",
       "branch": "master",
