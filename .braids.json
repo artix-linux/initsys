@@ -1086,6 +1086,11 @@
       "branch": "master",
       "revision": "63c96d4e8367b2348ac6e33f37b098d8e134cc9f"
     },
+    "freeradius-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/freeradius-runit.git",
+      "branch": "master",
+      "revision": "7c92b8624ccf1b92118ebd9b6169257247b4bee7"
+    },
     "freeradius-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesF/freeradius-s6.git",
       "branch": "master",
