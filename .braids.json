@@ -3476,6 +3476,11 @@
       "branch": "master",
       "revision": "4704f391e367e860e9149483aa74a043c8e9b46f"
     },
+    "webhook-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/webhook-runit.git",
+      "branch": "master",
+      "revision": "0887c494983184595c3a1289ef58581bc679646d"
+    },
     "webhook-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webhook-s6.git",
       "branch": "master",
