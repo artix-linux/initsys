@@ -2181,6 +2181,11 @@
       "branch": "master",
       "revision": "ed60781ea7e04368ee999420f924fd6d43331d69"
     },
+    "spotifyd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spotifyd-s6.git",
+      "branch": "master",
+      "revision": "22242fc009dce02c4b258196a6f9580c5cf65d07"
+    },
     "squid-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/squid-dinit.git",
       "branch": "master",

@@ -1,0 +1,2 @@
+# spotifyd-s6
+
