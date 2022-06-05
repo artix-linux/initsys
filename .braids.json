@@ -1306,6 +1306,11 @@
       "branch": "master",
       "revision": "540e3707a4e3cd1a2ce786d2d20da9413387e7d2"
     },
+    "matterbridge-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/matterbridge-s6.git",
+      "branch": "master",
+      "revision": "88554c2746dacba0576726594f66d6830a369cdf"
+    },
     "mdadm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/mdadm-dinit.git",
       "branch": "master",
