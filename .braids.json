@@ -1226,6 +1226,11 @@
       "branch": "master",
       "revision": "10462738d6eb077416ea7c5b304aa425e7c1dd2e"
     },
+    "lxd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lxd-s6.git",
+      "branch": "master",
+      "revision": "8c70f94a0b54b149fd0a57b1372e2aa066d53b3e"
+    },
     "lxdm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lxdm-dinit.git",
       "branch": "master",
