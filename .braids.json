@@ -2166,6 +2166,11 @@
       "branch": "master",
       "revision": "09c410063dc495ec5afa5edde534374b5a71f726"
     },
+    "spice-vdagent-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/spice-vdagent-s6.git",
+      "branch": "master",
+      "revision": "a3598b54715a7469bd17ffba215feca81699564b"
+    },
     "spotifyd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/spotifyd-dinit.git",
       "branch": "master",
