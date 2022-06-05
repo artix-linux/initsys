@@ -1,0 +1,5 @@
+type            = process
+command         = /etc/dinit.d/scripts/mpd
+smooth-recovery = true
+logfile         = /var/log/dinit/mpd.log
+waits-for       = pseudofs

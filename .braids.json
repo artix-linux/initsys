@@ -470,6 +470,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesM/motion-dinit.git",
       "branch": "master",
       "revision": "12ae25f22722c72b2fb93ab2aff6ea41f49ff531"
+    },
+    "mpd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesM/mpd-dinit.git",
+      "branch": "master",
+      "revision": "a18e1ad190bec44463d44371ba7d1b2e839d12a2"
     }
   }
 }
