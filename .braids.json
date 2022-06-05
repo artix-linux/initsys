@@ -961,6 +961,11 @@
       "branch": "master",
       "revision": "a9441a0fa8f0144c981e407bca8800cb3a74cb1e"
     },
+    "haveged-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesH/haveged-s6.git",
+      "branch": "master",
+      "revision": "ba55a62359a41b3a4cdcfcf9ffe0091af8ff8860"
+    },
     "hdparm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hdparm-dinit.git",
       "branch": "master",
