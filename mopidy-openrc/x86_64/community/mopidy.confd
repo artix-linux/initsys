@@ -1,0 +1,3 @@
+# Config options for /etc/init.d/mopidy
+
+CONFIG_FILE=/etc/mopidy/mopidy.conf
