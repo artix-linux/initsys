@@ -1196,6 +1196,11 @@
       "branch": "master",
       "revision": "b44ab2680ecfd333e3cabcacf044af3469f838a8"
     },
+    "lm_sensors-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesL/lm_sensors-s6.git",
+      "branch": "master",
+      "revision": "a663ea79f3f35cec3e1f659eaea549b4b340735c"
+    },
     "lvm2-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lvm2-dinit.git",
       "branch": "master",
