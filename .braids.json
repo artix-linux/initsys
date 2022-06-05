@@ -1341,6 +1341,11 @@
       "branch": "master",
       "revision": "bd8197862303794f1a9fd4ecf2496c791515991c"
     },
+    "i2pd-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/i2pd-runit.git",
+      "branch": "master",
+      "revision": "125fe886a62dc7e1f221d53b62c7447835d5e257"
+    },
     "i2pd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesI/i2pd-s6.git",
       "branch": "master",
