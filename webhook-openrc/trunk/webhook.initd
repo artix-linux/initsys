@@ -1,0 +1,12 @@
+#!/usr/bin/openrc-run
+# Copyright by Artix Linux team under GPLv2
+
+supervisor=supervise-daemon
+pidfile="/run/${RC_SVCNAME}.pid"
+command="/usr/bin/webhook"
+command_args="--hooks /etc/webhook/hooks.json -verbose"
+
+depend() {
+	after net
+	want net
+}

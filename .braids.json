@@ -1726,6 +1726,11 @@
       "branch": "master",
       "revision": "0c552acea73b728fa51ef0243c0c63c585c0fb60"
     },
+    "webhook-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/webhook-openrc.git",
+      "branch": "master",
+      "revision": "4704f391e367e860e9149483aa74a043c8e9b46f"
+    },
     "wireguard-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesW/wireguard-dinit.git",
       "branch": "master",
