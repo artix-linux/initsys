@@ -721,6 +721,11 @@
       "branch": "master",
       "revision": "c83c3da10dad9980490c63f02eeadb7991e04a9f"
     },
+    "jenkins-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesJ/jenkins-openrc.git",
+      "branch": "master",
+      "revision": "90089547b7b4a40785eddeb3ca1227d61072fce2"
+    },
     "knot-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesK/knot-dinit.git",
       "branch": "master",
