@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/ipsec start --nofork
+smooth-recovery = true
+logfile         = /var/log/dinit/strongswan.log
+waits-for       = loginready

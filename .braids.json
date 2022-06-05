@@ -720,6 +720,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd-dinit.git",
       "branch": "master",
       "revision": "9ceb80da61fbcbc702f8e787e6c815f41c659a47"
+    },
+    "strongswan-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/strongswan-dinit.git",
+      "branch": "master",
+      "revision": "ebc146c2e7c9dd0001fe6f37ff69405c39ead373"
     }
   }
 }
