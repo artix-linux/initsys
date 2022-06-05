@@ -1826,6 +1826,11 @@
       "branch": "master",
       "revision": "f1940c8ad2d261298499c0d66d4c1084d008fc92"
     },
+    "privoxy-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/privoxy-s6.git",
+      "branch": "master",
+      "revision": "2860114d769fec625773241cde3af8d24720ceb4"
+    },
     "prometheus-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/prometheus-dinit.git",
       "branch": "master",
