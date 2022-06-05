@@ -2676,6 +2676,11 @@
       "branch": "master",
       "revision": "86119b22964748baf8dcb8a34d29eb7d94d2373a"
     },
+    "wpa_supplicant-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesW/wpa_supplicant-s6.git",
+      "branch": "master",
+      "revision": "59074af17a247f919da8bee131d73d9b116f29b3"
+    },
     "xdm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesX/xdm-dinit.git",
       "branch": "master",
