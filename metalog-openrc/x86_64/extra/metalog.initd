@@ -1,0 +1,27 @@
+#!/usr/bin/openrc-run
+# Copyright 1999-2018 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+supervisor=supervise-daemon
+command="metalog"
+
+extra_started_commands="buffer unbuffer"
+
+depend() {
+	need localmount
+	use clock hostname
+	after bootmisc
+	provide logger
+}
+
+buffer() {
+	ebegin "Enabling log buffering"
+	supervisor-daemon "${command}" --signal USR2
+	eend ${?}
+}
+
+unbuffer() {
+	ebegin "Disabling log buffering"
+	supervisor-daemon "${command}" --signal USR1
+	eend ${?}
+}
