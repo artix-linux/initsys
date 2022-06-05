@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/gpm -D -m /dev/input/mice -t imps2
+smooth-recovery = true
+waits-for       = pseudofs
+logfile         = /var/log/dinit/gpm.log
