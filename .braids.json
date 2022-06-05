@@ -1076,6 +1076,11 @@
       "branch": "master",
       "revision": "ee20986921bca12cbeecbb3ad8e59e608cee93d5"
     },
+    "openrc-settingsd": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openrc-settingsd.git",
+      "branch": "master",
+      "revision": "79e513320041aae342da5734737c87e725c78504"
+    },
     "opensips-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opensips-dinit.git",
       "branch": "master",
