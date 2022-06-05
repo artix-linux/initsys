@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/syncthing-relaysrv strelaysrv -keys=/var/lib/relaysrv
+smooth-recovery = true
+logfile         = /var/log/dinit/syncthing-relaysrv.log
+waits-for       = loginready

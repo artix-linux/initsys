@@ -745,6 +745,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/syncthing-dinit.git",
       "branch": "master",
       "revision": "d9426046364681a6ef4ab7e81a78490a8c4cd6dc"
+    },
+    "syncthing-relaysrv-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/syncthing-relaysrv-dinit.git",
+      "branch": "master",
+      "revision": "1d250949d6ed73ae427359eb35761379057d2191"
     }
   }
 }
