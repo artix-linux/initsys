@@ -146,6 +146,11 @@
       "branch": "master",
       "revision": "fd7c9fcbd4f9da0bb1ee4b3fe52c27d2b65c3078"
     },
+    "backlight-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/backlight-s6.git",
+      "branch": "master",
+      "revision": "f48d870a48f7fa57dc13cc73259368b5d253a17e"
+    },
     "backuppc-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/backuppc-dinit.git",
       "branch": "master",
