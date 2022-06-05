@@ -451,6 +451,11 @@
       "branch": "master",
       "revision": "634a6e576b310cab4d1bce76e07161b5d408a267"
     },
+    "dropbear-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dropbear-openrc.git",
+      "branch": "master",
+      "revision": "253384cdd8d62b43345fb747f3bb17049be98fb6"
+    },
     "earlyoom-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesE/earlyoom-dinit.git",
       "branch": "master",
