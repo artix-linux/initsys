@@ -2411,6 +2411,11 @@
       "branch": "master",
       "revision": "a2761dffb3ba7b3a950abef49919aeccaab665cc"
     },
+    "tinydns-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesT/tinydns-s6.git",
+      "branch": "master",
+      "revision": "12d302a65debaf6676f01874a6ee9a9eb26737b2"
+    },
     "tlp-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tlp-dinit.git",
       "branch": "master",
