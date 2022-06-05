@@ -231,6 +231,11 @@
       "branch": "master",
       "revision": "546f638e60258d55666810d6505108ab2d6ff85b"
     },
+    "connman-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/connman-openrc.git",
+      "branch": "master",
+      "revision": "52657b7d4658cc57918aa77d9c1c7386bd776c72"
+    },
     "consul-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/consul-dinit.git",
       "branch": "master",
