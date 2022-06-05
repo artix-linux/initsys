@@ -781,6 +781,11 @@
       "branch": "master",
       "revision": "6eef4d01c5c87fa3db8b4bbfc2668f9627c96f95"
     },
+    "dns-over-https-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/dns-over-https-runit.git",
+      "branch": "master",
+      "revision": "f860c2944e40bcae42f3fcc998e6e910d64e2f00"
+    },
     "dns-over-https-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dns-over-https-s6.git",
       "branch": "master",
