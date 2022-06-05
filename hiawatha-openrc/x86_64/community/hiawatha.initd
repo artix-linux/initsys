@@ -1,0 +1,12 @@
+#!/usr/bin/openrc-run
+
+name="Webserver"
+description="Secure and Advanced Hiawatha Webserver"
+
+supervisor=supervise-daemon
+command=/usr/bin/hiawatha
+command_args="-d"
+
+depend() {
+	after firewall
+}

@@ -1,0 +1,21 @@
+# Maintainer: Nathan Owens <ndowens @ artixlinux.org>
+
+pkgname=hiawatha-openrc
+pkgver=20210505
+pkgrel=1
+pkgdesc="OpenRC hiawatha init script"
+arch=('any')
+url="https://gitea.artixlinux.org/artixlinux/packages-openrc"
+license=('GPL2')
+groups=('openrc-galaxy')
+depends=('openrc' 'hiawatha')
+provides=('init-hiawatha')
+conflicts=('init-hiawatha')
+source=("hiawatha.initd"
+	"letsencrypt.conf")
+sha256sums=('9639cf90318e7f4064202245f1646618082cb50826cddbceefef3086b74e0d0f'
+            'd6ab818c521eb107ad96c0585a28bccb90ae4e7de8995743e0e573f764b87e11')
+
+package() {
+  install -Dm755 "$srcdir/hiawatha.initd" "$pkgdir/etc/init.d/hiawatha"
+}
