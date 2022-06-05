@@ -2056,6 +2056,11 @@
       "branch": "master",
       "revision": "83514a6a2b71a280b372ef902def6a240ec81e80"
     },
+    "sane-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sane-s6.git",
+      "branch": "master",
+      "revision": "2038f16a6273dcc450a28097dbcdcf760ed1d735"
+    },
     "sddm-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sddm-dinit.git",
       "branch": "master",
