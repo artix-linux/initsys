@@ -546,6 +546,11 @@
       "branch": "master",
       "revision": "1397352369428a4c23eb9d7d42d049671f3e75fe"
     },
+    "freeradius-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesF/freeradius-openrc.git",
+      "branch": "master",
+      "revision": "63c96d4e8367b2348ac6e33f37b098d8e134cc9f"
+    },
     "fuse-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesF/fuse-dinit.git",
       "branch": "master",
