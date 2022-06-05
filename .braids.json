@@ -710,6 +710,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesS/sshguard-dinit.git",
       "branch": "master",
       "revision": "149215e31fafdddcbc1aefd38b87ee8492c2aaba"
+    },
+    "sslh-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sslh-dinit.git",
+      "branch": "master",
+      "revision": "402a3a9b08abf15bfbc58f720d74cd9991dd91b0"
     }
   }
 }

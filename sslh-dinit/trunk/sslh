@@ -1,0 +1,4 @@
+type            = process
+command         = /usr/bin/sslh -f -u nobody -F /etc/sslh.cfg
+smooth-recovery = true
+waits-for       = loginready
