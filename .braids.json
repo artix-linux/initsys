@@ -1066,6 +1066,11 @@
       "branch": "master",
       "revision": "712259ff4a6974ba3b9ac59d166e3b2a46386012"
     },
+    "openntpd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openntpd-openrc.git",
+      "branch": "master",
+      "revision": "b8d827295519ef4611b23fcd946ecf17b1566eaa"
+    },
     "opensips-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesO/opensips-dinit.git",
       "branch": "master",

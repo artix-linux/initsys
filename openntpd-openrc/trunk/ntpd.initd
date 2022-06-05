@@ -1,0 +1,14 @@
+#!/usr/bin/openrc-run
+# Copyright 1999-2013 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+supervisor=supervise-daemon
+name="OpenNTPD"
+command="/usr/bin/ntpd"
+command_args="${NTPD_OPTS} -d"
+
+depend() {
+	need net
+	after ntp-client
+	use dns logger
+}
