@@ -2721,6 +2721,11 @@
       "branch": "master",
       "revision": "e39300bfae7bea2abce019fdae31831752c08346"
     },
+    "xl2tpd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesX/xl2tpd-s6.git",
+      "branch": "master",
+      "revision": "50eb2ad0408d7679d0ddd7fc4dd4e7a5bc374eeb"
+    },
     "znc-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesZ/znc-dinit.git",
       "branch": "master",
