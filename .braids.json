@@ -2926,6 +2926,11 @@
       "branch": "master",
       "revision": "d27f0c3ab548a544291cd43f9e43cf6398ad2173"
     },
+    "sslh-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/sslh-runit.git",
+      "branch": "master",
+      "revision": "8ca098e25b482f9622a54676b824d3e377dfe078"
+    },
     "sslh-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sslh-s6.git",
       "branch": "master",
