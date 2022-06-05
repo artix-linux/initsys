@@ -211,6 +211,11 @@
       "branch": "master",
       "revision": "2300d891ccdc22591f8a9cfa1793db8e93c087c8"
     },
+    "clamav-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/clamav-openrc.git",
+      "branch": "master",
+      "revision": "1dc8b59d9940ae93fdf0a6e1ba0ad5b858d91785"
+    },
     "colord-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/colord-dinit.git",
       "branch": "master",
