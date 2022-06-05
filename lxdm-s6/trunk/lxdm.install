@@ -1,0 +1,13 @@
+pre_upgrade() {
+    old_lxdm=$(find /etc/s6/sv/lxdm/run)
+    if [ -n "$old_lxdm" ]; then
+        touch /etc/s6/config/old_lxdm
+    fi
+}
+
+post_upgrade() {
+    if [ -e /etc/s6/config/old_lxdm ]; then
+        echo "lxdm -> lxdm-log" >> /etc/s6/config/convfile
+        rm /etc/s6/config/old_lxdm
+    fi
+}
