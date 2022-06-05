@@ -331,6 +331,11 @@
       "branch": "master",
       "revision": "d80be20620367c27cbbab82699fb182b515ef636"
     },
+    "ddclient-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/ddclient-openrc.git",
+      "branch": "master",
+      "revision": "c50f77893407d6d1b823b275de5358d5f612f9c6"
+    },
     "deluge-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/deluge-dinit.git",
       "branch": "master",

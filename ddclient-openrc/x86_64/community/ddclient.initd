@@ -1,0 +1,21 @@
+#!/usr/bin/openrc-run
+# Copyright 1999-2018 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+name="DDclient"
+pidfile="/run/ddclient/${RC_SVCNAME}.pid"
+
+supervisor=supervise-daemon
+command="/usr/bin/ddclient"
+command_args="-foreground"
+command_user="ddclient:ddclient"
+
+depend() {
+	need net
+	use dns logger
+}
+
+start_pre() {
+	checkpath -f -m 0600 -o ${command_user} /etc/ddclient/ddclient.conf
+	checkpath -d -m 0700 -o ${command_user} /run/ddclient /var/cache/ddclient
+}
