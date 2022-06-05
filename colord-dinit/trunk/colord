@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/lib/colord
+smooth-recovery = true
+run-as          = colord
+depends-on      = dbus
+depends-on      = colord-pre

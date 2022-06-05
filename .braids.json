@@ -110,6 +110,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesC/clamav-dinit.git",
       "branch": "master",
       "revision": "2300d891ccdc22591f8a9cfa1793db8e93c087c8"
+    },
+    "colord-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/colord-dinit.git",
+      "branch": "master",
+      "revision": "be296dd970c52203eb1f0457e25b63ae016eda8d"
     }
   }
 }
