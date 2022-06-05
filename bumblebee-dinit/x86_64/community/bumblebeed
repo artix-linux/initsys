@@ -1,0 +1,5 @@
+type            = process
+command         = /usr/bin/bumblebeed
+smooth-recovery = true
+logfile         = /var/log/dinit/bumblebeed.log
+waits-for       = loginready

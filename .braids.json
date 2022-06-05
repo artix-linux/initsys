@@ -90,6 +90,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesB/brltty-dinit.git",
       "branch": "master",
       "revision": "f1ac3ffd82dd598a7d54a65d4879eaf8fae3d526"
+    },
+    "bumblebee-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bumblebee-dinit.git",
+      "branch": "master",
+      "revision": "516abbfc5196bc6c20d32478dd7ab74ddac7f3e4"
     }
   }
 }
