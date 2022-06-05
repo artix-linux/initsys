@@ -3391,6 +3391,11 @@
       "branch": "master",
       "revision": "bce6678851e28a29df7d8692cd8a2aff0c601aa8"
     },
+    "v2ray-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-runit.git",
+      "branch": "master",
+      "revision": "8e00adfe0ecdf62192db34881a0bb2a5aa10b049"
+    },
     "v2ray-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-s6.git",
       "branch": "master",
