@@ -1216,6 +1216,11 @@
       "branch": "master",
       "revision": "7ea89b38ade40829921695c6f74148cb1c45bcf4"
     },
+    "privoxy-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/privoxy-openrc.git",
+      "branch": "master",
+      "revision": "f1940c8ad2d261298499c0d66d4c1084d008fc92"
+    },
     "prometheus-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/prometheus-dinit.git",
       "branch": "master",
