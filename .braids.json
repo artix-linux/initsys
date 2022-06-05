@@ -2601,6 +2601,11 @@
       "branch": "master",
       "revision": "226281256439cef0ba778a76d98706fb74651892"
     },
+    "vnstat-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesV/vnstat-s6.git",
+      "branch": "master",
+      "revision": "bafca3d7acc4f089fc6f05720ba0ac8dbde9b975"
+    },
     "vsftpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesV/vsftpd-dinit.git",
       "branch": "master",
