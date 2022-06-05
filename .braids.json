@@ -505,6 +505,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-dinit.git",
       "branch": "master",
       "revision": "272dab5b8e32cc87f46d47864f07c132b49db916"
+    },
+    "nsd-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesN/nsd-dinit.git",
+      "branch": "master",
+      "revision": "bce2eeef89ff8992858f4075a046c555490a5a7d"
     }
   }
 }
