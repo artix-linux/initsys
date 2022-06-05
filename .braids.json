@@ -1046,6 +1046,11 @@
       "branch": "master",
       "revision": "8845813b9b583619953bbd70e3875c20ad6223ac"
     },
+    "interception-tools-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesI/interception-tools-s6.git",
+      "branch": "master",
+      "revision": "60e46627c87fcb8f83d5e210846fef2552b29fbe"
+    },
     "iptables-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesI/iptables-dinit.git",
       "branch": "master",
