@@ -1661,6 +1661,11 @@
       "branch": "master",
       "revision": "f794d4fa3963f5aa17d04e1515ae1e2e1ac43532"
     },
+    "uptimed-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesU/uptimed-openrc.git",
+      "branch": "master",
+      "revision": "4ac46df999f8f0924126b7ad2d03e1e7cc2b76a4"
+    },
     "usbguard-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesU/usbguard-dinit.git",
       "branch": "master",

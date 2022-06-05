@@ -1,0 +1,18 @@
+#!/usr/bin/openrc-run
+# Copyright Artix developers, 2022
+# GPL2
+
+command_user=daemon:daemon
+command=/usr/bin/uptimed
+command_args="-p /run/uptimed/uptimed.pid -f"
+supervisor="supervise-daemon"
+
+depend() {
+    need localmount
+}
+
+start_pre() {
+    install -d -m 755 -o daemon -g daemon /run/uptimed
+    install -d -m 755 -o daemon -g daemon /var/spool/uptimed
+    uptimed -b
+}
