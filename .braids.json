@@ -421,6 +421,11 @@
       "branch": "master",
       "revision": "1e8505105a8d1b3b3b56a1765939af0a5586a518"
     },
+    "cryptsetup-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cryptsetup-s6.git",
+      "branch": "master",
+      "revision": "d04ec30cb5d833b7968fba4016a6730897f5072c"
+    },
     "cups-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cups-dinit.git",
       "branch": "master",
