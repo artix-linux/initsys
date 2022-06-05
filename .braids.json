@@ -75,6 +75,11 @@
       "url": "gitea@gitea.artixlinux.org:packagesB/boinc-dinit.git",
       "branch": "master",
       "revision": "debfa02cfdf717316fff44cc247ff7909e1bdc10"
+    },
+    "bolt-dinit": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bolt-dinit.git",
+      "branch": "master",
+      "revision": "ab6ea8b536f6e06942602d66c23fb667216059d2"
     }
   }
 }
