@@ -246,6 +246,11 @@
       "branch": "master",
       "revision": "3077a7f5c8ced751e0ccfb16c0cd206310a42ec3"
     },
+    "bind-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesB/bind-runit.git",
+      "branch": "master",
+      "revision": "6b653772dbc96602650073c58652c0f5e81610c0"
+    },
     "bind-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesB/bind-s6.git",
       "branch": "master",
