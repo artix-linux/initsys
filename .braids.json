@@ -391,6 +391,11 @@
       "branch": "master",
       "revision": "99faec6d5a387593f7adcdc0b56eb484f044e4ab"
     },
+    "distcc-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesD/distcc-openrc.git",
+      "branch": "master",
+      "revision": "0e352771817463a9c1283a22a9b0a83fce4611f2"
+    },
     "dns-over-https-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dns-over-https-dinit.git",
       "branch": "master",
