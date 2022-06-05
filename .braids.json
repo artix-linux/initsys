@@ -2426,6 +2426,11 @@
       "branch": "master",
       "revision": "2226b1ecb0c76fc40036ebb09afedba6a9f8e435"
     },
+    "prosody-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesP/prosody-runit.git",
+      "branch": "master",
+      "revision": "64d5e77788cabf2313602e9341ff5865ec32e38f"
+    },
     "prosody-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/prosody-s6.git",
       "branch": "master",
