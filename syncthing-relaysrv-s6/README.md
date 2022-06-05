@@ -1,0 +1,2 @@
+# syncthing-relaysrv-s6
+
