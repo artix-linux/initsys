@@ -1886,6 +1886,11 @@
       "branch": "master",
       "revision": "230dfdce23772925a3b2a5f61efd895f18aa5058"
     },
+    "radicale-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/radicale-s6.git",
+      "branch": "master",
+      "revision": "262e664710763f0d3cd909e5584c614fab3790e0"
+    },
     "redis-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesR/redis-dinit.git",
       "branch": "master",
