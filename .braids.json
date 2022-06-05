@@ -371,6 +371,11 @@
       "branch": "master",
       "revision": "7363dcdb29f441d4197144ff7053cf11b2f68429"
     },
+    "cgmanager-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/cgmanager-runit.git",
+      "branch": "master",
+      "revision": "f90bbb8af5ec2b707e9f5c363f71480c3137cd7e"
+    },
     "cgmanager-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cgmanager-s6.git",
       "branch": "master",
