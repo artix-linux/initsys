@@ -2081,6 +2081,11 @@
       "branch": "master",
       "revision": "252e236fd0ec09ad0b341027847e66bcc36f253d"
     },
+    "openldap-runit": {
+      "url": "gitea@gitea.artixlinux.org:packagesO/openldap-runit.git",
+      "branch": "master",
+      "revision": "163b4bbdbf8feedf5dc666467f5e8bafdde776d9"
+    },
     "openldap-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openldap-s6.git",
       "branch": "master",
