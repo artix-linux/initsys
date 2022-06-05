@@ -2086,6 +2086,11 @@
       "branch": "master",
       "revision": "e8cd86dbbfeafe6e36a0cffe4746db2c45c627a7"
     },
+    "seatd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesS/seatd-s6.git",
+      "branch": "master",
+      "revision": "ae151f7f59bebb46f2bd4bcffc0fcbb9e6ebc1e2"
+    },
     "shairplay-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/shairplay-dinit.git",
       "branch": "master",
