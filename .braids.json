@@ -361,6 +361,11 @@
       "branch": "master",
       "revision": "e4fa231051f63cffa8ea1c96a37cc9d665452b99"
     },
+    "consul-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/consul-s6.git",
+      "branch": "master",
+      "revision": "0dc02d967cef3a1539002f7ea678cb9986a1ea43"
+    },
     "coturn-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coturn-dinit.git",
       "branch": "master",
