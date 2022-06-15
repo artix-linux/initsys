@@ -979,7 +979,7 @@
     "execline": {
       "url": "gitea@gitea.artixlinux.org:packagesE/execline.git",
       "branch": "master",
-      "revision": "b3ef162bb0398ae9155590cb4dd945626e53b3f5"
+      "revision": "7aa8d4bfe53e7d9aa0b85f166452c9f9d1198ab3"
     },
     "exim-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesE/exim-dinit.git",
