@@ -2624,7 +2624,7 @@
     "s6-linux-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6-linux-utils.git",
       "branch": "master",
-      "revision": "ea240628f1793f71b2280c74a535c1a9cfd54536"
+      "revision": "b4cbbf1c2f7c1bed8b7d3f23495a7408e16aaea4"
     },
     "s6-networking": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6-networking.git",
