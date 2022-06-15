@@ -3114,7 +3114,7 @@
     "tailscale-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tailscale-openrc.git",
       "branch": "master",
-      "revision": "8f09924b6c5faa21306a8907cb8438191876ad8b"
+      "revision": "901f675736c17ed9f292d1cf88b99c81dea22300"
     },
     "tailscale-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesT/tailscale-s6.git",
