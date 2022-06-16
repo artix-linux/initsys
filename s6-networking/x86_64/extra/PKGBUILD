@@ -1,7 +1,7 @@
 # Maintainer: Dudemanguy <dudemanguy@artixlinux.org>
 # Contributor: Jacob Moody <moody@posixcafe.org>
 pkgname=s6-networking
-pkgver=2.5.1.0
+pkgver=2.5.1.1
 pkgrel=1
 pkgdesc="A suite of small networking tools for UNIX systems."
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('ISC')
 depends=('s6' 's6-dns' 'libretls' 'openssl' 'libs6.so' 'libs6dns.so')
 provides=('libs6net.so')
 source=("https://skarnet.org/software/s6-networking/${pkgname}-${pkgver}.tar.gz")
-sha256sums=('2507c51fea5a2d07a7a77300a6502f2af4a04b6da15131f20bf984b99091ff41')
+sha256sums=('7ac79d4de3d9c13532e444ab7497c4e04ad0fa7229d502984d9dc7d48aa64418')
 
 build() {
     cd ${pkgname}-${pkgver}
