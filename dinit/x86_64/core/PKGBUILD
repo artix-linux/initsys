@@ -1,7 +1,7 @@
 # Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
 pkgbase=dinit
 pkgname=('dinit' 'dinit-base')
-pkgver=0.14.0
+pkgver=0.15.1
 _commit=29cd296aa4635fe6f7b53bda2f2cb1648bdc0782
 pkgrel=1
 pkgdesc="Service monitoring/init system"
@@ -11,7 +11,7 @@ license=('Apache')
 makedepends=('git')
 source=("$url/releases/download/v$pkgver/$pkgname-$pkgver.tar.xz"
         "git+https://gitea.artixlinux.org/artix/alpm-hooks.git#commit=$_commit")
-sha256sums=('f58f53b6901b8a0a1788a1f0937766bd171570d3c067dcd4b66752229b047c0e'
+sha256sums=('c872eb325449e8e16d14e779c7177384357cf71c812a53429122f1463dd65ffc'
             'SKIP')
 
 build() {
@@ -35,9 +35,9 @@ package_dinit() {
 	make DESTDIR="$pkgdir/" SBINDIR=/usr/bin BUILD_SHUTDOWN=yes install
 
 	# remove dinit-base pkgs
-	rm -f "$pkgdir/usr/bin/"{dinit,dinitcheck,dinitctl}
+	rm -f "$pkgdir/usr/bin/"{dinit,dinitcheck,dinitctl,dinit-monitor}
 	rm -rf "$pkgdir/usr/share/man/man5"
-	rm -f "$pkgdir/usr/share/man/man8/"{dinit,dinitcheck,dinitctl}.8
+	rm -f "$pkgdir/usr/share/man/man8/"{dinit,dinitcheck,dinitctl,dinit-monitor}.8
 
 	# dinit-init symlink
 	ln -s dinit "$pkgdir/usr/bin/dinit-init"
