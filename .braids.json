@@ -2599,7 +2599,7 @@
     "s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6.git",
       "branch": "master",
-      "revision": "79e99a6c1d05a048a36771a41042cafc93e1fc46"
+      "revision": "3c70eff6808a7b4bd9800026c3fc1b55a3afbd90"
     },
     "s6-base": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6-base.git",
