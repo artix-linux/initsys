@@ -1,7 +1,7 @@
 # Maintainer: Dudemanguy <dudemanguy@artixlinux.org>
 pkgname=s6-scripts
-pkgver=20220410
-pkgrel=5
+pkgver=20220720
+pkgrel=1
 pkgdesc='A collection of essential s6-rc oneshots and longruns for startup/shutdown.'
 arch=('any')
 url='https://gitea.artixlinux.org/artix/s6-scripts'
@@ -11,7 +11,6 @@ makedepends=('git')
 optdepends=('cryptsetup-s6: cryptsetup boot script support'
             'lvm2-s6: lvm2 boot script support')
 replaces=('eudev-s6')
-install=s6-scripts.install
 backup=('etc/s6/rc.local'
         'etc/s6/config/tty1.conf'
         'etc/s6/config/tty2.conf'
@@ -32,7 +31,6 @@ sha256sums=('SKIP')
 
 prepare() {
     cd "${pkgname}"
-    git revert -n 5ee6d462f19ba95db84bacd07b9e491312ce3104
 }
 
 package() {
