@@ -1,5 +1,5 @@
 type               = process
-command            = /usr/bin/seatd -u seatd -g seatd -n 3
+command            = /usr/bin/seatd -u seatd -g seat -n 3
 smooth-recovery    = true
 logfile            = /var/log/dinit/seatd.log
 ready-notification = pipefd:3
