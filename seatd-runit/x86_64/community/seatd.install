@@ -1,0 +1,7 @@
+#!/bin/sh
+
+post_upgrade() {
+    if [ ${2%-*} -lt 20220726 ]; then
+        echo -e '\033[31mSEATD-RUNIT\033[0m: The seatd service now relies on the seat group'
+    fi
+}

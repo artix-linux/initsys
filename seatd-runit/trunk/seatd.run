@@ -1,3 +1,6 @@
 #!/bin/sh
-sv check dbus >/dev/null || exit 1
-exec /usr/bin/seatd -g video
+set -e
+
+sv start dbus >/dev/null
+
+exec /usr/bin/seatd -g seat 2>&1
