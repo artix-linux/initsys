@@ -2734,7 +2734,7 @@
     "seatd-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/seatd-openrc.git",
       "branch": "master",
-      "revision": "e8cd86dbbfeafe6e36a0cffe4746db2c45c627a7"
+      "revision": "a3cded30656efe170ac77ce49c3706d12d05d7be"
     },
     "seatd-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/seatd-runit.git",
