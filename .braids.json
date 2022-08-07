@@ -289,7 +289,7 @@
     "boinc-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesB/boinc-runit.git",
       "branch": "master",
-      "revision": "622d06b0229ca161dfb8f45e019022f7535629f1"
+      "revision": "0bc009ebc416c1353b5abc73ca417a7e793a28d5"
     },
     "boinc-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesB/boinc-s6.git",
