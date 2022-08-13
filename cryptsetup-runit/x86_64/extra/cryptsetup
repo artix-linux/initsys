@@ -100,7 +100,7 @@ unlock_devices() {
             *) cryptsetup $copts -d "$pass" open "$dev" "$name"  ;;
         esac
 
-        [ "$swap" = y ] && mkswap "/dev/mapper/$name"
+        [ "$swap" = y ] && mkswap -q "/dev/mapper/$name"
     copts=; sopts=; swap=; done < /etc/crypttab; exec 3>&-
 }
 
