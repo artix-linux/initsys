@@ -554,7 +554,7 @@
     "cryptsetup-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cryptsetup-runit.git",
       "branch": "master",
-      "revision": "cf0e9e5e68c20dda8a091082911329bd42661a97"
+      "revision": "216cbf3d9b8e3a3acf184fada8b888e13a5a2d9a"
     },
     "cryptsetup-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesC/cryptsetup-s6.git",
