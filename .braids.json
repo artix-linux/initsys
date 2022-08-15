@@ -944,7 +944,7 @@
     "elogind-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesE/elogind-runit.git",
       "branch": "master",
-      "revision": "8cae7a51d7526a072017914cb147d7fdbf15f416"
+      "revision": "28ecb11b206500e2967a9884e73d0b98857c587a"
     },
     "elogind-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesE/elogind-s6.git",
