@@ -2739,7 +2739,7 @@
     "seatd-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/seatd-runit.git",
       "branch": "master",
-      "revision": "ea03f5dd3f88b229a64868d287c79c818189cf90"
+      "revision": "d57443ffad755b87d47e31ffe636eff1110262fa"
     },
     "seatd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/seatd-s6.git",
