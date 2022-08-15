@@ -1144,7 +1144,7 @@
     "gdm-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdm-runit.git",
       "branch": "master",
-      "revision": "e4742b18b8399c4e49b766669cdee3e720b3cccd"
+      "revision": "09f8efee656d9abb0a0ffedec99798593c60be1a"
     },
     "gdm-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdm-s6.git",
