@@ -2629,7 +2629,7 @@
     "s6-networking": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6-networking.git",
       "branch": "master",
-      "revision": "65aed7ef78a4de0ad168fc8aace2f4a242571976"
+      "revision": "3eb4fdb5e2a6ed46b8fa8592f35adef6b5a69f35"
     },
     "s6-portable-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6-portable-utils.git",
