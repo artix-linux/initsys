@@ -1,8 +1,8 @@
 #!/bin/sh
 
 post_upgrade() {
-    if [ ${2%-*} -lt 20220815 ]; then
-        echo -e '\033[31mSEATD-RUNIT\033[0m: The seatd service is now linked as logind in the default runsvdir'
+    if [ ${2%-*} -lt 20220825 ]; then
+        echo -e '\033[31mSEATD-RUNIT\033[0m: The seatd service is now linked to logind in the service pool which is linked in the default runsvdir'
     fi
     if [ ${2%-*} -lt 20220726 ]; then
         echo -e '\033[31mSEATD-RUNIT\033[0m: The seatd service now relies on the seat group'
