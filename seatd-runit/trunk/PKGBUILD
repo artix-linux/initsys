@@ -3,7 +3,7 @@
 
 pkgname=seatd-runit
 pkgver=20220825
-pkgrel=1
+pkgrel=2
 pkgdesc='runit service script for seatd'
 arch=(any)
 url='https://artixlinux.org'
@@ -20,6 +20,6 @@ package() {
     install -Dm755 seatd.run "$pkgdir/etc/runit/sv/seatd/run"
 
     install -d "${pkgdir}/etc/runit/runsvdir/default"
-    ln -s logind "${pkgdir}/etc/runit/sv/seatd"
+    ln -s seatd "${pkgdir}/etc/runit/sv/logind"
     ln -s ../../sv/logind "${pkgdir}/etc/runit/runsvdir/default/logind"
 }
