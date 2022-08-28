@@ -1,4 +1,4 @@
-type            = command
+type            = process
 command         = /etc/dinit.d/scripts/dhcpd ipv6
 smooth-recovery = true
 waits-for       = loginready
