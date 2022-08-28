@@ -704,7 +704,7 @@
     "dhcp-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcp-dinit.git",
       "branch": "master",
-      "revision": "44054879f64097fccd4912ecff64584af002c8db"
+      "revision": "48f3b8c62055ae04c090bdfc786b4f16d0c2cdd9"
     },
     "dhcp-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcp-openrc.git",
