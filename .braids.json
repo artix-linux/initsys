@@ -1514,7 +1514,7 @@
     "lightdm-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lightdm-runit.git",
       "branch": "master",
-      "revision": "55cd658925c40ee27a66bf08676302bc3b5310eb"
+      "revision": "7adbd0d8f20340011e3a57a7521bccfaaf406f50"
     },
     "lightdm-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesL/lightdm-s6.git",
