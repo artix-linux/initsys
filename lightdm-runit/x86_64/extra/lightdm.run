@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-sv start elogind >/dev/null
+sv start logind >/dev/null
 
 exec 2>&1
 
