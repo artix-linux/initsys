@@ -3,7 +3,7 @@
 
 pkgname=elogind-runit
 pkgver=20220828
-pkgrel=1
+pkgrel=2
 pkgdesc='runit service scripts for elogind'
 arch=(any)
 url='https://artixlinux.org'
@@ -21,6 +21,6 @@ package() {
     install -Dm755 "$srcdir/elogind.check" "$pkgdir/etc/runit/sv/elogind/check"
 
     install -d "${pkgdir}/etc/runit/runsvdir/default"
-    ln -s logind "${pkgdir}/etc/runit/sv/elogind"
+    ln -s elogind "${pkgdir}/etc/runit/sv/logind"
     ln -s ../../sv/logind "${pkgdir}/etc/runit/runsvdir/default/logind"
 }
