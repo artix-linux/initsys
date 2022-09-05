@@ -2644,7 +2644,7 @@
     "s6-scripts": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6-scripts.git",
       "branch": "master",
-      "revision": "79f9e2c45796147bdbe12e9ecd85874611030d3d"
+      "revision": "4cb03dbd38887aa0a96a8883ae221df2cacfc5c7"
     },
     "salt-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/salt-dinit.git",
