@@ -3389,7 +3389,7 @@
     "v2ray-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-openrc.git",
       "branch": "master",
-      "revision": "bce6678851e28a29df7d8692cd8a2aff0c601aa8"
+      "revision": "2db04a273b08a2262a3eef0d43a0916477a6bf59"
     },
     "v2ray-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesV/v2ray-runit.git",
