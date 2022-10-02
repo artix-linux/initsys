@@ -1,43 +1,23 @@
-# Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
-
-_sed_args=(-e 's|/var/run|/run|g' -e 's|/usr/sbin|/usr/bin|g' -e 's|/opt/bin|/usr/bin|g' -e 's|/var/service|/run/runit/service|g' -e 's|/usr/libexec|/usr/lib|g')
+# Maintainer: Qontinuum <qontinuum@artixlinux.org>
+# Contributor: Muhammad Herdiansyah <koni@artixlinux.org>
 
 pkgname=hostapd-runit
-pkgver=20180314
+pkgver=20221002
 pkgrel=5
-pkgdesc="Runit service script for hostapd"
-arch=('any')
-url="https://artixlinux.org"
-license=('BSD')
-depends=('hostapd' 'runit')
-groups=('runit-galaxy')
-conflicts=('init-hostapd')
-provides=('init-hostapd')
-source=("hostapd.run")
-sha256sums=('1c42d40e94b3dc91ee2a77672fd360503ff9ea988fcec6a46e21a7da6921e774')
-
-_inst_logsv() {
-    for file in run finish check; do
-        if test -f "$srcdir/log$1.$file"; then
-            install -Dm755 "$srcdir/log$1.$file" "$pkgdir/etc/runit/sv/$1/log/$file"
-            sed "${_sed_args[@]}" -i "$pkgdir/etc/runit/sv/$1/log/$file"
-        fi
-    done
-}
-
-_inst_sv() {
-    if test -f "$srcdir/$1.conf"; then
-        install -Dm644 "$srcdir/$1.conf" "$pkgdir/etc/runit/sv/$1/conf"
-    fi
-
-    for file in run finish check; do
-        if test -f "$srcdir/$1.$file"; then
-            install -Dm755 "$srcdir/$1.$file" "$pkgdir/etc/runit/sv/$1/$file"
-            sed "${_sed_args[@]}" -i "$pkgdir/etc/runit/sv/$1/$file"
-        fi
-    done
-}
+pkgdesc='Runit service script for hostapd'
+arch=(any)
+url='https://artixlinux.org'
+license=(BSD)
+depends=(hostapd runit)
+groups=(runit-galaxy)
+conflicts=(init-hostapd)
+provides=(init-hostapd)
+source=(hostapd.run hostapd.log.run)
+sha256sums=('5481733559aed8481cc0b05e2155b57fed2992e8416ee63f3cf1d6b0b1b68157'
+            '668081956780a1ab7d54a404bf70aae7e6e9ad4f7186e9270fd074b1fec73c83')
 
 package() {
-    _inst_sv 'hostapd'
+    cd "$srcdir"
+    install -Dm755 hostapd.run "$pkgdir/etc/runit/sv/hostapd/run"
+    install -Dm755 hostapd.log.run "$pkgdir/etc/runit/sv/hostapd/log/run"
 }
