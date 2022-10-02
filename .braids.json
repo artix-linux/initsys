@@ -1324,7 +1324,7 @@
     "hostapd-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hostapd-runit.git",
       "branch": "master",
-      "revision": "dd3a5be7831d1807209eac7a9fde2faa165defe8"
+      "revision": "b89637fbb1613d6253aa591ea88e08f2184418ad"
     },
     "hostapd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hostapd-s6.git",
