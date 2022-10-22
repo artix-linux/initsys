@@ -1,7 +1,7 @@
 # Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
 pkgbase=dinit
 pkgname=('dinit' 'dinit-base')
-pkgver=0.15.1
+pkgver=0.16.0
 _commit=29cd296aa4635fe6f7b53bda2f2cb1648bdc0782
 pkgrel=1
 pkgdesc="Service monitoring/init system"
@@ -11,7 +11,7 @@ license=('Apache')
 makedepends=('git')
 source=("$url/releases/download/v$pkgver/$pkgname-$pkgver.tar.xz"
         "git+https://gitea.artixlinux.org/artix/alpm-hooks.git#commit=$_commit")
-sha256sums=('c872eb325449e8e16d14e779c7177384357cf71c812a53429122f1463dd65ffc'
+sha256sums=('c7965451ef2f2d56996b1a733585e4476a267d2f932e02bba609fd655f89c8cb'
             'SKIP')
 
 build() {
