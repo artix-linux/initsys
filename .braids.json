@@ -1349,7 +1349,7 @@
     "i2pd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesI/i2pd-s6.git",
       "branch": "master",
-      "revision": "5e2c6b491b17a2157e6ee690c4fd3a095fea8c07"
+      "revision": "62fd2aeb75ffe946681a5a7025edc3f11b43388b"
     },
     "intel-undervolt-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesI/intel-undervolt-dinit.git",
