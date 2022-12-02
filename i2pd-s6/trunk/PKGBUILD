@@ -1,6 +1,6 @@
 # Maintainer: Dudemanguy <dudemanguy@artixlinux.org> 
 pkgname=i2pd-s6
-pkgver=20210919
+pkgver=20221202
 pkgrel=1
 pkgdesc="s6-rc service scripts for i2pd"
 arch=('any')
@@ -11,7 +11,7 @@ conflicts=('init-i2pd')
 depends=('i2pd' 's6-base')
 makedepends=('git')
 backup=('etc/s6/config/i2pd.conf')
-_commit=f8db772e97393417271f286a3c9dc136d25a959c
+_commit=2db7cb6f393b96711e636f98817ff40bc8f3f55d
 source=("git+https://gitea.artixlinux.org/artix/s6-services.git#commit=$_commit")
 sha256sums=('SKIP')
 
