@@ -8,6 +8,7 @@
 *.tgz
 *.log
 *.log.*
+!*.log.run
 *.sig
 
 pkg/
