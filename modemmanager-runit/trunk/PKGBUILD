@@ -1,0 +1,24 @@
+# Maintainer: Qontinuum <qontinuum@artixlinux.org>
+
+pkgname=modemmanager-runit
+pkgver=20221203
+pkgrel=1
+pkgdesc='Runit service script for modemmanager'
+arch=(any)
+url='https://artixlinux.org'
+license=(BSD)
+# Note: While this PKGBUILD is licensed under BSD-3 terms, all of the
+#       included runscript should follow it's main package's licenses.
+depends=(dbus-runit modemmanager runit)
+groups=(runit-galaxy)
+provides=(init-modemmanager)
+conflicts=(init-modemmanager)
+source=(modemmanager.run modemmanager.log.run)
+sha256sums=('e0bd8f7cd937e7c7d18f0a7437ce851d5c8a3f7ee9688b30ae1972acef547578'
+            '76b48719bbf2aed0dd15f0b4a02249adcbebd03bf53cb440b7443585bc6e07a3')
+
+package() {
+    cd "$srcdir"
+    install -Dm755 modemmanager.run "$pkgdir/etc/runit/sv/modemmanager/run"
+    install -Dm755 modemmanager.log.run "$pkgdir/etc/runit/sv/modemmanager/log/run"
+}
