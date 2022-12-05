@@ -2,7 +2,7 @@
 
 pkgname=modemmanager-runit
 pkgver=20221204
-pkgrel=1
+pkgrel=2
 pkgdesc='Runit service script for modemmanager'
 arch=(any)
 url='https://artixlinux.org'
@@ -14,7 +14,7 @@ groups=(runit-galaxy)
 provides=(init-modemmanager)
 conflicts=(init-modemmanager)
 source=(modemmanager.run modemmanager.log.run)
-sha256sums=('0182b640a4ffedd1257e3116e5866bfd7abfae797ff0c89475315d75921fdee4'
+sha256sums=('e82e583be948261f6673639bdce1a60629c21cff311ee8c1dffa211d03c47434'
             '76b48719bbf2aed0dd15f0b4a02249adcbebd03bf53cb440b7443585bc6e07a3')
 
 package() {
