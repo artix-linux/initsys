@@ -1804,7 +1804,7 @@
     "modemmanager-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/modemmanager-runit.git",
       "branch": "master",
-      "revision": "5fd6bf2b20ab43fcbb3c3a7aa21c2b90c7620d80"
+      "revision": "359127727737e8d4fe523d7cebd6ffbb5a1bb0fe"
     },
     "modemmanager-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesM/modemmanager-s6.git",
