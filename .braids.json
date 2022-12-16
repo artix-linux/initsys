@@ -2589,7 +2589,7 @@
     "runit": {
       "url": "gitea@gitea.artixlinux.org:packagesR/runit.git",
       "branch": "master",
-      "revision": "bb5badbca1300c9d3907f158288a4d6d1defa893"
+      "revision": "5b713f27b77e19a6e2fdd32950594b44008692ec"
     },
     "runit-bash-completions": {
       "url": "gitea@gitea.artixlinux.org:packagesR/runit-bash-completions.git",
