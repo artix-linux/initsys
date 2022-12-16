@@ -3,11 +3,13 @@
 
 --- runit-2.1.2/src/chpst.c.orig
 +++ runit-2.1.2/src/chpst.c
-@@ -308,6 +308,7 @@
+@@ -308,7 +308,8 @@
      case 'n':
        switch (*optarg) {
          case '-':
+-          if (optarg[scan_ulong(++optarg, &ul)]) usage(); nicelvl =ul;
 +          ++optarg;
-           if (optarg[scan_ulong(++optarg, &ul)]) usage(); nicelvl =ul;
++          if (optarg[scan_ulong(optarg, &ul)]) usage(); nicelvl =ul;
            nicelvl *=-1;
            break;
+         case '+': ++optarg;
