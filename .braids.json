@@ -749,7 +749,7 @@
     "dinit-rc": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dinit-rc.git",
       "branch": "master",
-      "revision": "e1fa7353e056f67e64450efc03637cce12a40165"
+      "revision": "cd2ce4dec4cf4c77b4e526d82dfd5e1e7930405c"
     },
     "distcc-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/distcc-dinit.git",
