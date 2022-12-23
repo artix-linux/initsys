@@ -10,7 +10,7 @@ _servicedir=/run/runit/service
 
 pkgname=runit
 pkgver=2.1.2
-pkgrel=29
+pkgrel=31
 pkgdesc='a cross-platform Unix init scheme with service supervision'
 arch=('x86_64')
 url='http://smarden.org/runit/'
@@ -27,6 +27,7 @@ source=("http://smarden.org/${pkgname}/${pkgname}-${pkgver}.tar.gz"
         "halt.c"
         "shutdown"
         "clearmem.patch"
+        'chpst.patch'
         "svlogd.patch"
         "utmpset-time_t.patch"
         "runit-hook"
@@ -34,18 +35,19 @@ source=("http://smarden.org/${pkgname}/${pkgname}-${pkgver}.tar.gz"
         "runit-remove.hook"
         "30-binfmt.hook"
         "30-sysctl.hook")
-sha256sums=('6fd0160cb0cf1207de4e66754b6d39750cff14bb0aa66ab49490992c0c47ba18'
-            '7dd9b8967b8944daf3d077c52264827a660598097d5e0a631d0f33d20c9d127f'
-            'a9e4b3e09fb72fd44e62f052fd2302d6fcde64a112d53037febd221564e62b1a'
-            '7f11c5cab16f10178612b6a81d37184c25c4426b9c2d5d3f8ef7ed7ab2b52c56'
-            '19b5e99135f153d07052f2dff707430af9faeabc717a5740ea58a8a783f609de'
-            '9cf269264c0713975be1b3bc9dd3b5b3bb1e2078ac596527370a902d8d025a5a'
-            '527f68f501cc9eb4bbab33f8ad374822624342c7d74b5c795efe4aac6b3f170a'
-            '201cf7e03d400195c461face4ec29559bbfe3308e6d291a7633a9d1632e99410'
-            'a3e95c60b616ae0a85690d0251924b084f85166cfbd7c037377cfe67b3baaf1b'
-            'b85ae57b50a323fd5b11c3584b1b34f723b38d769ea238ab3c27429f2f4fb7b9'
-            '3248e86fe739aaff412f5b4f77b689f690fac1c0e9e634a0305cc3f517d41338'
-            'af91ca198fc402f39faf9e62b8da56e47f5cda9ce3d61c43fcf5b24f59fbbf5a')
+b2sums=('101e514aeed282685ebe636f401ca6f94d157281d08a3ac487340aebe945b82d2ee01d41e9917446f4ebd7b27fe9fd18ba4ad55739ab1b62a0e59e1c438b55e9'
+        '2c7ee7b3945a553ec93244ca9f023f4ad0d6816079f10bcc0d6a3d740d22fd57deddbc42f8db9d44aba117bba08046b8a0f6fefbe51f7d5fbb03b825b0169b4a'
+        '4008be93260a5df13f1d1199864c9f5e724643a670d69ed3ee980f35a83cad8bd97bb09614a7847d991b4ac0434ed563a3c5af6a74297b9590ad0e5b47749219'
+        'e782155bd99bd4cd049a88fa9c0bfbd1d4ef4c61669e97a6b3d482c9ab52666ad736d38ccfc4486a152fd8446ab9703f99ff5ccef9ded3ba055aa412ec18de3a'
+        'af632c732ec8e3942fc27e6450cb04fc539ca4a91bc1ea8e926784922acf8455b00725a082686475e13605a1d897ce17e7fd3bb975f48ffa9619daaaf2774911'
+        'c6197f9a6b1ffcd2f210186cfec11ea7267f9671f0ad52f40c2b2d83ad1f62a2128883c589e0b25a1d36752b3491fd67e058aca6ab476098594498b88176b892'
+        'd95fdfd7bdad77e540d0c168c0ddc4b17bda1831d4321b5c6f9793247fbe272623425b23faa82756175aef96ae9b4eed9191271ae773831cc62a153a65fd0c3f'
+        'f9e06e60901fd4762468a778866a7d9bf860ef5ee07965b104566e09b5fd8775a9f597708632f429a41b19629543084fec10276b1f4d8c6ef09b06b90f2910c4'
+        '28c687dca9442c73bbc944c92b5a7b8466ceaadb379a7478c13d11604e68ef206558b427bc1714b8410f934b457cab0d36d13fe78ff681095d1cafbe8c0ad236'
+        '4335a92d20b0f1916137e87d47bcb0b3d9157480a2aafb847daefba912defc3e45cd86ffeaf092ca40478eb8ad08617bcb88d790a4bdd3ea574941968e379501'
+        '8ebbaed9dd9f608025da75448688ebce137d25260b512682d658a8cb2512009467773014ca194c973115af98f0bbaae14d38528494b433e73b6e06516ba0cc9a'
+        '3d8a7dfcf6a98bd4b6d379a3175d4f61422eaa91fe8b2a4fd6fbfc06d6c92c2e68f768ca438310530f9cb119a1de797d9f02da422d5d487272d7cf951c4fa9f8'
+        '081dbd1873d8a41b65820949ae24715b209b1c38957b6f8934c0eb48019a586cd505e11e2cad0bb2657a0d1792a748bc5d9d71147a8b42a3274c8335ded3030a')
 
 prepare() {
 	# set default service path to /run/runit/service
@@ -56,6 +58,7 @@ prepare() {
 	patch -p1 -i "${srcdir}/clearmem.patch"
 	patch -p1 -i "${srcdir}/svlogd.patch"
 	patch -p1 -i "${srcdir}/utmpset-time_t.patch"
+	patch -p1 -i "${srcdir}/chpst.patch"
 }
 
 build() {
