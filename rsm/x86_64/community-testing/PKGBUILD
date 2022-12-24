@@ -3,7 +3,7 @@
 # Contributor: linuxer
 pkgname=rsm
 pkgver=1.4.6
-pkgrel=1
+pkgrel=2
 pkgdesc="Runit service manager"
 arch=(any)
 url="https://gitea.artixlinux.org/nikolar/Runit-Service-Manager"
@@ -14,6 +14,8 @@ b2sums=('24f1f7797457cfa5940f335e9521696f7467a7597780eed5ce05c9147d18c80717fd17b
 
 package() {
   cd "runit-service-manager"
-  install -Dm755 rsm -t "$pkgdir"/usr/bin
-  install -Dm644 LICENSE -t "$pkgdir"/usr/share/licenses/rsm
+  install -Dm755 rsm -t "$pkgdir/usr/bin"
+  install -Dm644 LICENSE -t "$pkgdir/usr/share/licenses/rsm"
+  install -Dm644 autocompletion/bash/rsm "$pkgdir/usr/share/bash-completion/completions/rsm"
+  install -Dm644 autocompletion/zsh/_rsm "$pkgdir/usr/share/zsh/site-functions/_rsm"
 }
