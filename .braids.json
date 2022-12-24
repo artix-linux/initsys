@@ -2546,6 +2546,11 @@
       "branch": "master",
       "revision": "16a4ae7f559fbfdd4ccae300b134d056360431a1"
     },
+    "rsm": {
+      "url": "gitea@gitea.artixlinux.org:packagesR/rsm.git",
+      "branch": "master",
+      "revision": "6e1cad12060c8b88e4ffc2b4d2b736a91be96c23"
+    },
     "rspamd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesR/rspamd-dinit.git",
       "branch": "master",
