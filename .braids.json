@@ -2799,7 +2799,7 @@
     "skalibs": {
       "url": "gitea@gitea.artixlinux.org:packagesS/skalibs.git",
       "branch": "master",
-      "revision": "05b0a8c8a9ec0708d9e4a3df79fee5ecea2fb4af"
+      "revision": "9c2130706a667456d2cbc171fd904c8760bced6a"
     },
     "slim-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/slim-runit.git",
