@@ -2624,7 +2624,7 @@
     "s6-dns": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6-dns.git",
       "branch": "master",
-      "revision": "6141e8e8d7b7ffd4c59a49c7b80363da8be248e8"
+      "revision": "831d6e7f327bc15e6914cf1e0015ddfe2e5b9385"
     },
     "s6-linux-init": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6-linux-init.git",
