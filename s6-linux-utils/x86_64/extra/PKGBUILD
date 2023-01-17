@@ -1,6 +1,6 @@
 # Maintainer: Dudemanguy <dudemanguy@artixlinux.org>
 pkgname=s6-linux-utils
-pkgver=2.6.0.0
+pkgver=2.6.0.1
 pkgrel=1
 pkgdesc='Tiny Linux-specific utilities.'
 arch=('x86_64')
@@ -8,18 +8,18 @@ url='https://skarnet.org/software/s6-linux-utils/'
 license=('ISC')
 depends=('skalibs')
 source=("https://skarnet.org/software/${pkgname}/${pkgname}-${pkgver}.tar.gz")
-sha256sums=('6c7132734a0c8287002ee6910c469f175a97d766a8023c0c33af8ba92643ed59')
+sha256sums=('fd851921d4abb611ebaf2d0d6f2d95340952e7e7dcd5bfc54115120ae0de19e4')
 build() {
-    cd ${pkgname}-${pkgver}
-    ./configure --prefix=/usr \
-                --datadir=/etc \
-                --libexecdir=/usr/lib \
-                --enable-shared
-    make
+  cd ${pkgname}-${pkgver}
+  ./configure --prefix=/usr \
+              --datadir=/etc \
+              --libexecdir=/usr/lib \
+              --enable-shared
+  make
 }
 
 package() {
-    cd ${pkgname}-${pkgver}
-    make DESTDIR="$pkgdir" install
-    install -Dm644 COPYING "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  cd ${pkgname}-${pkgver}
+  make DESTDIR="$pkgdir" install
+  install -Dm644 COPYING "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 } 
