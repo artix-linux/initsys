@@ -1,6 +1,6 @@
 # Maintainer: Dudemanguy <dudemanguy@artixlinux.org>
 pkgname=s6
-pkgver=2.11.1.2
+pkgver=2.11.2.0
 pkgrel=1
 pkgdesc="skarnet.org's small & secure supervision software suite. Comes with an ultra-fast init replacement, process management tools, an asynchronous locking library, and more."
 arch=('x86_64')
@@ -10,22 +10,22 @@ depends=('skalibs' 'execline' 'libskarnet.so' 'libexecline.so')
 provides=('libs6.so')
 source=("https://skarnet.org/software/${pkgname}/${pkgname}-${pkgver}.tar.gz"
         "s6log.conf")
-sha256sums=('6c1474be3e889dac392cee307abe015cd4be0c85c725c84ea7f184f0e34503a2'
+sha256sums=('9fb43690e6018d94733b4dc18cc6926f02454508a4dd86060c9b4b9d20dc8037'
             'cb6cc5ca87185ab72aa00857752b6b5436f7653e3d8812dc2704df020c212822')
 
 build() {
-    cd ${pkgname}-${pkgver}
-    ./configure --prefix=/usr \
-                --datadir=/etc \
-                --libexecdir=/usr/lib \
-                --enable-shared \
-                --disable-static
-    make
+  cd ${pkgname}-${pkgver}
+  ./configure --prefix=/usr \
+              --datadir=/etc \
+              --libexecdir=/usr/lib \
+              --enable-shared \
+              --disable-static
+  make
 }
 
 package() {
-    cd ${pkgname}-${pkgver}
-    make DESTDIR="$pkgdir" install
-    install -D -m644 COPYING "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
-    install -D -m644 $srcdir/s6log.conf "$pkgdir/usr/lib/sysusers.d/s6log.conf"
+  cd ${pkgname}-${pkgver}
+  make DESTDIR="$pkgdir" install
+  install -D -m644 COPYING "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  install -D -m644 $srcdir/s6log.conf "$pkgdir/usr/lib/sysusers.d/s6log.conf"
 }
