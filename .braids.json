@@ -724,7 +724,7 @@
     "dhcpcd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcpcd-dinit.git",
       "branch": "master",
-      "revision": "9c41a283e44bc88930f1463f3939c72f336b496b"
+      "revision": "b5711a3365d8c482954867c95109ee544970eb41"
     },
     "dhcpcd-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dhcpcd-openrc.git",
