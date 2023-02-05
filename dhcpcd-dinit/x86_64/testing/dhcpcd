@@ -1,6 +1,0 @@
-type            = process
-command         = /usr/bin/dhcpcd -B -M
-smooth-recovery = true
-logfile         = /var/log/dinit/dhcpcd.log
-waits-for       = udev-settle
-waits-for       = root-rw

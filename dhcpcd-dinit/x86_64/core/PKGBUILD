@@ -1,7 +1,7 @@
 # Maintainer: Muhammad Herdiansyah <koni@artixlinux.org>
 
 pkgname=dhcpcd-dinit
-pkgver=20211025
+pkgver=20230205
 pkgrel=1
 pkgdesc="dinit service scripts for dhcpcd"
 arch=('any')
@@ -12,7 +12,7 @@ depends=('dhcpcd' 'dinit')
 provides=('init-dhcpcd')
 conflicts=('init-dhcpcd')
 source=("dhcpcd")
-sha256sums=('1f41b294dc8a85eb426b33b9c78a8c2defb6375484bd918805eb64dd6bad83b0')
+sha256sums=('d3ba6f74498f1a92ddbd382260a1f88794210d3ffd9a331e21681b53087f7158')
 
 package() {
     install -Dm644 dhcpcd "$pkgdir/etc/dinit.d/dhcpcd"
