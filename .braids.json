@@ -2734,7 +2734,7 @@
     "sddm-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sddm-s6.git",
       "branch": "master",
-      "revision": "21858585421c3664d891da9952daeb2b59127e37"
+      "revision": "ed0216d55f65e91c80d3255a1c8163edf14ba1ec"
     },
     "seatd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/seatd-dinit.git",
