@@ -10,7 +10,6 @@ provides=('init-gdm')
 conflicts=('init-gdm')
 depends=('gdm' 'logind-s6' 's6-base')
 makedepends=('git')
-install=gdm.install
 _commit=0f039049afe38f22c0a0196fb3dfb2a064127994
 source=("git+https://gitea.artixlinux.org/artix/s6-services.git#commit=$_commit")
 sha256sums=('SKIP')
