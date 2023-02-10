@@ -1149,7 +1149,7 @@
     "gdm-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesG/gdm-s6.git",
       "branch": "master",
-      "revision": "858bbc2d1046aec9c6927f3620c07a71d526ed87"
+      "revision": "02ddb4f3a0bac8b921e5c53198247adedc50993f"
     },
     "git-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesG/git-dinit.git",
