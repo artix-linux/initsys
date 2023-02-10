@@ -1,6 +1,6 @@
 # Maintainer: Dudemanguy <dudemanguy@artixlinux.org>
 pkgname=sddm-s6
-pkgver=20220410
+pkgver=20230210
 pkgrel=1
 pkgdesc="s6-rc service scripts for sddm"
 arch=('any')
@@ -10,7 +10,6 @@ provides=('init-sddm')
 conflicts=('init-sddm')
 depends=('sddm' 'logind-s6' 's6-base')
 makedepends=('git')
-install=sddm.install
 _commit=be1d112f9b02073d9811e2abad17c3e91876c787
 source=("git+https://gitea.artixlinux.org/artix/s6-services.git#commit=$_commit")
 sha256sums=('SKIP')
@@ -18,10 +17,4 @@ sha256sums=('SKIP')
 package() {
     cd "${srcdir}"/s6-services
     sh install.sh "sddm" "${pkgdir}"
-
-    # hack for upgrading from a really old version
-    rm "${pkgdir}"/etc/s6/sv/sddm-log/pipeline-name
-    mkdir -p "${pkgdir}"/etc/s6/sv/sddm/contents.d
-    touch "${pkgdir}"/etc/s6/sv/sddm/contents.d/{sddm-log,sddm-srv}
-    echo "bundle" > "${pkgdir}"/etc/s6/sv/sddm/type
 }
