@@ -2644,7 +2644,7 @@
     "s6-portable-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6-portable-utils.git",
       "branch": "master",
-      "revision": "b89dc8d09f7953b4203d8879a513b567d954a876"
+      "revision": "98dd138676aaf01cf9e56bddeb1d71bc7dd138d5"
     },
     "s6-rc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6-rc.git",
