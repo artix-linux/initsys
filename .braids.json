@@ -2629,7 +2629,7 @@
     "s6-linux-init": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6-linux-init.git",
       "branch": "master",
-      "revision": "951707dc8194fdd679430d093ff8f9e2cd1d51e8"
+      "revision": "27a7b6b98d9635a245aedb057c450c99db066a82"
     },
     "s6-linux-utils": {
       "url": "gitea@gitea.artixlinux.org:packagesS/s6-linux-utils.git",
