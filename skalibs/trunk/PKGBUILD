@@ -12,15 +12,15 @@ source=(http://www.skarnet.org/software/$pkgname/$pkgname-$pkgver.tar.gz)
 sha256sums=('b3c48938c7fba4b19a8b0dce6e7a11427717a0901160bb62cfc6823f8ac86d92')
 
 build() {
-    cd ${pkgname}-${pkgver}
-    ./configure --prefix=/usr \
-        --datadir=/etc \
-        --disable-static
-    make
+  cd ${pkgname}-${pkgver}
+  ./configure --prefix=/usr \
+      --datadir=/etc \
+      --disable-static
+  make
 }
 
 package() {
-    cd ${pkgname}-${pkgver}
-    make DESTDIR="$pkgdir" install
-    install -D COPYING ${pkgdir}/usr/share/licenses/${pkgname}/LICENSE
+  cd ${pkgname}-${pkgver}
+  make DESTDIR="$pkgdir" install
+  install -D COPYING ${pkgdir}/usr/share/licenses/${pkgname}/LICENSE
 }
