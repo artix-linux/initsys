@@ -1,6 +1,6 @@
 # Maintainer: Dudemanguy <dudemanguy@artixlinux.org>
 pkgname=s6-rc
-pkgver=0.5.3.3
+pkgver=0.5.4.0
 pkgrel=1
 pkgdesc='A complete service manager for s6 systems.'
 arch=('x86_64')
@@ -10,20 +10,20 @@ depends=('s6' 'libs6.so')
 provides=('libs6rc.so')
 makedepends=('git')
 source=("https://skarnet.org/software/${pkgname}/${pkgname}-${pkgver}.tar.gz")
-sha256sums=('3398f10c0632e39bd69e48ab56d56fde6b48c7f0200ead03a26fb2830908652a')
+sha256sums=('9e750e63a19aaf65ef50cf6f691b8641f7d98857fa2e992b8186953fb32cad70')
 
 build() {
-    cd ${pkgname}-${pkgver}
-    ./configure --prefix=/usr \
-                --datadir=/etc \
-                --libexecdir=/usr/lib \
-                --enable-shared \
-                --disable-static
-    make
+  cd ${pkgname}-${pkgver}
+  ./configure --prefix=/usr \
+              --datadir=/etc \
+              --libexecdir=/usr/lib \
+              --enable-shared \
+              --disable-static
+  make
 }
 
 package() {
-    cd ${pkgname}-${pkgver}
-    make DESTDIR=${pkgdir} install
-    install -Dm644 COPYING "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  cd ${pkgname}-${pkgver}
+  make DESTDIR=${pkgdir} install
+  install -Dm644 COPYING "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
