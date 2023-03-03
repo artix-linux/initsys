@@ -2119,7 +2119,7 @@
     "openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openrc.git",
       "branch": "master",
-      "revision": "b77ca9114487b02dd1ec21f9c706bbf9f8315ca5"
+      "revision": "4b1dbc7bd8d2947a6fe1673c3fca3de98515556f"
     },
     "openrc-settingsd": {
       "url": "gitea@gitea.artixlinux.org:packagesO/openrc-settingsd.git",
