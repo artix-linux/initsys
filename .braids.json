@@ -1939,7 +1939,7 @@
     "nfs-utils-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nfs-utils-s6.git",
       "branch": "master",
-      "revision": "7f2211538e3e8b7b8c4080a3c79d09605b7d59b5"
+      "revision": "5262c06633848809d60438a3b101d15fe04cff4d"
     },
     "nftables-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/nftables-dinit.git",
