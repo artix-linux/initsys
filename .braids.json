@@ -2739,7 +2739,7 @@
     "seatd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/seatd-dinit.git",
       "branch": "master",
-      "revision": "33799082cd3c6dbef7d477e73b2ae5b7754ab722"
+      "revision": "7f63d0cf00deb4b15339f24863921e521934a758"
     },
     "seatd-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/seatd-openrc.git",
