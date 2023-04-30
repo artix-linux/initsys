@@ -1,4 +1,4 @@
 #!/bin/sh
 install -dm0700 -o redis -g redis /var/lib/redis
 install -dm0750 -o redis -g redis /run/redis
-exec /usr/bin/redis-server /etc/redis.conf 2>&1
+exec /usr/bin/redis-server /etc/redis/redis.conf 2>&1
