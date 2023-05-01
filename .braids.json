@@ -1899,7 +1899,7 @@
     "netifrc": {
       "url": "gitea@gitea.artixlinux.org:packagesN/netifrc.git",
       "branch": "master",
-      "revision": "dbd9c817d4fea10e35ed9f0456933878c2ee273c"
+      "revision": "fa67df4fbd52b11733d8f0cd822125eafd8ff375"
     },
     "networkmanager-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/networkmanager-dinit.git",
