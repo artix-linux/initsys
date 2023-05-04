@@ -3,7 +3,7 @@
 _sed_args=(-e 's|/var/run|/run|g' -e 's|/usr/sbin|/usr/bin|g' -e 's|/opt/bin|/usr/bin|g' -e 's|/var/service|/run/runit/service|g' -e 's|/usr/libexec|/usr/lib|g')
 
 pkgname=v2ray-runit
-pkgver=20210801
+pkgver=20230501
 pkgrel=1
 pkgdesc="Runit service script for v2ray"
 arch=('any')
@@ -16,7 +16,7 @@ groups=('runit-galaxy')
 provides=('init-v2ray')
 conflicts=('init-v2ray')
 source=("v2ray.run")
-sha256sums=('bd78d61ba0c7642da68b5358e074d56f495fe2a0fb1365bb50993a030901f1b9')
+sha256sums=('c3d87d35564aaa7fc84c2a957ca0af35955c06fbbe68673c9a9da9b6ef9e237c')
 
 _inst_logsv() {
     for file in run finish check; do
