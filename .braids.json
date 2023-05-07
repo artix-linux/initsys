@@ -2299,7 +2299,7 @@
     "postgresql-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postgresql-runit.git",
       "branch": "master",
-      "revision": "5bee5dab22c7ffde3fcf6128a6c938065da31b47"
+      "revision": "6b89c23e89f7b9c5192378ebb449db00b13e0583"
     },
     "postgresql-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesP/postgresql-s6.git",
