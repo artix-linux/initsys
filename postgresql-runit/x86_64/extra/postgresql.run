@@ -1,25 +1,22 @@
-#!/bin/sh
+#!/bin/sh -eu
+exec 2>&1
+
 [ -r conf ] && . ./conf
+
 : ${PGDATA:="$PGROOT/data"}
+: ${PGOPTS:=""}
 
-if [ "$PGROOT" != "/var/lib/postgres" ]; then
-	echo "Creating symlink /var/lib/postgres -> $PGROOT"
+[ -d /run/postgresql ] || install -dm755 -o postgres -g postgres /run/postgresql
 
-	ln -sf "$PGROOT" /var/lib/postgres
-fi
+[ "$PGROOT" != "/var/lib/postgres" ] && ln -sf "$PGROOT" /var/lib/postgres
 
 
 if [ ! -d "$PGDATA" ]; then
-	echo "Initializing database in $PGDATA"
+        install -dm0700 -o postgres -g postgres "$PGDATA"
+	su - postgres -m -c "/usr/bin/initdb $INITOPTS -D '$PGDATA'"
 
-	mkdir -p "$PGDATA"
-	chown -R postgres:postgres "$PGDATA"
-	chmod 0700 "$PGDATA"
-	su - postgres -m -c "/usr/bin/initdb $INITOPTS -D '$PGDATA'" >/dev/null
-
-	if [ -f /etc/postgresql/postgresql.conf ]; then
-		ln -sf /etc/postgresql/postgresql.conf "$PGDATA/postgresql.conf"
-	fi
+	[ -f /etc/postgresql/postgresql.conf ] && ln -sf /etc/postgresql/postgresql.conf "$PGDATA/postgresql.conf"
 fi
 
-exec chpst -u postgres:postgres postgres -D "$PGDATA" $PGOPTS 2>&1
+[ "$PGOPTS" ] && exec chpst -u postgres:postgres postgres -D "$PGDATA" "$PGOPTS"
+exec chpst -u postgres:postgres postgres -D "$PGDATA"
