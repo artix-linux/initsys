@@ -2881,11 +2881,6 @@
       "branch": "master",
       "revision": "e3e96103d00e255fae6f95d4820fa24f7a24be9f"
     },
-    "sthttpd-openrc": {
-      "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd-openrc.git",
-      "branch": "master",
-      "revision": "fca9bc793ebd093942be39c8f626ca6a371768d7"
-    },
     "sthttpd-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd-runit.git",
       "branch": "master",
