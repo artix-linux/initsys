@@ -1984,7 +1984,7 @@
     "ngircd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-dinit.git",
       "branch": "master",
-      "revision": "272dab5b8e32cc87f46d47864f07c132b49db916"
+      "revision": "cb1591877e9e61f6ac32cc14266861091d9e3138"
     },
     "ngircd-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-openrc.git",
