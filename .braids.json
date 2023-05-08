@@ -1299,7 +1299,7 @@
     "hiawatha-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hiawatha-openrc.git",
       "branch": "master",
-      "revision": "0430c9df71f28f07343eefd0dcc05475e6e547aa"
+      "revision": "a369deb7294279062e52b591ca4fdc7b09c1dc94"
     },
     "hiawatha-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hiawatha-runit.git",
