@@ -1851,11 +1851,6 @@
       "branch": "master",
       "revision": "ecd70d3922dfcee2ef1a7c826c8d7c6b19fd02e8"
     },
-    "murmur-s6": {
-      "url": "gitea@gitea.artixlinux.org:packagesM/murmur-s6.git",
-      "branch": "master",
-      "revision": "f574ba0e7b9ba6b0f7b004f88d305615fd6a5be2"
-    },
     "net-snmp-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesN/net-snmp-openrc.git",
       "branch": "master",
