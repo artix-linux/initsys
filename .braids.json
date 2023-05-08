@@ -2944,7 +2944,7 @@
     "sthttpd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd-dinit.git",
       "branch": "master",
-      "revision": "9ceb80da61fbcbc702f8e787e6c815f41c659a47"
+      "revision": "b0284e88468274be7cea5095a4a766ae39229c64"
     },
     "sthttpd-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd-openrc.git",
