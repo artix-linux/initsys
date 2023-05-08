@@ -3464,7 +3464,7 @@
     "webfs-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webfs-runit.git",
       "branch": "master",
-      "revision": "f3c8aa44d0af731d5e13cff3624b7a3c3b58e284"
+      "revision": "eabe80c8ce4b78a07e6da3c15b46cfe58716a618"
     },
     "webfs-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webfs-s6.git",
