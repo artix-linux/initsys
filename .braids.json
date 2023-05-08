@@ -1291,11 +1291,6 @@
       "branch": "master",
       "revision": "7c757aa88cb9a167365b34bff4a0ae02fe9c67ae"
     },
-    "hiawatha-dinit": {
-      "url": "gitea@gitea.artixlinux.org:packagesH/hiawatha-dinit.git",
-      "branch": "master",
-      "revision": "a104626143a259d6524483a165cf2f997cf2c643"
-    },
     "hiawatha-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hiawatha-openrc.git",
       "branch": "master",
