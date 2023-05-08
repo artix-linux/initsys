@@ -1291,11 +1291,6 @@
       "branch": "master",
       "revision": "7c757aa88cb9a167365b34bff4a0ae02fe9c67ae"
     },
-    "hiawatha-s6": {
-      "url": "gitea@gitea.artixlinux.org:packagesH/hiawatha-s6.git",
-      "branch": "master",
-      "revision": "dc99b1351377c20b02eb9914376276729ad19f13"
-    },
     "hostapd-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesH/hostapd-dinit.git",
       "branch": "master",
