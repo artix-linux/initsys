@@ -3371,11 +3371,6 @@
       "branch": "master",
       "revision": "b19548d92c9450e6c2637a64a469559e9caba7a7"
     },
-    "webfs-s6": {
-      "url": "gitea@gitea.artixlinux.org:packagesW/webfs-s6.git",
-      "branch": "master",
-      "revision": "7b44bdeac5ae25460e4b83f031ce6a1b0a7e955c"
-    },
     "webhook-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webhook-dinit.git",
       "branch": "master",
