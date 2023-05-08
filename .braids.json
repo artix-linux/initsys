@@ -1989,7 +1989,7 @@
     "ngircd-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-openrc.git",
       "branch": "master",
-      "revision": "4731645f9d109889f8dd2fe9b8391a511fdc1ef1"
+      "revision": "ce10110d0087b1608c3406e26dddf32933ff6c7d"
     },
     "ngircd-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-runit.git",
