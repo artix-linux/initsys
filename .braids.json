@@ -1874,7 +1874,7 @@
     "murmur-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/murmur-dinit.git",
       "branch": "master",
-      "revision": "2a00dfab6460f72486fbc23d69ff9198e4ff3ff6"
+      "revision": "e528a3f3be551f46b7b7a30f1e6852c29a1dd808"
     },
     "murmur-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesM/murmur-openrc.git",
