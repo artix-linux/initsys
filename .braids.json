@@ -2881,11 +2881,6 @@
       "branch": "master",
       "revision": "e3e96103d00e255fae6f95d4820fa24f7a24be9f"
     },
-    "sthttpd-s6": {
-      "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd-s6.git",
-      "branch": "master",
-      "revision": "2d8139bd6c9221f25ae4da730627852de9acb139"
-    },
     "strongswan-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesS/strongswan-dinit.git",
       "branch": "master",

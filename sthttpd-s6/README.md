@@ -1,2 +1,0 @@
-# sthttpd-s6
-
