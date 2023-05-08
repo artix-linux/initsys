@@ -3459,7 +3459,7 @@
     "webfs-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webfs-openrc.git",
       "branch": "master",
-      "revision": "4be66bbd68377f066206d898882869f29df9bb46"
+      "revision": "448b2c063e677f1ce188ef35bf210ce5711c9831"
     },
     "webfs-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesW/webfs-runit.git",
