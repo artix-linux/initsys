@@ -1,3 +1,0 @@
-#!/bin/sh
-[ -r /etc/dinit.d/config/webfsd.conf ] && . /etc/dinit.d/config/webfsd.conf
-exec /usr/bin/webfsd -F -d $ARGS
