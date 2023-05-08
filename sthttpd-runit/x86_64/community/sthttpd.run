@@ -1,2 +1,0 @@
-#!/bin/sh -e
-exec thttpd -D -C /etc/thttpd.conf
