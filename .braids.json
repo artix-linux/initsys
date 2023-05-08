@@ -1941,11 +1941,6 @@
       "branch": "master",
       "revision": "df43a4c8a59c11c33d53cde1f628da3910831229"
     },
-    "ngircd-dinit": {
-      "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-dinit.git",
-      "branch": "master",
-      "revision": "cb1591877e9e61f6ac32cc14266861091d9e3138"
-    },
     "ngircd-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-openrc.git",
       "branch": "master",
