@@ -2881,11 +2881,6 @@
       "branch": "master",
       "revision": "e3e96103d00e255fae6f95d4820fa24f7a24be9f"
     },
-    "sthttpd-runit": {
-      "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd-runit.git",
-      "branch": "master",
-      "revision": "bcd357f908c47b52ec446833fd27b267982a55ae"
-    },
     "sthttpd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesS/sthttpd-s6.git",
       "branch": "master",
