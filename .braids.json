@@ -1879,7 +1879,7 @@
     "murmur-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesM/murmur-openrc.git",
       "branch": "master",
-      "revision": "3c1501ed208662bef839d99e1b8e3ab7a2649504"
+      "revision": "c902c3a0b795543ed4d60697fd4f8fb7bb510167"
     },
     "murmur-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesM/murmur-runit.git",
