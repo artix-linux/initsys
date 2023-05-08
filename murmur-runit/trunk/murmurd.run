@@ -1,2 +1,0 @@
-#!/bin/sh
-exec murmurd -ini /etc/murmur.ini -fg
