@@ -1994,7 +1994,7 @@
     "ngircd-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-runit.git",
       "branch": "master",
-      "revision": "daf1c5b332e60b18e99656c0da40af68f12451bc"
+      "revision": "7b1810f15b100327581e7083c6fa1271820676e4"
     },
     "ngircd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesN/ngircd-s6.git",
