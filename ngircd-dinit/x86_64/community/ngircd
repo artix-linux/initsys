@@ -1,5 +1,0 @@
-type            = process
-command         = /usr/bin/ngircd -n
-smooth-recovery = true
-logfile         = /var/log/dinit/ngircd.log
-waits-for       = loginready
