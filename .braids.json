@@ -481,6 +481,11 @@
       "branch": "master",
       "revision": "0dc02d967cef3a1539002f7ea678cb9986a1ea43"
     },
+    "containerd-openrc": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/containerd-openrc.git",
+      "branch": "master",
+      "revision": "00cb54971b0cdc4268a1ab22c3b6aef4234acdd4"
+    },
     "containerd-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesC/containerd-s6.git",
       "branch": "master",
