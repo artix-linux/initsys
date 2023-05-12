@@ -481,6 +481,11 @@
       "branch": "master",
       "revision": "0dc02d967cef3a1539002f7ea678cb9986a1ea43"
     },
+    "containerd-s6": {
+      "url": "gitea@gitea.artixlinux.org:packagesC/containerd-s6.git",
+      "branch": "master",
+      "revision": "9f20509ab92fb27e0bd90541170fc5f04b769f50"
+    },
     "coturn-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesC/coturn-dinit.git",
       "branch": "master",
