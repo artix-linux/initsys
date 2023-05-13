@@ -849,7 +849,7 @@
     "docker-openrc": {
       "url": "gitea@gitea.artixlinux.org:packagesD/docker-openrc.git",
       "branch": "master",
-      "revision": "b2161d4be1865feb812f43d8a26d235f37a1f214"
+      "revision": "e21d61efbf23de73e5ba602dde8af344b092386d"
     },
     "docker-runit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/docker-runit.git",
