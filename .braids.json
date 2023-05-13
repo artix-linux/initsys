@@ -859,7 +859,7 @@
     "docker-s6": {
       "url": "gitea@gitea.artixlinux.org:packagesD/docker-s6.git",
       "branch": "master",
-      "revision": "5d7ade9e7e4ffda6d22562db842ebe00f205ca5c"
+      "revision": "4a2b775edf9879491c30a1c7f53623c19ab665b1"
     },
     "dovecot-dinit": {
       "url": "gitea@gitea.artixlinux.org:packagesD/dovecot-dinit.git",
