@@ -4,3 +4,4 @@ GITEA_USER=gitea
 GITEA_CONF=/etc/gitea/app.ini
 GITEA_WORK_DIR=/var/lib/gitea
 GITEA_LOG_FILE=/var/log/gitea/http.log
+GITEA_CUSTOM=${GITEA_WORK_DIR}/custom
